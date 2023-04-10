@@ -1,0 +1,605 @@
+Diglipur,Ferrargunj 1,Ferrargunj 2,Ferrargunj 3,Ferrargunj 4,Ferrargunj 5,Little Andaman,Mayabunder,Port Blair 1,Port Blair 2,Port Blair 3,Port Blair 4,Port Blair 5,Port Blair 6,Port Blair 7,Port Blair 8,Rangat
+Campbell Bay,Nancowry,Nicobar
+
+Agali,Amadagur,Amarapuram,Anantapur,Athamakuru,Atmakur,Bathalapalle,Beluguppa,Bommanahal,Brahmasamudram,Bukkapatnam,Bukkaraya Samudram,Chennekothapalle,Chilamathur,Dharmavaram,D.Hirehal,Gandlapenta,Garladinne,Gooty,Gorantla,Gudibanda,Gummagatta,Guntakal,Hindupur,Kadiri,Kalyandurg,Kambadur,Kanaganapalle,Kanekal,Kothacheruvu,Kudair,Kundurpi,Lepakshi,Madakasira,Mudigubba,Nallacheruvu,Nallamada,Nambulipulikunta,Narpala,Obuladevaracheruvu,Pamidi,Parigi,Peddapappur,Peddavadugur,Penukonda,Putlur,Puttaparthi,Ramagiri,Raptadu,Rayadurg,Roddam,Rolla,Settur,Singanamala,Somandepalle,Tadimarri,Tadpatri,Talupula,Tanakal,Uravakonda,Vajrakarur,Vidapanakal,Yadiki,Yellanur
+Baireddipalle,Bangarupalem,B.Kothakota,Buchinaidu Kandriga,Chandragiri,Chinnagottigallu,Chittoor,Chowdepalle,Gangadhara Nellore,Gangavaram,Gudipala,Gudupalle,Gurramkonda,Irala,Kalakada,Kalikiri,Kambhamvaripalle,Karvetinagar,Kuppam,Kurabalakota,K.V.B.Puram,Madanapalle,Mulakalacheruvu,Nagalapuram,Nagari,Narayanavanam,Nimmanapalle,Nindra,Pakala,Palamaner,Palasamudram,Peddamandyam,Peddapanjani,Pedda Thippasamudram,Penumuru,Pichatur,Pileru,Pulicherla,Punganur,Puthalapattu,Puttur,Ramachandrapuram,Ramakuppam,Ramasamudram,Renigunta,Rompicherla,Santhipuram,Satyavedu,Sodam,Somala,Srikalahasti,Srirangarajapuram,Thamballapalle,Thavanampalle,Thottambedu,Tirupati (Rural),Tirupati (Urban),Vadamalapeta,Varadaiahpalem,Vayalpad,Vedurukuppam,Venkatagirikota,Vijayapuram,Yadamarri,Yerpedu,Yerravaripalem
+Atlur,Badvel,B.Kodur,Brahmamgarimattam,Chakrayapet,Chapad,Chennur,Chinnamandem,Chinthakommadinne,Chitvel,Cuddapah,Duvvur,Galiveedu,Gopavaram,Jammalamadugu,Kalasapadu,Kamalapuram,Khajipet,Kodur,Kondapuram,Lakkireddipalle,Lingala,Muddanur,Mylavaram,Nandalur,Obulavaripalle,Peddamudium,Penagalur,Pendlimarri,Porumamilla,Proddatur,Pulivendla,Pullampeta,Rajampet,Rajupalem,Ramapuram,Rayachoti,Sambepalle,Sidhout,Simhadripuram,S.Mydukur,Sri Avadhutha Kasinayana,Thondur,T Sundupalle,Vallur,Veeraballe,Veerapunayunipalle,Vempalle,Vemula,Vontimitta,Yerraguntla
+Addateegala,Ainavilli,Alamuru,Allavaram,Amalapuram,Ambajipeta,Anaparthy,Atreyapuram,Biccavolu,Devipatnam,Gandepalle,Gangavaram,Gokavaram,Gollaprolu,I. Polavaram,Jaggampeta,Kadiam,Kajuluru,Kakinada Rural,Kakinada (Urban),Kapileswarapuram,Karapa,Katrenikona,Kirlampudi,Korukonda,Kotananduru,Kothapalle,Kothapeta,Malikipuram,Mamidikuduru,Mandapeta,Maredumilli,Mummidivaram,Pamarru,Pedapudi,Peddapuram,P.Gannavaram,Pithapuram,Prathipadu,Rajahmundry Rural,Rajahmundry (Urban),Rajanagaram,Rajavommangi,Ramachandrapuram,Rampachodavaram,Rangampeta,Ravulapalem,Rayavaram,Razole,Sakhinetipalle,Samalkota,Sankhavaram,Seethanagaram,Thallarevu,Thondangi,Tuni,Uppalaguptam,Yeleswaram,Y. Ramavaram
+Amaravathi,Amruthalur,Arandalpeta,Atchampet,Bapatla,Bellamkonda,Bhattiprolu,Bollapalle,Chandramouli Nagar,Chebrolu,Cherukupalle H/O Arumbaka,Chilakaluripet H/O.Purushotha Patnam,Collector office Road,Dachepalle,Duggirala,Durgi,Edlapadu,Gorantla- Amaravathi Road,Guntur,Gurazala,Ipur,Kakumanu,Karempudi,Karlapalem,Kollipara,Kollur,Kothapet,Krosuru,Machavaram,Macherla,Mangalagiri,Medikonduru,Muppalla,Nadendla,Nagaram,Nallapadu -Akkireddypally,Narasaraopet,Nekarikallu,Nizampatnam,Nuzendla,Old Guntur,Pattibhipuram,Pedakakani,Pedakurapadu,Pedanandipadu,Pericherla,Phirangipuram,Piduguralla,Pittalavanipalem,Ponnur,Prathipadu,Rajupalem,Rentachintala,Repalle,Rompicherla,Sattenapalle,Savalyapuram H/O Kanamarlapudi,Tadepalle,Tadikonda,Tenali,Thullur,Tsundur,Vatticherukuru,Veldurthi,Vemuru,Vinukonda
+One Town PS,R.V.Nagar,Shankarpuram,Yerramukkapally
+Gandhi Nagar,Jaganathapuram,Market Area,Ramaraopeta,Suryanarayanapuram,Venkat Nagar
+Agiripalle,A.Konduru,Avanigadda,Bantumilli,Bapulapadu,Challapalle,Chandarlapadu,Chatrai,Gampalagudem,Gannavaram,Ghantasala,G.Konduru,Gudivada,Gudlavalleru,Guduru,Ibrahimpatnam,Jaggayyapeta,Kaikalur,Kalidindi,Kanchikacherla,Kankipadu,Koduru,Kruthivennu,Machilipatnam,Mandavalli,Mopidevi,Movva,Mudinepalle,Musunuru,Mylavaram,Nagayalanka,Nandigama,Nandivada,Nuzvid,Pamarru,Pamidimukkala,Pedana,Pedaparupudi,Penamaluru,Penuganchiprolu,Reddigudem,Thotlavalluru,Tiruvuru,Unguturu,Vatsavai,Veerullapadu,Vijayawada (Rural),Vijayawada (Urban),Vissannapet,Vuyyuru
+Adoni,Allagadda,Alur,Aspari,Atmakur,Banaganapalle,Bandi Atmakur,Bethamcherla,C.Belagal,Chagalamarri,Chippagiri,Devanakonda,Dhone,Dornipadu,Gadivemula,Gonegandla,Gospadu,Gudur,Halaharvi,Holagunda,Jupadu Bungalow,Kallur,Kodumur,Koilkuntla,Kolimigundla,Kosigi,Kothapalle,Kowthalam,Krishnagiri,Kurnool,Maddikera (East),Mahanandi,Mantralayam,Midthur,Nandavaram,Nandikotkur,Nandyal,Orvakal,Owk,Pagidyala,Pamulapadu,Panyam,Pattikonda,Peapally,Pedda Kadubur,Rudravaram,Sanjamala,Sirvel,Srisailam,Tuggali,Uyyalawada,Veldurthi,Velgode,Yemmiganur
+Allur,Ananthasagaram,Anumasamudrampeta,Atmakur,Balayapalle,Bogole,Buchireddipalem,Chejerla,Chillakur,Chittamur,Dagadarthi,Dakkili,Doravarisatram,Duttalur,Gudur,Indukurpet,Jaladanki,Kaligiri,Kaluvoya,Kavali,Kodavalur,Kondapuram,Kota,Kovur,Manubolu,Marripadu,Muthukur,Naidupet,Nellore,Ojili,Pellakur,Podalakur,Rapur,Sangam,Seetharamapuram,Sullurpeta,Sydapuram,Tada,Thotapalligudur,Udayagiri,Vakadu,Varikuntapadu,Venkatachalam,Venkatagiri,Vidavalur,Vinjamur
+Addanki,Ardhaveedu,Ballikurava,Bestawaripeta,Chandra Sekhara Puram,Chimakurthi,Chinaganjam,Chirala,Cumbum,Darsi,Donakonda,Dornala,Giddalur,Gudluru,Hanumanthuni Padu,Inkollu,Janakavarampanguluru,Kandukur,Kanigiri,Karamchedu,Komarolu,Konakanamitla,Kondapi,Korisapadu,Kotha Patnam,Kurichedu,Lingasamudram,Maddipadu,Markapur,Marripudi,Martur,Mundlamuru,Naguluppala Padu,Ongole,Pamur,Parchur,Peda Araveedu,Pedacherlo Palle,Podili,Ponnaluru,Pullalacheruvu,Racherla,Santhamaguluru,Santhanuthala Padu,Singarayakonda,Tangutur,Tarlupadu,Thallur,Tripuranthakam,Ulavapadu,Veligandla,Vetapalem,Voletivaripalem,Yeddana Pudi,Yerragondapalem,Zarugumilli
+Amadalavalasa,Bhamini,Burja,Etcherla,Ganguvarisigadam,Gara,Hiramandalam,Ichchapuram,Jalumuru,Kanchili,Kaviti,Kotabommali,Kothuru,Lakshminarsupeta,Laveru,Mandasa,Meliaputti,Nandigam,Narasannapeta,Palakonda,Palasa,Pathapatnam,Polaki,Ponduru,Rajam,Ranastalam,Regidi Amadalavalasa,Santhabommali,Santhakaviti,Saravakota,Sarubujjili,Seethampeta,Sompeta,Srikakulam,Tekkali,Vajrapukothuru,Vangara,Veeraghattam
+Anakapalle,Anandapuram,Ananthagiri,Araku Valley,Atchutapuram,Bheemunipatnam,Butchayyapeta,Cheedikada,Chintapalle,Chodavaram,Devarapalle,Dumbriguda,Gajuwaka,Gajuwaka(Mpl.Corp.),G.Madugula,Gnanapuram,Gnanapuram(Mpl.Corp.),Golugonda,Gopalapatnam(Mpl.Corp.),Gudem Kotha Veedhi,Hukumpeta,Kasimkota,K.Kotapadu,Kotauratla,Koyyuru,Maddilapalem(Mpl.Corp.),Madhurawada,Madhurawada(Mpl.Corp.),Madugula,Makavarapalem,Munagapaka,Munchingi Puttu,MVP Colony(Mpl.Corp.),Nakkapalle,Narsipatnam,Nathavaram,Paderu,Padmanabham,Paravada,Payakaraopeta,Peda Bayalu,Pedagantyada,Pendurthi,Pendurthy(Mpl.Corp.),Rambilli,Ravikamatham,Rolugunta,Sabbavaram,S.Rayavaram,Srinagar,Srinagar(Mpl.Corp.),Suryabagh,Suryabagh(Mpl.Corp.),Vepagunta,Vepagunta(Mpl.Corp.),Visakhapatnam (Rural),Visakhapatnam (Urban),Yelamanchili
+Badangi,Balijipeta,Bhogapuram,Bobbili,Bondapalle,Cheepurupalle,Dattirajeru,Denkada,Gajapathinagaram,Gantyada,Garividi,Garugubilli,Gummalakshmipuram,Gurla,Jami,Jiyyammavalasa,Komarada,Kothavalasa,Kurupam,Lakkavarapukota,Makkuva,Mentada,Merakamudidam,Nellimarla,Pachipenta,Parvathipuram,Pusapatirega,Ramabhadrapuram,Salur,Seethanagaram,Srungavarapukota,Therlam,Vepada,Vizianagaram
+Achanta,Akividu,Attili,Bhimadole,Bhimavaram,Buttayagudem,Chagallu,Chintalapudi,Denduluru,Devarapalle,Dwarakatirumala,Eluru,Ganapavaram,Gopalapuram,Iragavaram,Jangareddigudem,Jeelugu Milli,Kalla,Kamavarapukota,Kovvur,Koyyalagudem,Lingapalem,Mogalthur,Nallajerla,Narasapuram,Nidadavole,Nidamarru,Palacoderu,Palacole,Pedapadu,Pedavegi,Pentapadu,Penugonda,Penumantra,Peravali,Poduru,Polavaram,Tadepalligudem,Tallapudi,Tanuku,T.Narasapuram,Undi,Undrajavaram,Unguturu,Veeravasaram,Yelamanchili
+
+Chaglagam,Goiliang,Hawai,Hayuliang,Kibithoo,Manchal,Metengliang,Walong
+Bordumsa Circle,Changlang Circle,Diyun Circle,Jairampur Circle,Kharsang Circle,Khimiyong Circle,Manmao Circle,Miao Circle,Nampong Circle,Namtok Circle,Vijoynagar Circle
+Anelih Circle,Anini Circle,Dambuk Circle,Desali Circle,Etalin Circle,Hunli Circle,Koronu Circle,Kronli Circle,Mipi Circle,Roing Circle
+Bameng Circle,Chayangtajo Circle,Khenewa Circle,Lada Circle,Pakke Kessang Circle,Pipu Circle,Richukrong Circle,Sawa Circle,Seijosa Circle,Seppa Circle
+Bilat Circle,Boleng Circle,Koyu Circle,Mebo Circle,Nari Circle,New Seren Circle,Pangin Circle,Pasighat Circle,Rebo-Perging Circle,Riga Circle,Ruksin Circle,Sille-Oyan Circle
+Dollungmukh Circle,Gepen Circle,Kamporijo Circle,Puchi Geko Circle,Raga ADC
+Chambang Circle,Gangte Circle,Palin Circle,Pipsorang Circle,Tali ADC,Tarak Lengdi Cicle,Yangte Circle
+Chambang,Damin,Gangte,Koloriang,Longding Koling,Nyapin,Palin,Parsi Parlo,Phassang,Sangram,Sarli,Tali,Tarak-Lengdi,Yangte
+Basar ADC,Daring Circle,Sago,Tirbin EAC
+Chaglagam Circle,Chowkham Circle,Goiliang Circle,Hawai Circle,Hayuliang Circle,Kibithoo Circle,Lekang Circle,Manchal Circle,Namsai Circle,Piyong Circle,Sunpura Circle,Tezu Circle,Wakro Circle,Walong Circle
+Londing
+Dambuk,Desali,Hunli,Roing,Tinali(Paglam)
+Dollungmukh Circle,Kamporijo Circle,Pistana Circle,Raga Circle,Yachuli Circle,Ziro Circle
+Dollungmukh Circle,Kamporijo Circle,Pistana Circle,Raga Circle,Yachuli Circle,Ziro Circle
+Chongkham EAC,Lathao Circle,Lekang Mahadevpur Circle,Namsai HQ,Piyong Circle
+Dissing Passo Circle,Pakke Kessang EAC,Passa Valley Circle,Pizirang Veo Circle,Seijosa ADC
+Balijan Circle,Banderdewa,Doimukh Circle,Itanagar Circle,Kimin Circle,Leporiang Circle,Mengio Circle,Naharlagun Circle,Nirjuli,Sagalee Circle,Toru Circle
+Mechuka ADC,Monigong EAC,Pidi Circle,Tato EAC
+Boleng ADC,Jomlo Mobuk Circle,Kaying EAC,Kebang Circle,Pangin EAC,Payum Circle,Rebo Perging Circle,Riga EAC,Rumgong ADC
+Dudunghar Circle,Jang Circle,Lumla Circle,Mukto Circle,Tawang Circle,Thingbu Circle,Zemithang Circle
+Kanubari Circle,Khonsa Circle,Laju Circle,Longding Circle,Namsang Circle,Pangchao Circle,Pumao Circle,Wakka Circle
+Geku Circle,Gelling Circle,Jengging Circle,Katan Circle,Mariyang Circle,Migging Circle,Palling Circle,Singa Circle,Tuting Circle,Yingkiong Circle
+Baririjo Circle,Daporijo Circle,Dumporijo Circle,Giba Circle,Limeking Circle,Nacho Circle,Payeng Circle,Puchi Geko Circle,Siyum Circle,Taksing Circle,Taliha Circle
+Balemu Circle,Bhalukpong Circle,Bomdila Circle,Dirang Circle,Jamiri Circle,Kalaktang Circle,Nafra Circle,Rupa Circle,Singchung Circle,Thrizino Circle
+Along Circle,Bagra Circle,Basar Circle,Darak Circle,Daring Circle,Gensi Circle,Jomlo Mobuk Circle,Kamba Circle,Kangku Circle,Kaying Circle,Likabali Circle,Liromoba Circle,Mechuka Circle,Monigong Circle,Payum Circle,Pidi Circle,Rumgong Circle,Tato Circle,Tirbin Circle,Yomcha Circle
+
+Baksa Sadar Sub-Division
+Bajali Civil Sub-Division,Barpeta Sadar
+Biswanath Civil Sub-Division,Gohpur Civil Sub-Division
+Bongaigoaon Sadar Sub Division,North Salmara Civil Sub-Division
+Cachar Sadar,Lakhipur Civil Sub-Division
+Sonari Civil Sub-Division
+Bijni Civil Sub-Division,Chirang Sadar Sub-Division
+Darrang Sadar Sub-Division
+Dhemaji Sadar Sub-Division,Jonai Civil Sub-Division
+Agomoni Sadar Sub-Division,Bagribari Civil Sub-Division,Bilashipara Civil Sub-Division,Chapar Civil Sub-Division,Dhubri Sadar Sub-Division,Golokganj Sadar Sub-Division
+Dibrugarh Sadar
+Haflong Sub-Division,Maibang Sub-Division
+Goalpara Sub-Division
+Bokakhat Civil Sub-Division,Dhansiri Civil Sub-Division,Golaghat Sadar Sub-Division
+Hailakandi Sadar Sub-Division
+Hojai Civil Sub-Division
+Jorhat Sadar,Titabor Civil Sub-Division
+Kamrup Sadar Sub-Division,Rangia Civil Sub-Division
+Kamrup Metropolitan Dist
+Bokajan Sub-Division,Diphu Sub-Division
+Karimganj Sadar Sub-Division
+Gosaigaon Civil Sub-Division,Kokrajhar Sadar Sub-Division,Parbat Jhora Civil Sub-Division
+Dhakuakhana Civil-Sub-Division,Lakhimpur Sadar Sub-Division
+Majuli Civil Sub-Division
+Morigaon Sadar Sub-Division
+Koliabor Civil Sub-Division,Nagaon Sadar
+Nalbari Sadar Sub-Division
+Nazira Civil Su-Division,Sivasagar Sadar Sub-Division
+Sonitpur Sadar
+Mankachar Civil Sub-Division,South Salmara Civil Sub-Division
+Margherita Civil Sub-Division,Sadiya Civil Sub-Division,Tinsukia Sadar
+Udalguri Sadar Sub-Division
+Hamren Sub-Division
+
+Araria,Farbisganj
+Arwal
+Aurangabad Sadar,Daud Nagar
+Banka Sadar
+Bakhari,Balia,Begusarai Sadar,Manjhaul,Teghara
+Bhagalpur Sadar,Kahalgaun,Naugachia
+Arrah Sadar,Jagdishpur,Piro
+Buxar Sadar,Dumraon
+Benipur,Biraul,Darbhanga Sadar
+Gaya Sadar,Neemchak Bathani,Sherghati,Tekari
+Gopalganj,Hathua
+Jamui
+Jehanabad
+Bhabhua,Mohania
+Barsoi,Katihar Sadar,Manihari
+Gogari,Khagaria Sadar
+Kishanganj
+Lakhisarai
+Madhepura Sadar,Uda Kishanganj
+Benipatti,Jai Nagar,Jhanjharpur,Madhubani Sadar,Phulpras
+Haveli Kharagpur,Munger Sadar,Tarapur
+East Muzaffarpur,West Muzaffarpur
+Bihar Sharif,Hilsa,Rajgir
+Nawada Sadar,Rajauli
+Bagaha,Bettiah,Narkatiyaganj
+Barh,Danapur,Masaurhi,Paliganj,Patna City,Patna Sadar
+Areraj,Chakia,Motihar Sadar,Pakridayal,Raxaul,Sikarahna
+Banmankhi,Dhamdaha,Purnia Sadar,Wayasi
+Bikramanj,Dehri,Sasaram
+saharsa Sadar,Simari Bakhtiyarpur
+Dalsingh Sarai,Patori,Rosera,Samastipur Sadar
+Chapra,Marhawrah,Sonepur
+Sheikhpura
+Sheohar
+Belsand,Pupri,Sitamarhi Sadar
+Maharajganj,Siwan Sadar
+Birpur,Nirmali,Supaul Sadar,Triveniganj
+Hajipur,Mahnar,Mahua
+
+Bair Majra,Colony No. 4,Daddumajra Colony,Dhanas Colony,Hallumajra Colony,Indira Colony,Industrial Area 1,Industrial Area-II,Jhumru,Khuda Jasu,Kishangarh,Maloya Colony,Manimajra,Maulijagra Colony,Maulijagra village,Palsora Colony,Phase 2 Ramdarbar,Railway Colony,Ramdarbar,Ramdarbar(Karsan Colony),Sector 1,Sector 10,Sector 11,Sector 12,Sector 14,Sector 15,Sector 16,Sector 17,Sector 18,Sector 19,Sector 2,Sector 20,Sector 21,Sector 22,Sector 23,Sector 24,Sector 25,Sector 26,Sector 27,Sector 28,Sector 29,Sector 3,Sector 30,Sector 31,Sector 32,Sector 33,Sector 34,Sector 35,Sector 36,Sector 37,Sector 38,Sector 39,Sector 4,Sector 40,Sector 41,Sector 42,Sector 43,Sector 44,Sector 45,Sector 46,Sector 47,Sector 48,Sector 49,Sector 5,Sector 50,Sector 51,Sector 52,Sector 53,Sector 54,Sector 55,Sector 56,Sector 6,Sector 61,Sector 63,Sector 7,Sector 8,Sector 9,Shahpur,Village Attawa,Village Badheri,Village Behlana,Village Bhagwanpura,Village Burail,Village Buteria,Village Daddumajra,Village Darya,Village Dhanas,Village Fedha,Village Hallumajra,Village Kaimbwala,Village Kajheri,Village Khuda Lahore,Village Khudda Ali Sher,Village Khudda Jassu,Village Makhanmajra,Village Maloya,Village Palsora,Village Raipur Kalan,Village Raipur Khurd,Village Sarangpur
+
+BALOD,DONDI,DONDILOHARA,GUNDARDEHI,GURUR
+BALODA BAZAR,BHATAPARA,BILAIGARH,KASDOL,PALARI,SIMGA
+BALRAMPUR,KUSAMI,RAJPUR,RAMCHANDRAPUR,SHANKARGARH,WADRAFNAGAR
+Bakawand,Bastanar,Bastar,Darbha,Jagdalpur,Lohandiguda,Tokapal
+BEMETARA,BERLA,NAWAGARH,SAJA
+Bhairamgarh,BHOPAL PATNAM,BIJAPUR,USOOR
+BELHA,KOTA,MASTURI,TAKHATPUR
+DANTEWADA,GEEDAM,KATEKALYAN,KUWAKONDA
+DHAMTARI,KURUD,MAGARLOD,NAGARI
+DHAMDHA,DURG,PATAN
+CHHURRA,DEOBHOG,FINGESHWAR,GARIYABAND,MAINPUR
+GAURELLA-1 (Pendra Road),GAURELLA-2 (Pendra),MARWAHI
+AKALTARA,BAHMINDIH,BALAUDA,DABHARA,JAIJAIPUR,MALKHARAUDA,NAWAGARH,PAMGARH,SAKTI
+Bagicha,Duldula,Jashpur,Kansabel,Kunkuri,Manora,Patthalgaon,Pharsabahar
+BODLA,KAWARDHA,PANDARIYA,SAHASPUR LOHARA
+ANTAGARH,BHANUPRATAPPUR,CHARAMA,Durgukondal,KANKER,Koilebeda,NARHARPUR
+BODLA,KAWARDHA,PANDARIYA,SAHASPUR LOHARA
+Baderajpur,Keshkal,Kondagaon,Makdi,Pharasgaon
+Kartala,Katghora,Korba,Pali,Podi Uparoda
+BAIKUNTHPUR,BHARATPUR,KHADGAWANA,MANENDRAGARH,SONHAT
+Bagbahara,Basna,Mahasamund,Pithora,Saraipali
+LORMI,MUNGELI,PATHARIYA
+Narayanpur,Orchha(Abhujmad)
+Baramkela,Dharamjaigarh,Ghargoda,Kharsia,Lailunga,Pusore,Raigarh,Sarangarh,Tamnar
+ABHANPUR,ARANG,DHARSIWA,TILDA
+AMBAGARH CHOWKI,Chhuikhadan,Chhuria,Dongargaon,Dongargarh,Khairagarh,Manpur,Mohla,Rajnandgaon
+CHHINDGARH,KONTA,SUKMA
+BHAIYATHAN,ODAGI,PRATAPPUR,PREMNAGAR,RAMANUJNAGAR,SURAJPUR
+AMBIKAPUR,BATAULI,LAKHANPUR,LUNDRA,MAINPAT,SITAPUR,UDAIPUR
+
+Amboli,Dadra,Dapada,Dudhani,Khanvel,Kilvani,Mandoni,Naroli,Rakholi,Randha,Samarvarni,Silvassa Municipal Corporation
+
+Daman Rural,Daman Urban
+Diu
+
+CIVIL LINES,KAROL BAGH,KOTWALI
+GANDHI NAGAR,MAYUR VIHAR,PREET VIHAR
+CHANKYA PURI,DELHI CANTONMENT,VASANT VIHAR
+ALIPUR,MODEL TOWN,NARELA
+KARAWALNAGAR,SEELAMPUR,YAMUNA VIHAR
+KANJHAWLA,Rohini,SARASWATI VIHAR
+SEEMA PURI,SHAHDARA,VIVEK VIHAR
+HAUZ KHAS,MEHRAULI,SAKET
+DEFENCE COLONY,KALKAJI,SARITA VIHAR
+DWARKA,KAPESHERA,NAJAFGARH
+PATEL NAGAR,PUNJABI BAGH,RAJOURI GARDEN
+
+Bardez,Bicholim,Pernem,Sanquelim,Satari,Tiswadi
+Canacona,Dharbandoda,Mormugao,Ponda,Quepem,Salcete,Sanguem
+
+Ahmedabad Municipal Corporation,Barwala,Bavla,DasKroi,Dehgam,Detroj-Rampura,Dhandhuka,Dholka,Mandal,Ranpur,Sanand,Viramgam
+Amreli,Babra,Bagasara,Bagasara Municipality,Dhari,Jafrabad,Khambha,Kunkavav Vadia,Lathi,Lilia,Rajula,Savar Kundla
+Amreli,Amreli Municipality,Babra,Bagasara,Dhari,Jafrabad,Khambha,Kunkavav Vadia,Lathi,Liliya,Rajula,Savar Kundla
+Anand,Anklav,Borsad,Khambhat,Matar,Petlad,Sojitra,Tarapur,Umreth
+Bayad,Bhiloda,Dhansura,Malpur,Meghraj,Modasa
+Amirgadh,Bhabhar,Danta,Dantiwada,Deesa,Deodar,Dhanera,Kankrej,PALANPUR (BANASKANTHA),Tharad,Vadagam,Vav
+Amod,Anklesvar,Bharuch,Dediapada,Hansot,Jambusar,Jhagadia,Nandod,Olpad,Sagbara,Vagra,Valia
+Bhavnagar,Bhavnagar Municipal Corporation,Botad,Gadhada,Gariadhar,Ghogha,Jesar,Mahuva,Palitana,Savarkundla,Sihor,Talaja,Umrala,Vallabhipur
+Abdasa,Anjar,Bhachau,BHUJ(KUTCHH),Gandhidham,Kachchh,K. Mandvi,Lakhpat,Mandvi,Mundra,Nakhatrana,Rapar
+Barwala,Botad,Botad Municipality,Gadhada,Ranpur
+Bodeli,Chhota Udaipur,Jetpur Pavi,Kawant,Nasvadi,Sankheda
+Dahod,Dahod Municipality,Devgadbaria,Dhanpur,Dohad,Fatepura,Garbada,Jahlod,Likheda,Limkheda,Panchamahals,Santrampur
+Ahwa,Dang
+Bhanvad,Dwarka,Kalyanpur,Khambhalia
+Devgadbaria,Dhanpur,Dohad,Fatepura,Garbada,Jahlod,Likheda,Limkheda,Panchamahals,Santrampur
+Gandhidham Municipality
+Dehgam,Gandhinagar,Gandhinagar Municipal Corporation,Kalol,Mansa
+Gir Gadhda,Kodinar,Sutrapada,Talala,UNA,Veraval,Veraval Patan Municipality
+Devgadh Baria,Ghoghamba,Godhra,Godhra Municipality,Halol,Holol,Jambughoda,Kadana,Kalol,Khanpur,Lunawada,Morva Hadaf,Santrampur,Shehera
+Devgadh Baria,Ghoghamba,GODHRA(PANCHMAHAL),Halol,Holol,Jambughoda,Kalol,Morva Hadaf,Shehera
+Bayad,Bhiloda,Dhansura,Himatnagar,Idar,Khedbrahma,Malpur,Meghraj,Modasa,Prantij,Talod,Talod Municipality,Vadali,Vijaynagar
+Bhanvad,Dhrol,Jamjodhpur,Jamkalyanpur,Jamnagar,Jamnagar Municipal Corporation,Jodiya,Kahbhalia,Kalavad,Kalyanpur,Khambhalia,Lalpur,Okhamandal
+Bhesan,Junagadh,Junagadh Municipal Corporation,Keshod,Kodinar,Malia,Malia Hatina,Manavadar,Mangrol,Mendarda,Patan-Veraval,Porbandar,Sutrapada,Talala,Una,Vanthali,Veraval,Visavadar
+Kalol Municipality
+Becharaji,Jotana,Kadi,Kalol,Kheralu,Mahesana,Patan,Satlasana,Unjha,Vadnagar,Vijapur,Visnagar
+Balasinor,Kadana,Khanpur,Lunawada,Santrampur,Virpur
+Halvad,Maliya,Morvi,Tankara,Wankaner
+Birpur,Borsad,Kapadvanj,Kapadvanj Municipality,Kapadwanj,Kathlal,Mahemdabad,Mahudha,Matar,Nadiad,NADIAD(KHEDA),Petlad,Sojitra,Tarapur,Thasra,Umreth
+Dabhoi,Dediapada,Nandod,Sagbara,Tilakwada
+Ahwa,Bansda,Chikhli,Dang,Gandevi,Jalalpore,Navsari,Vansda
+Chanasma,Harij,Patan,Radhanpur,Sami,Santalpur,Sidhpur
+Bhanvad,Jamjodhpur,Kutiyana,Manavadar,Porbandar,Porbandar Municipality,Ranavav
+Dahisara,Dhoraji,Dhoraji Municipality,Dhrol,Gondal,Jamkandorna,Jasdan,Jetpur,Kotda,Kotda Sangani,Lodhika,Malia(M),Maliya,Morvi,Paddhari,Rajkot,Sardhar,Upleta
+Dahisara,Dhoraji,Dhrol,Gondal,Jamkandorna,Jasdan,Jetpur,Kotda,Kotda Sangani,Lodhika,Malia(M),Maliya,Maliya Miyana,Morvi,Paddhari,Rajkot,Rajkot Municipal Corporation,Sardhar,Tankara,Upleta,Wankaner
+Ahwa,Bardoli,Chorasi,Dang,Jambusar,Kamrej,Lajpore,Mahuva,Makrej,Mandvi,Mangrol,Nizar,Olpad,Palsana,Sachin,Sayan,Songadh,Surat,Surat City,Uchchhal,Udhna,Umarpada,Utran,Valia,Valod,Vankal,Variav,Velachha,Vyara,Zankhvav
+Ahwa,Bardoli,Chorasi,Dang,Jambusar,Kamrej,Lajpore,Mahuva,Makrej,Mandvi,Mangrol,Nizar,Olpad,Palsana,Sachin,Sayan,Songadh,Surat,Surat City,Surat Municipal Corporation,Uchchhal,Udhna,Umarpada,Utran,Valia,Valod,Vankal,Variav,Velachha,Vyara,Zankhvav
+Chotila,Dasada,Dhandhuka,Dhrangadhra,Dshrangadhra,Lakhtar,Limbdi,Muli,Patdi,Sayla,Surendranagar,Wadhwan,Wadhwancity
+Tapi
+Ankleshwar,Bharuch,Dabhoi,Jambsuar,Karjan,Padra,Pavijetpur,Rajpipala,Savli,Sinor,Tilakwada,Vadodara,Vaghodia,Vagra,Valia
+Ankleshwar,Bharuch,Bodeli,Chhota Udepur,Dabhoi,Jambsuar,Karjan,Kawant,Nasvadi,Padra,Pavijetpur,Rajpipala,Sankheda,Savli,Sinor,Tilakwada,Vadodara,Vadodara Municipal Corporation,Vaghodia,Vagra,Valia
+Dadra & Nagar Haveli,Dharampur,Dungri,Hanuman Bhagda,Kaprada,Pardi,Umargam,Umbergaon,Valsad,Valsad Municipality,Vansda,Vapi
+Fort Songadh,Nijhar,Songadh,Uchchhal,Valod,Vyara Municipality,VYARA(TAPI)
+
+Ambala,Barara,Naraingarh
+Bawani Khera,Bhiwani,Loharu,Siwani,Tosham
+Dadri
+Ballabgarh,Faridabad,Hathin,Hodal,Palwal
+Fatehabad,Ratia,Tohana
+Ferozepur Jhirka,Gurgaon,Nuh,Pataudi,Punahana,Sohna,Taoru
+Adampur,Hansi,Hisar,Narnaund
+Bahadurgarh,Beri,Jhajjar
+Jind,Julana,Narwana,Safidon
+Guhla,Kaithal
+Assandh,Gharaunda,Indri,Karnal,Nilokheri
+Pehowa,Shahbad,Thanesar
+Mahendragarh,Narnaul
+Ferozepur Jhirka,Nagina,Nuh,Pinangwan,Punahana,Taoru
+Hathin,Hodal,Palwal
+Kalka,Panchkula,Pinjore
+Israna,Panipat,Samalkha
+Bawal,Kosli,Rewari
+Maham,Rohtak
+Dabwali,Ellenabad,Rania,Sirsa
+Ganaur,Gohana,Kharkhoda,Sonipat
+Chhachhrauli,Jagadhri
+
+Bilaspur Town,Ghumarwin,Jhanduta,Markand
+Bhalai,Bharmaur,Bhatiyat,Chamba Town,Chaurah,Choori,Dalhousie,Holi,Kihar,Killar,Pangi,Pukhri,Saluni,Samote,Sihunta,Tissa
+Barsar,Bhoranj,Galore,Hamirpur Town,Nadaun,Sujanpur,Tauni Devi
+Bhawarna,Dadasiba,Gangath,Gopalpur,Indora,Jawalamukhi,Kangra Town,Mahakal,Nagrota Bagwan,Nagrota Surian,Shahpur,Thural,Tiara
+Kinnaur Town,Nichar,Pooh,Sangla
+Anni,Banjar,Jari,Kullu Town,Manali,Naggar,Nirmand
+Gondla,Kaza,Keylong,Lauhal & Sapiti Town,Udaipur
+Bagsaid,Baldwara,Balh,Chachyot,Chauntra,Dharmpur,Drang,Gopal Pur,Janjehli,Karsog,Kotli,Ladbhrol,Mandi Town,Padhar,Ratti,Rohanda,Sadar,Sandhole,Siraj,Sundarnagar
+Chirgaon,Jubbal & Kotkhai,Kotkhai,Kumarsain,Mashobra,Matiana,Nankhari,Nerwa,Shimla Town,Tikkar
+Shimla Muncipal Corporation
+Dahgera,Nahan Town,Pachhad,Paonta Sahib,Rajpura,Renuka Ji,Sangrah,Shilai,Sirmour Town
+Arki,Chandi,Dharampur,Nalagarh,Solan Town,Syri
+Amb,Bangana,Gagret,Haroli,Thanakalan,Una Town
+
+Achabal,Anantnag,Bijbehara,Larnoo,Mattan,Qazigund,Sallar,Shangus,verinag
+Berwah,Budgam,CCharar-e-Sharief Rural,Charar-e-Sharief Urban,Chattergam,Khansahab,Magam,Nagam,Soibugh
+Bandipora,Gurez,Hajin
+Baramulla,Dangiwacha,Kreeri,Pattan,Sopore,Uri
+Assar,Bhaderwah,Doda,Gahat,Gandoh,Thathri
+Ganderbal,Kangan,Lar
+Akhnoor,Bishnah,Dansal,Jammu Municipal CorporationZone -1 Ward -1,Jammu Municipal CorporationZone -1 Ward -10,Jammu Municipal CorporationZone -1 Ward -16,Jammu Municipal CorporationZone -1 Ward -17,Jammu Municipal CorporationZone -1 Ward -18,Jammu Municipal CorporationZone -1 Ward -2,Jammu Municipal CorporationZone -1 Ward -24,Jammu Municipal CorporationZone -1 Ward -25,Jammu Municipal CorporationZone -1 Ward -26,Jammu Municipal CorporationZone -1 Ward -27,Jammu Municipal CorporationZone -1 Ward -28,Jammu Municipal CorporationZone -1 Ward -29,Jammu Municipal CorporationZone -1 Ward -3,Jammu Municipal CorporationZone -1 Ward -4,Jammu Municipal CorporationZone -1 Ward -5,Jammu Municipal CorporationZone -1 Ward -71,Jammu Municipal CorporationZone -1 Ward -8,Jammu Municipal CorporationZone -1 Ward -9,Jammu Municipal CorporationZone -2 Rail Head,Jammu Municipal CorporationZone -2 Ward -11,Jammu Municipal CorporationZone -2 Ward -15,Jammu Municipal CorporationZone -2 Ward -20,Jammu Municipal CorporationZone -2 Ward -21,Jammu Municipal CorporationZone -2 Ward -22,Jammu Municipal CorporationZone -2 Ward -23,Jammu Municipal CorporationZone -2 Ward -30,Jammu Municipal CorporationZone -2 Ward -31,Jammu Municipal CorporationZone -2 Ward -32,Jammu Municipal CorporationZone -2 Ward -40,Jammu Municipal CorporationZone -2 Ward -41,Jammu Municipal CorporationZone -2 Ward -47,Jammu Municipal CorporationZone -2 Ward -48,Jammu Municipal CorporationZone -2 Ward -59,Jammu Municipal CorporationZone -2 Ward -6,Jammu Municipal CorporationZone -2 Ward -60,Jammu Municipal CorporationZone -2 Ward -7,Jammu Municipal CorporationZone -3 Ward -42,Jammu Municipal CorporationZone -3 Ward -43,Jammu Municipal CorporationZone -3 Ward -44,Jammu Municipal CorporationZone -3 Ward -45,Jammu Municipal CorporationZone -3 Ward -46,Jammu Municipal CorporationZone -3 Ward -49,Jammu Municipal CorporationZone -3 Ward -50,Jammu Municipal CorporationZone-3 Ward- 51,Jammu Municipal CorporationZone -3 Ward -52,Jammu Municipal CorporationZone -3 Ward -53,Jammu Municipal CorporationZone -3 Ward -54,Jammu Municipal CorporationZone -3 Ward -55,Jammu Municipal CorporationZone -3 Ward -56,Jammu Municipal CorporationZone -3 Ward -57,Jammu Municipal CorporationZone -3 Ward -58,Jammu Municipal CorporationZone -3 Ward -68,Jammu Municipal CorporationZone -3 Ward -69,Jammu Municipal CorporationZone -3 Ward -70,Jammu Municipal CorporationZone -4 Ward -12,Jammu Municipal CorporationZone -4 Ward -13,Jammu Municipal CorporationZone -4 Ward -14,Jammu Municipal CorporationZone -4 Ward -19,Jammu Municipal CorporationZone -4 Ward -33,Jammu Municipal CorporationZone -4 Ward -34,Jammu Municipal CorporationZone -4 Ward -35,Jammu Municipal CorporationZone -4 Ward -36,Jammu Municipal CorporationZone -4 Ward -37,Jammu Municipal CorporationZone -4 Ward -38,Jammu Municipal CorporationZone -4 Ward -39,Jammu Municipal CorporationZone -4 Ward -61,Jammu Municipal CorporationZone -4 Ward -62,Jammu Municipal CorporationZone -4 Ward -63,Jammu Municipal CorporationZone -4 Ward -64,Jammu Municipal CorporationZone -4 Ward -65,Jammu Municipal CorporationZone -4 Ward -66,Jammu Municipal CorporationZone -4 Ward -67,Kotbhalwal,Pallanwal,R S Pura,Sohanjana
+Bani,Basoli,Billawar,Hiranagar,Kathua,Nagri Parole
+Dachan,Kishtwar,Paddar
+D H Pora,Kulgam,Qaimoh,Yaripora
+BlOCK Sogam Kupwara,BlOCK Tangdar Kupwara,Handawara,Kralpora,Kupwara,Langate,Villagam,Zachaldara
+Mandi,Mendher,Surankote
+Pampore,Pulwama,Tral
+
+Darhal,Kandi,Nowshera,Rajauri,Sunderbani
+Banihal,Ramban,Ukhral
+Arnas,Katra,Mahore,Pouni,Reasi
+Purmandal,Ramgarh,Samba
+Keller,Shopian
+Zone-III Srinagar,Zone-II Srinagar,Zone-I Srinagar,Zone-IV Srinagar,Zone-V Srinagar
+Basantgarh,Chenani,Ghordi,Majalta,Pancheri,Ramnagar,Tikri,Udhampur
+
+Bermo,Chandankiyari,Chandrapura,Chas (Bokaro Sadar),Chas Nagarnigam (Bokaro Urban),Gomia,Jaridih,Kasmar,Nagar Parishad Phusro,Nawadih,Peterwar
+Chatra,Chatra Sadar,Chatra Urban,Gidhaur,Hunterganj,Itkhori,Kanhachatti,Kunda,Lawalaung,Mayurhand,Pathalgada (Pathalgora),Pratappur,Simaria,Tandwa
+Deoghar,Deoghar Sadar,Deoghar Urban,DEVIPUR,Jasidih,Karon,Madhupur,Margomunda,Mohanpur,Nagarpalika,Palojori,Sarath,Sarwan,Sonaraithari
+Baghmara,Baliapur,CHIRKUNDA NAGAR PARISHAD,Dhanbad (Dhanbad Sadar),Dhanbad Urban,Egarkund,Govindpur,Jharia-cum-Jorapokhar,Kaliasol,Nirsa,Purvi tundi,Topchachi,Tundi
+BASUKINATH,Dumka Sadar,DUMKA URBAN,Gopikander,Jama,Jarmundi,Kathikund,Masliya,Ramgarh,Renewshwar,Renewshwar,Renewshwar,Saraiyahat,Shikaripara
+Bardiha,BARGAR,BHANDARIYA,Bhawanathpur,Bishunpura,CHINIYA,Danda,Dandai,Dhurki,Garhwa Sadar,Garhwa Urban,Kandi,Ketar,Kharaundhi,Manjhiaon,Meral,Nagar Panchayat - Majhion,Nagar Untari,RAMKANDA,Ramna,RANKA,Sagma,Shri Banshidhar Nagar (Ward 01 to 17)
+Bagodar,Bengabad,Birni,Deori,Dhanwar (Raj Dhanwar),DUMRI,Gandey,Gawan,Giridih (Giridih Urban),Giridih Nagar Nigam,Giridih Sadar,Jamua,PIRTAND,Suriya,Tisri
+BASANTRAI,Boarijore,GODDA (Godda Sadar),Godda Urban,Mahagama,Mehrama,PATHARGAMA,POREYAHAT,SUNDAR PAHARI,Thakurgangti
+BASIA,BHARNO,BISHUNPUR,Chainpur,Dumri,GHAGHRA,GUMLA (Gumla Sadar),Gumla Nagar Parishad,Gumla Urban,Kamdara,Palkot,Param Vir Albert Ekka, Jari,RAIDIH,SISAI
+Badkagaon,BARHI,BARKATHA,Bishnugarh,CHALKUSA,CHOUPARAN,Churchu,Dadi,Daru,Ichak,Katkamdag,Katkamsandi,Keredari,Nagarpalika (Hazaribag Urban),PADMA,Sadar,Tatijhariya
+Jamtara Sadar,Kundahit,Nagar Panchayat (Jamtara Urban),Nagar Parishad,Nala,Narayanpur
+Arki,Karra,Khunti (Khunti Sadar),Murhu,NAC, Khunti (Khunti Urban),Rania,Torpa
+Chandwara,Domchanch (Koderma Sadar),Jainagar,Koderma (Koderma Urban),Markachho,Nagar Panchayat Domchanch,Nagar Panchayat Koderma (Ward 1 to 15),Nagar Parisad Jhumri Telaiya,Satgawan
+Balumath,Bariyatu,Barwadih,Chandwa,Garu,Herhanj,Latehar Sadar,Latehar Urban,Mahuadanr,Manika
+Bhandra,Kairo,Kisko,Kuru,Lohardaga,Nagarpalika (Lohardaga Urban),Peshrar,Senha
+Amarapara,Hiranpur,Littipara,Maheshpur,Nagar Parishad, Pakur,Pakuria,Pakur Sadar,Pakur Urban
+Bishrampur,Chainpur,Chhattarpur,Daltonganj Sadar,Daltonganj Urban,Haidernagar,Hariharganj,Hussainabad,Hussainabad Nagar Panchayat (WardNo. 01 to 16),Lesliganj,Manatu,Medininagar,Mohammadganj,Naudiha,Nawa Bazar,Padwa,Pandu,Panki,Patan,Pipra,Satbarwa,Tarhasi,Untari Road
+ANANDPUR,BANDGAON,Chaibasa,Chakradharpur,GOILKERA,GUDRI,Hatgamharia,JAGANNATHPUR,JHINKPANI,Khuntpani,KUMARDUNGI,Manjhari,MANJHGAON,MANOHARPUR,NAMUNDI (NOAMUNDI),Sadar Chaibasa,SONUA,Tantnagar,Tonto
+Baharagora,Boram,Chakulia,Chakulia N P (Ward No. 1 to 12),Dhalbhumgarh,Dumuria,Ghatsila,Golmuri-cum-Jugsalai,Jamshedpur,Jamshedpur Sadar,Jamshedpur Urban,Muncipality,Musaboni,Patamda,Potka
+CHAWANI PARISHAD,Chitarpur,Dulmi,Gola,Mandu,NAGAR PARISHAD,Patratu,Ramgarh (Ramgarh Sadar),Ramgarh Urban
+Angara,Argora,Baragain,Bero,Bundu,Burmu,Chanho,Hehal,Kanke,Khelari,Lapung,Mandar,Nagri,Namkum,Ormanjhi,Rahe (Bundu),Ranchi Urban 2,Ranchi Urban 3,Ranchi Urban 4,Ranchi Urban 5,Ranchi Urban 6,Ranchi Urban 7,Ranchi Urban 8,Ratu,Silli,Sonahatu,Sonahatu (Bundu),Tamar,Tamar (Bundu)
+Barhait,Barharwa,Borio,Mandro,NAC, Barharwa,NAC, Rajmahal,Pathna,Rajmahal,Sahibganj Nagar Parishad (Sahibganj Urban),Sahibganj (sahibganj sadar),Taljhari,Udhwa
+CHANDIL,GAMAHARIA,ICHAGARH,KHARSAWAN,KUCHAI,Kukru,NAGAR NIGAM (ADITYAPUR),Nagarpalika Saraikella,Nimdih,RAJNAGAR,Seraikella
+BANO,BANSJORI,BOLBA,JALDEGA,KERSAI,KOLEBIRA,KURDEG,PAKARTANR,SIMDEGA,Simdega Urban (NP) Ward No. 01 to 20,THETHAITANGER
+
+Badami,Bagalakote,Bilgi,Hungund,Jamkhandi,Mudhol
+Devanahalli,Doddaballapura,Hosakote,Nelamangala
+Anekal,Bangalore East,Bangalore North,Bangalore South
+K R Puram,Mahadevapura,Sarvagna Nagar,Shanthinagara,Shivajinagara
+Dasarahalli,Hebbala,Malleshwaram,Yelahanka,Yeshwanthapura
+Basavanagudi,Bommanahalli,BTM Layout,Chamarajapete,Jayanagar
+Chikkapete,Mahalakshmipuram,Rajajinagara,R R Nagara,Vijayanagara
+Athni,Bailahongal,Belgaum,Belgaum Mahanagar Palike,Chikodi,Gokak,Hukeri,Khanapur,Ramdurg,Raybag,Saundati
+Bellary,Bellary Mahanagar Palike,Hagaribommanahalli,HoovinaHadagalli,Hospet,Kudligi,Sanduru,Siruguppa
+Aurad,Basakalyan,Bhalki,Bidar,Homnabad
+Basavana Bagevadi,Bijapur,Indi,Muddebihal,Sindgi
+Chamarajanagar,Gundlupet,Kollegal,Yelandur
+Bagepalli,Chikballapur,Chintamani,Gauribidanur,Gudibande,Sidlaghatta
+Chikmagalur,Kadur,Koppa,Mudigere,Narasimharajapura,Sringeri,Tarikere
+Challakere,Chitradurga,Hiriyur,Holalkere,Hosadurga,Molakalmuru
+Bantwal,Beltangadi,Mangalore,Mangalore Mahanagara Palike Area,Puttur,Sulya
+Channagiri,Davanagere,Davanagere Mahanagara Palike Area,Harapanahalli,Harihar,Honnali,Jagalur
+Dharwad,Hubli,Kalghatgi,Kundgol,Navalgund
+Gadag-Betigeri,Mundargi,Nargund,Ron,Shirhatti
+Afzalpur,Aland,Chincholi,Chitapur,Gulbarga,Gulbarga Mahanagara Palike Area,Jevargi,Sedam
+Alur,Arkalgud,Arsikere,Belur,Channarayapattana,Hassan,Holenarsipur,Sakleshpur
+Byadgi,Hanagal,Haveri,Hirekerur,Ranibennur,Savanur,Shiggaon
+Circle I,Circle II,Circle III
+Madikeri,Somvarpet,Virajpet
+Bangarapet,Kolar,Malur,Mulbagal,Srinivaspur
+Gangawati,Koppal,Kushtagi,Yelbarga
+Krishnarajpet,Maddur,Malavalli,Mandya,Nagamangala,Pandavapura,Shrirangapattana
+HeggadadevanaKote,Hunsur,Krishnarajanagara,Mysore,Mysore Mahanagar Palike I Circle,Mysore Mahanagar Palike II Circle,Mysore Mahanagar Palike III Circle,Nanjangud,Piriyapatna,Tirumakudal Narsipur
+Devadurga,Lingsugur,Manvi,Raichur,Sindhnur
+Channapatna,Kanakapura,Magadi,Ramnagara
+Bhadravati,Hosanagara,Sagar,Shikaripura,Shimoga,Sorab,Thirthahalli
+Chiknayakanhalli,Gubbi,Koratagere,Kunigal,Madhugiri,Pavagada,Sira,Tiptur,Tumkur,Tumkur Mahanagara Palike Area,Turuvekere
+Karkal,Kundapura,Udupi
+Ankola,Bhatkal,Haliyal,Honnavar,Joida,Karwar,Kumta,Mundgod,Siddapur,Sirsi,Yellapur
+Shahpur,Shorapur,Yadgir
+
+Alapuzha Circle,Ambalapuzha Circle,Aroor Circle,Chengannur Circle,Cherthala Circle,Haripadu Circle,Kayamkulam Circle,Kuttanadu Circle,Mavelikkara Circle
+Aluva Circle,Angamali Circle,Eranakulam Circle,Kalamassery Circle,Kochi Circle,Kothamangalam Circle,Kunnathunadu Circle,Muvattupuzha Circle,Paravur Circle,Perumbavoor Circle,Piravam Circle,Thrikkakara Circle,Thripunnithura Circle,Vaippin Circle
+Devikulam Circle,Idukki Circle,Perummedu Circle,Thodupuzha Circle,Udumpanchola Circle
+Azhikode Circle,Dharmadam Circle,Irikkur Circle,Kalliasseri Circle,Kannur Circle,Kuthu paramba Circle,Mattannoor Circle,Payyannur Circle,Peravoor Circle,Thalassery Circle,Thaliparamba Circle
+Kanhangad Circle,Kasaragod Circle 'F' Block,Manjeshwar Circle,Trikaripur Circle,Udma Circle
+Chadayamangalam Circle,Chathannoor Circle,Chavara Circle,Eravipuram Circle,Karunagappally Circle,Kollam Circle.T.B. Centre,Kottarakkara Circle,Kundara Circle,Kunnathur Circle,Pathanapuram Circle,Punalur Circle
+Changanassery Circle,Ettumanur Circle,Kadathuruthi Circle,Kanjirapalli Circle,Kotayam Circle,Pala Circle,Poonjar Circle,Puthupalli Circle,Vaikkam Circle
+Balusserry Circle,Beypur Circle,Elathur Circle,Koduvalli Circle,Koyilandy Circle,Kozhikkode South Circle,Kozhikode North Circle,Kunnamangalam Circle,Kuttiyadi Circle,Nadapuram Circle,Perambra Circle,Thiruvambadi Circle,Vadakara Circle
+Eranad Circle,Kondotti Circle,Kottakkal Circle,Malapuram Circle,Manjeri Circle,Mankada Circle,Nilambur Circle,Parapangadi PO,Perunthalamanna Circle,Ponnani Circle,Tannur Circle,Thavanur Circle,Thirurangadi Circle,Tirur Circle,Tmalapuram District,Vallikunnu Circle,Venkara Circle,Wandoor Circle
+Alathur Circle,Chittor Circle,Kongad Circle,Malampuzha Circle,Mannarkkad Circle,Nenmara Circle,Ottapalam Circle,Palakkadu Circle,Pattambi Circle,Shornnur Circle,Tarur Circle,Thrithala Circle
+Adoor Circle,Aranmula Circle,Konni Circle,Ranni Circle.,Thiruvalla Circle
+Aruvikkara Circle,Attingal Circle,Chirayinkeezhu Circle,Kattakkada Circle,Kazhakoottam Circle,Kovalam Circle,Nedumangad Circle,Nemom Circle,Neyyattinkara Circle,Parassala Circle,Thiruvananthapuram Circle,Vamanapuram Circle,Varkala Circle,Vattiyoorkavu Circle
+Chalakkudi Circle,Chelakkara Circle,Guruvayur,Irinjalakuda Circle,Kaipamangalam Circle,Kodungsloor Circle,Kunnamkulam Circle,Manalur Circle,Nattika Circle,Ollur Circle,Puthukkadu Circle,Thrissur Circle,Wadakkancherry
+Kalpatta Circle,Mananthavadi Circle,Sulthanbathery Circle
+
+Drass,Sankoo,Shakar-Chiktan,Zanskar
+Durbuk,Khaltsi,Kharu,Liker,Nubra,Nyoma
+LehLadakh
+
+Agatti
+Amini
+Androth
+Chetlat
+Kadmath
+Kalpeni
+Kavaratti
+Kiltan
+Minicoy
+
+Agar,Badod,Nalkheda,Susner
+Alirajpur,Bhavra,Jobat
+Anuppur,Jaithari,Kotma,Pushparajgarh
+Ashoknagar,Chanderi,Isagarh,Mungaoli,Shadhora
+Baihar,Balaghat,Katangi,Khairlanji,Kirnapur,Lalbarra,Lanji,Paraswada,Tirodi,Waraseoni
+Anjad,Barwani,Niwali,Pansemal,Pati,Rajpur,Sendhwa,Thikri,Varla
+Amla,Athner,Betul,Bhainsdehi,Chicholi,Ghoda Dongri,Multai,Shahpur
+Ater,Bhind,Gohad,Gormi,Lahar,Mehgaon,Mihona,Ron
+Berasia,Bhopal,Huzur
+Burhanpur,Khaknar,Nepanagar
+Bada Malhera,Bijawar,Buxwaha,Chandla,Chhatarpur,Gaurihar,Ghuwara,Laundi,Maharajpur,Nowgong,Rajnagar
+Amarwara,Bichhua,Chaurai,Chhindwara,Harrai,Jamai,Mohkhed,Pandhurna,Parasia,Sausar,Tamia,Umreth
+Batiyagarh,Damoh,Hatta,Jabera,Patera,Patharia,Tendukheda
+Bhander,Datia,Indergarh,Seondha
+Bagli,Dewas,Hatpiplya,Kannod,Khategaon,Satwas,Sonkatch,Tonk Khurd
+Badnawar,Dahi,Dhar,Dharampuri,Gandhwani,Kukshi,Manawar,Sardarpur
+Dindori,Shahpura
+Aron,Bamori,Chachaura,Guna,Kumbhraj,Maksoodangarh,Raghogarh
+Bhitarwar,Chinour,Dabra (Pichhore),Gwalior,Gwalior (Gird)
+Handiya,Harda,Khirkiya,Rehatgaon,Sirali,Timarni
+Depalpur,Hatod,Indore,Mhow,Sawer
+Jabalpur,Kundam,Majholi,Panagar,Patan,Shahpura,Sihora
+Jhabua,Meghnagar,Petlawad,Ranapur,Thandla
+Badwara,Bahoriband,Barhi,Dhimarkheda,Katni,Murwara,Rithi,Vijayraghavgarh
+Khandwa
+Badwaha,Bhikangaon,Gogawa,Jhirniya,Kasrawad,Khargone,Maheshwar,Sagao,Sanawad
+Bichhiya,Ghughari,Mandla,Nainpur,Narayanganj,Niwas
+Bhanpura,Daloda,Garoth,Malhargarh,Mandsaur,Shamgarh,Sitamau,Suwasara
+Ambah,Joura,Kailaras,Morena,Porsa,Sabalgarh
+Babai,Bankhedi,Dolariya,Hoshangabad,Itarsi,Pipariya,Seoni-Malwa,Sohagpur
+Gadarwara,Gotegaon,Kareli,Narsimhapur,Tendukheda
+Jawad,Jiran,Manasa,Neemuch,Singoli
+Ajaigarh,Amanganj,Devendranagar,Gunnor,Panna,Pawai,Raipura,Shahnagar
+Badi,Baraily,Begamganj,Gairatganj,Goharganj,Raisen,Silwani,Udaipura
+Biaora,Jirapur,Khilchipur,Narsinghgarh,Pachore,Rajgarh,Sarangpur
+Alot,Bajna,Jaora,Piploda,Ratlam,Rawti,Sailana,Tal
+Gurh,Hanumana,Huzur,Jawa,Mangawan,Mauganj,Naigarhi,Raipur - Karchuliyan,Rewa,Semaria,Sirmour,Teonthar
+Banda,Bina,Deori,Garhakota,Kesli,Khurai,Malthon,Rahatgarh,Rehli,Sagar,Shahgarh
+Amarpatan,Birsinghpur,Kotar,Maihar,Majhgawan,Nagod,Raghurajnagar,Ramnagar,Rampur Baghelan,Satna,Unchahara
+Ashta,Budni,Ichhawar,Jawar,Nasrullaganj,Rehti,Sehore,Shyampur
+Barghat,Chhapara,Dhanora,Ghansaur,Keolari,Kurai,Lakhnadon,Seoni
+Beohari,Burhar,Gohparu,Jaisinghnagar,Jaitpur,Shahdol,Sohagpur
+Agar,Gulana,Kalapipal,Moman Badodiya,Shajapur,Shujalpur
+Badoda,Beerpur,Karahal,Sheopur,Vijaypur
+Badarwas,Karera,Khaniyadhana,Kolaras,Narwar,Pichhore,Pohri,Shivpuri
+Churhat,Gopadbanas,Kusmi,Majhauli,Rampur Naikin,Sidhi,Sihawal
+Chitrangi,Deosar,Sigrolli
+Baldeogarh,Jatara,Khargapur,Mohangarh,Niwari,Orchha,Palera,Prithvipur,Tikamgarh
+Badnagar,Ghatiya,Khacharod,Mahidpur,Nagda,Tarana,Ujjain
+Bandhogarh,Chandia,Manpur,Nowrozabad,Pali,Umaria
+Basoda,Gulabganj,Gyaraspur,Kurwai,Lateri,Nateran,Shamshabad,Sironj,Tyonda,Vidisha
+
+Ahmednagar (Mun Corp) Zone 1,Ahmednagar (Mun Corp) Zone 2,Ahmednagar (Mun Corp) Zone 3,Ahmednagar (Mun Corp) Zone 4,Ahmednagar Taluka,Akole,Jamkhed,Karjat,kopergaon,Newasa,parner,Pathardi,Rahata,Rahuri,Sangamner,Shevgaon,Shrigonda,Shrirampur
+Akola Municipal Corporation,Akola Taluka,Akot,Balapur,Barshi Takali,Murtizapur,Patur,Telhara
+Achalpur,Amravati Municipal Corp. Zone 01,Amravati Municipal Corp. Zone 02,Amravati Municipal Corp. Zone 03,Amravati Municipal Corp. Zone 04,Amravati Taluka,Anjangaon Surji,Bhatkuli,Chandur Bazar,Chandur Railway,Chikhaldara,Daryapur,Dhamangaon Railway,Dharani,Morshi,Nandgaon Khandeshwar,Tiosa,Warud
+Aurangabad Taluka,Aurangabad Zone A,Aurangabad Zone B,Aurangabad Zone C,Aurangabad Zone D,Aurangabad Zone E,Aurangabad Zone F,Cantonment Board Aurangabad,Gangapur,kannad Taluka,Khulatabad Taluka,Paithan,Phulambri Taluka,Sillod Taluka,Soygaon Taluka,Vaijapur Taluka
+Ambajogai Taluka,Ashti Taluka,Beed Taluka,Dharur Taluka,Gevrai Taluka,Kaij Taluka,Majalgaon Taluka,Parli (V) Taluka,Patoda Taluka,Shirur (Kasar) Taluka,Vadvani Taluka
+Bhandara,Lakhandur,Lakhani,Mohadi,Pauni,Sakoli,Tumsar
+Bhiwandi Tahashil,Bhiwandi Tahashil (Except Biwandi Municipal Corporation & Kasheli, Kalher, Rehanal, Purna revenue villeges),Zone 1,Zone 2,Zone 3,Zone 4,Zone 5
+Buldana Taluka,Chikhali,Deulgaonraja,Jalgaon Jamod,Khamgaon,Lonar,Malkapur,Mehakar,Motala,Nandura,Sangrampur,Shegaon,Sindkhedraja
+Ballarpur,Bhadravati,Brahmapuri,Chandrapur,Chimur,Gondpipri,Jivati,Korpana,Mul,Nagbhir,Pombhurna,Rajura,Sawali,Sindewahi,Warora
+Dhule City,Dhule Gramin,Sakri,Shindkheda,Shirpur City,Shirpur Gramin
+Aheri,Armori,Bhamragad,Chamorshi,Desaiganj (Vadasa),Dhanora,Etapalli,Gadchiroli,Korchi,Kurkheda,Mulchera,Sironcha
+Amgaon,Deori,Gondia,Goregaon,Morgaon,SadakArjuni,Salekasa,Tiroda
+Greater Mumbai Ward - A,Greater Mumbai Ward - B,Greater Mumbai Ward - C,Greater Mumbai Ward-D,Greater Mumbai Ward-E,Greater Mumbai Ward-F/N,Greater Mumbai Ward-F/S,Greater Mumbai Ward-G/N,Greater Mumbai Ward-G/S,Greater Mumbai Ward-H/E,Greater Mumbai Ward-H/W,Greater Mumbai Ward-K/E,Greater Mumbai Ward-K/W,Greater Mumbai Ward-L,Greater Mumbai Ward-M/E,Greater Mumbai Ward-M/W,Greater Mumbai Ward-N,Greater Mumbai Ward-P/N,Greater Mumbai Ward-P/S,Greater Mumbai Ward-R/C,Greater Mumbai Ward-R/N,Greater Mumbai Ward-R/S,Greater Mumbai Ward-S,Greater Mumbai Ward-T
+Aundha N,Hingoli,Kalamnuri,Sengaon,Vasmat
+Amalner,Bhadgaon,Bhusawal,Bodawad,Chalisgaon,Chopada,Dharangaon,Erandol,Jalgaon City,Jalgaon Tehsil,Jamner,Muktainagar,Pachora,Parola,Rawer,Yawal
+Ambad,Badnapur,Bhokardan,Ghanswnagi,Jafrabad,Jalna City,Mantha,Partur
+Kalyan Tahashil (Except Kalyan Dombivali Municipal Corporation ),Zone A,Zone B,Zone C,Zone D,Zone F,Zone G,Zone H
+Ajara,Bhudargad,Chandgad,Gadhinglaj,Gaganbawada,Hatkanangale,Kagal,Karveer,Kolhapur City Ward-A,Kolhapur City Ward-B,Kolhapur City Ward-C,Kolhapur City Ward-D,Kolhapur City Ward-E,Panhala,Radhanagiri,Shahuwadi,Shirol
+Ahmadpur,Ausa,Chakur,Deoni,Jalkot,Latur,Nilanga,Renapur,Shirur Anantpal,Udgir
+Zone 1,Zone 2,Zone 3,Zone 4
+Nagpur (Rural),Nagpur (Urban)
+Ardhapur,Bhokar,Biloli,Degloor,Dharmabad,Hadgaon,Himayatnagar,kandhar,Kinwat,Loha,Mahur,Mudkhede,Mukhed,Nanded City,Nanded Taluka,Naygaon,Umri
+Akkalkuwa,Akrani,Nandurbar Taluka,Navapur,Shahada,Taloda
+Baglan,Chandvad,Cidco,Deola,Dindori,Igatpuri,Kalwan,Malegaon,Malegaon Muncipal Corp. Zone 1-Bhoigaon,Malegaon Muncipal Corp. Zone 1- Malegaon Camp,Malegaon Muncipal Corp. Zone 1-Sangameshwar,Malegaon Muncipal Corp. Zone 1-Somvar wada,Malegaon Muncipal Corp. Zone 1-Soygao,Malegaon Muncipal Corp. Zone 2-Dyane,Malegaon Muncipal Corp. Zone 2-Islampura Ward,Malegaon Muncipal Corp. Zone 3-Daregaon Sayane,Malegaon Muncipal Corp. Zone 3-Navapura Ward,Malegaon Muncipal Corp. Zone 4-Gurvar Ward,Malegaon Muncipal Corp. Zone 4-Malade,malegaon (Rural),Manmad Municipal Council,Nandgaon,Nashik,Nashik East,Nashikroad,Nashik (Rural),Nashik West,Niphad,Panchawati,Peint,Peth,Satana,Satpur,Sinnar,Surgana,Trimbakeshwar,Yevla
+Airoli Zone,Digha Zone,Ghansoli Zone,Koparkhairane Zone,Thane Tahashil Rural Area
+APMC Market II,Turbhe Zone,Vashi Zone (Except APMC Market I, APMC Market II & Onion, Potato, Fruit & Vegatable Market)
+APMC Market I Lane A to E,APMC Market I Lane F to M,Belapur Zone,Common Road up to centre near to Lane E To F,Common Road up to centre near to Lane E To F,Fruit Market,Nerul Zone (East),Nerul Zone (West),Onion-Potato Market,Vegetable Market
+Bhoom,Kallamb,Lohara,Omerga,Osmanabad,Paranda,Tuljapur,Washi
+Dahanu Tahashil,Jawahar Tahashil,Mokhada Tahashil,Palghar Tahashil,Talasari Tahashil,Vasai Tahashil,Vasai Virar Municipal Corporation - Zone A,Vasai Virar Municipal Corporation - Zone B,Vasai Virar Municipal Corporation - Zone C,Vasai Virar Municipal Corporation - Zone D,Vasai Virar Municipal Corporation - Zone E,Vikramgad Tahashil,Wada Tahashil
+Gangakhed Taluka,Jintur,Manavat,Palam,Parbhani,Pathri,Purna,Selu,Sonpeth
+Ambegaon,Aundh,Baramati,Bhawani Peth,Bhor,Bibwewadi,Daund,Dehu Cantonment Board,Dhanakawadi,Dhole Patil Road,Dound,Ghole Road,Hadapsar,Haveli,Haveli- North of Mutha River,Haveli- South of Mutha River,Indapur,Junnar,Junnar & Ambegaon,Karve Nagar,Karve Road,Kasba Vishrambag,Khadaki Cantonment Board,Khed,Mawal,Mulshi,Mulshi & Vella,Pune Cantonment Board,Pune Nagar Road & Sangamwadi,PUNE PCMC ward No-001,PUNE PCMC ward No-002,PUNE PCMC ward No-10,PUNE PCMC ward No-100,PUNE PCMC ward No-101,PUNE PCMC ward No-102,PUNE PCMC ward No-103,PUNE PCMC ward No-104,PUNE PCMC ward No-105,PUNE PCMC ward No-11,PUNE PCMC ward No-12,PUNE PCMC ward No-13,PUNE PCMC ward No-14,PUNE PCMC ward No-15,PUNE PCMC ward No-16,PUNE PCMC ward No-17,PUNE PCMC ward No-18,PUNE PCMC ward No-19,PUNE PCMC ward No-20,PUNE PCMC ward No-21,PUNE PCMC ward No-22,PUNE PCMC ward No-23,PUNE PCMC ward No-24,PUNE PCMC ward No-25,PUNE PCMC ward No-26,PUNE PCMC ward No-27,PUNE PCMC ward No-28,PUNE PCMC ward No-29,PUNE PCMC ward No-3,PUNE PCMC ward No-30,PUNE PCMC ward No-31,PUNE PCMC ward No-32,PUNE PCMC ward No-33,PUNE PCMC ward No-34,PUNE PCMC ward No-35,PUNE PCMC ward No-36,PUNE PCMC ward No-37,PUNE PCMC ward No-38,PUNE PCMC ward No-39,PUNE PCMC ward No-4,PUNE PCMC ward No-40,PUNE PCMC ward No-41,PUNE PCMC ward No-42,PUNE PCMC ward No-43,PUNE PCMC ward No-44,PUNE PCMC ward No-45,PUNE PCMC ward No-46,PUNE PCMC ward No-47,PUNE PCMC ward No-48,PUNE PCMC ward No-49,PUNE PCMC ward No-5,PUNE PCMC ward No-50,PUNE PCMC ward No-51,PUNE PCMC ward No-52,PUNE PCMC ward No-53,PUNE PCMC ward No-54,PUNE PCMC ward No-55,PUNE PCMC ward No-56,PUNE PCMC ward No-57,PUNE PCMC ward No-58,PUNE PCMC ward No-59,PUNE PCMC ward No-6,PUNE PCMC ward No-60,PUNE PCMC ward No-61,PUNE PCMC ward No-62,PUNE PCMC ward No-63,PUNE PCMC ward No-64,PUNE PCMC ward No-65,PUNE PCMC ward No-66,PUNE PCMC ward No-67,PUNE PCMC ward No-68,PUNE PCMC ward No-69,PUNE PCMC ward No-7,PUNE PCMC ward No-70,PUNE PCMC ward No-71,PUNE PCMC ward No-72,PUNE PCMC ward No-73,PUNE PCMC ward No-74,PUNE PCMC ward No-75,PUNE PCMC ward No-76,PUNE PCMC ward No-77,PUNE PCMC ward No-78,PUNE PCMC ward No-79,PUNE PCMC ward No-8,PUNE PCMC ward No-80,PUNE PCMC ward No-81,PUNE PCMC ward No-82,PUNE PCMC ward No-83,PUNE PCMC ward No-84,PUNE PCMC ward No-85,PUNE PCMC ward No-86,PUNE PCMC ward No-87,PUNE PCMC ward No-88,PUNE PCMC ward No-89,PUNE PCMC ward No-9,PUNE PCMC ward No-90,PUNE PCMC ward No-91,PUNE PCMC ward No-92,PUNE PCMC ward No-93,PUNE PCMC ward No-94,PUNE PCMC ward No-95,PUNE PCMC ward No-96,PUNE PCMC ward No-97,PUNE PCMC ward No-98,PUNE PCMC ward No-99,Purandhar,Sahkar Nagar-A,Sahkar Nagar-B,Shirur,Sinhgad Road,Velhe
+Alibaug,Karjat,Khalapur,Mahad,Mangaon,Mhasala,Murud,Panvel City,Panvel (Rural),Pen,Poladpur,Roha,Shrivardhan,Sudhagad,Tala,Uran
+Chiplun,Dapoli,Guhagar,Khed,Lanja,Mandangad,Rajapur,Ratnagiri,Sangameshwar
+Atpadi,Jath,Kadegaon,Kavthemahankal,khanapur,Kupwad,Miraj City corporation area,Miraj Rural,Palus,Sangli Municipal Corporation Prabhag No.1,Sangli Municipal Corporation Prabhag No.2,Sangli Municipal Corporation Prabhag No.3,Sangli Municipal Corporation Prabhag No.4,Shirala,Tasgaon,Walwa
+Jawali,Karad,Khandala,Khatav,Koregaon,Mahabaleshwar,Man,Patan,Phaltan,Satara,Wai
+Deogad,Dodamarg,Kankavli,Kudal,Malwan,Sawantwadi,Vaibhavwadi,Vengurla
+AKKALKOT,BARSHI,KARMALA,MADHA,MALSHIRAS,MANGALWEDHA,MOHOL,NORTH SOLAPUR,PANDHARPUR (City),PANDHARPUR (Rural),SANGOLA,SOLAPUR MUNICIPAL CORP ZONE-1,SOLAPUR MUNICIPAL CORP ZONE-2,SOLAPUR MUNICIPAL CORP ZONE-3,SOLAPUR MUNICIPAL CORP ZONE-4,SOLAPUR MUNICIPAL CORP ZONE-5,SOLAPUR MUNICIPAL CORP ZONE-6,SOUTH SOLAPUR
+Kalawa Mumbra Zone,Koapri Zone,Naupada Zone,Rayaladevi,Rayaladevi and Wagale Estate Zone,Uthalsar Zone,Vartaknagar Manpada Zone,Vartanagar
+Ambarnath Tahashil,Camp 1,Camp 2,Camp 3,Camp 4,Camp 5,Murbad Tahshil,Shahapur Tahashil
+Arvi,Ashti,Deoli,Hinganghat,Karanja,Samudrapur,Seloo,Wardha
+Karanja,Magrulpir,Malegaon,Manora,Risod,Wasim Tehsil
+Arni,Babulgaon,Darwha,Digras,Ghatanji,Kalamb,Kelapur,Mahagaon,Maregaon,Ner,Pandharkavda,Pusad,Ralegaon,Umarkhed,Wani,Yavatmal,Zari-Jamani
+
+Bishnupur,Moirang,Nambol
+Chakpikarong,Chandel,Khengjoy
+Churachandpur,Henglep,Kangvai,Mualnuam,Saikot,Samulamlan,Sangaikot,Singngat,Tuibong
+Keirao Bitra,Porompat,Sawombung
+Lamphel,Lamshang,Patsoi,Wangoi
+Borobekra,Jiribam
+Kakching,Waikhong
+Kamjong,Kasom khullen,Phungyar,Sahampung
+Bungte Chiru,Champhai,Island,Kangchup Geljang,Kangpokpi,Lungtin,Saikul,Saitu Gamphazol
+Haochong,Khoupum,Noney,Nungba
+Pherzawl & Parbung/Tipaimukh,Thanglon,Thanlon,Tipaimukh,Vangai Range
+Lairouching,Paomata,Phaibung / Chilivai,Purul,Senapati,Song Song,Tadubi,Tuijang Waichong,Willong
+Tamei,Tamenglong,Tousem
+Machi,Moreh,Tengnoupal
+Lilong Sub-Division,Thoubal Sub Division
+Chingai,Jessami,Lungchong Maiphai,Ukhrul
+
+East Garo Hills
+East Jaintia Hills
+Khatarshnong Laitkroh,Mawkynrew,Mawphlang,Mawryngkneng,Mawsynram,Mylliem,Pynursla,Shella Bholaganj,Shillong City
+North Garo Hills
+Ri Bhoi
+South Garo Hills
+South West Garo Hills
+South West Khasi Hills
+Betasing,Dadenggiri,Dalu,GAMBEGRE C&RD BLOCK,GAMBEGRE C&RD BLOCK,Rongram,SELSELLA C&RD BLOCK,SELSELLA C&RD BLOCK,Tikrikilla,Tura Town,West Garo Hills,Zikzak
+West Jaintia Hills
+West Khasi Hills
+
+Aizawl East Rural,Aizawl East Urban
+Aizawl West Rural,Aizawl West Urban
+Champhai Rural,Champhai Urban
+Kolasib Rural,Kolasib Urban
+Lawngtlai Rural,Lawngtlai Urban
+Lunglei Rural,Lunglei Urban
+Mamit Rural,Mamit Urban
+Saiha Rural,Saiha Urban
+Serchhip Rural,Serchhip Urban
+
+Chumukedima,Dhansiripar,Dimapur Sadar,Kuhoboto,Medziphema,Nihokhu,Niuland
+Amahator,Khongsa,Kiphire Sadar,Kiusam,Longmatra,Pungro,Seyochung,Sitimi
+Athibung,Chiephobozou,Jakhama,Jalukie,Kezocha,Kohima Sadar,Nsong,Pedi (Ngwalwa),Peren,Sechu,Tening,Tseminyu
+Longleng Sadar,Namsang,Sakshi,Tamlu,Yachem,Yongnyah
+Alongkima,Changtongya,Chuchuyimlang,Kubolong,Longchem,Mangkolemba,Ongpangkong,Tuli
+Aboi,Chen,Hunta,Longching,Longshen,Mon Sadar,Monyakshu,Mopong,Naginimora,Phomching,Shangnyu,Tizit,Tobu,Wakching
+Athibung,Jalukie,Ngwalwa,Nsong,Peren Sadar,Tening
+Chetheba,Chizami,Chozuba,Khezhakeno,Meluri,Pfutsero,Phek Sadar,Phokhungri,Sakraba,Sekruzu
+Amahator,Chare,Chessore,Kiphire Sadar,Kiusam,Longkhim,Longleng,Longmatra,Noklak,Noksen,Panso,Pungro,Seyochung,Shamator,Sitimi,Tamlu,Thonoknyu,Tsurungto,Tuensang Sadar,Yongya
+Aitepyong,Baghty,Bhandari,Changpang,Chukitong,Lotsu,Ralan,Sanis,Sungro,Wokha Sadar,Wozhuro
+Aghunato,Akuluto,Asuto,Atoizu,Ghathashi,Pughoboto,Satakha,Satoi,Suruhuto,V.K.,Zunheboto Sadar
+
+Anugul,Athmallik,Banarpal,Chhendipada,Kaniha,Kishorenagar,Palalahada,Talcher
+Bahanaga,Baleshwar (Baleshwar Sadar),Baliapal,Basta,Bhograi,Jaleswar,Khaira,Nilagiri,Oupada,Remuna,Similia,Soro
+Ambabhona,Attabira,Barapali,Bargarh,Bhatli,Bheden,Bijepur,Jharbandha,Padampur (Rajbarasambar),Paikamal,Singanpur,Sohela
+Ward 1,Ward 10,Ward 11,Ward 12,Ward 13,Ward 14,Ward 15,Ward 16,Ward 17,Ward 18,Ward 19,Ward 2,Ward 20,Ward 21,Ward 22,Ward 23,Ward 24,Ward 25,Ward 26,Ward 27,Ward 28,Ward 29,Ward 3,Ward 30,Ward 31,Ward 32,Ward 33,Ward 34,Ward 35,Ward 36,Ward 37,Ward 38,Ward 39,Ward 4,Ward 40,Ward 5,Ward 6,Ward 7,Ward 8,Ward 9
+Bant,Basudebpur,Bhadrak,Bhandaripokhari,Chandabali,Dhamanagar,Tihidi
+Ward 1,Ward 10,Ward 11,Ward 12,Ward 13,Ward 14,Ward 15,Ward 16,Ward 17,Ward 18,Ward 19,Ward 2,Ward 20,Ward 21,Ward 22,Ward 23,Ward 24,Ward 25,Ward 26,Ward 27,Ward 28,Ward 29,Ward 3,ward 30,Ward 31,Ward 32,Ward 33,Ward 34,Ward 35,Ward 36,Ward 37,Ward 38,Ward 39,Ward 4,Ward 40,Ward 41,Ward 42,Ward 43,Ward 44,Ward 45,Ward 46,Ward 47,Ward 48,Ward 49,Ward 5,Ward 50,Ward 51,Ward 52,Ward 53,Ward 54,Ward 55,Ward 56,Ward 57,Ward 58,Ward 59,Ward 6,Ward 60,Ward 61,Ward 62,Ward 63,Ward 64,Ward 65,Ward 66,Ward 67,Ward 7,Ward 8,ward 9
+Agalpur,Balangir,Bangomunda,Belpara,Deogaon,Gudvella (Tentulikhunti),Khaprakhol,Loisinga,Muribahal,Patnagarh,Puintala,Saintala,Titlagarh,Turekela
+Baudh,Harbhanga,Kantamal
+Athagad,Badamba,Banki,Banki-Dampara,Barang,Cuttack Sadar,Jagatsinghapur,Kantapada,Mahanga,Narasinghpur,Niali,Nischintakoili,Salepur,Tangi-Choudwar,Tigiria
+Ward 1,Ward 10,Ward 11,Ward12,Ward 13,Ward 14,Ward 15,Ward 16,Ward 17,Ward 18,Ward 19,Ward 2,Ward 20,Ward 21,Ward 22,Ward 23,Ward 24,Ward 25,Ward 26,Ward 27,Ward 28,Ward 29,Ward 3,Ward 30,Ward 31,Ward 32,Ward 33,Ward 34,Ward 35,Ward 36,Ward 37,Ward 38,Ward 39,Ward 4,Ward 40,Ward 41,Ward 42,Ward 43,Ward 44,Ward 45,Ward 46,Ward 47,Ward 48,Ward 49,Ward 5,Ward 50,Ward 51,Ward 52,Ward 53,Ward 54,Ward 55,Ward 56,Ward 57,Ward 58,Ward 59,Ward 6,Ward 7,Ward 8,Ward 9
+Barkot,Deogarh Municipality Area,Reamal,Tileibani
+Bhuban,Bhubana NAC,Dhenkanal Municipality,Dhenkanal Sadar (Sadar),Gandia,Hindol,HINDOL NAC,Kamakshyanagar,Kamakyanagar Nac,Kankadahad,Odapada,Parajang
+Gosani (Parlakhemundi ),Guma,Kashinagara,Mohana,Nuagada,Rayagada,R. Udaygiri
+Asika,Beguniapada,Bellaguntha,Bhanjanagar,Buguda,Chhatrapur,Chikiti,Dharakote,Digapahandi,Ganjam,Hinjilicut,Jagannathprasad,Kavisurjyanagar,Khalikote,Kukudakhandi,Patrapur,Polasara,Purusottampur,Rangeilunda,Sanakhemundi,Seragad,Surada
+Balikuda,Biridi,Ersama,Jagatsinghapur (P),Kujang,Naugaon,Raghunathpur,Tirtol
+Badachana,Bari,Binjharpur,Danagadi,Dasarathpur,Dharmasala,Jajapur,Korai,Rasulpur,Sukinda
+Jharsuguda,Kirimira,Kolabira,Laikera,Lakhanpur (K. Lakhanpur)
+Bhawanipatna,Dharamgarh,Golamunda,Jayapatna,Junagarh,Kalampur,Karlamunda,Kesinga,Kokasara,Lanjigarh,Madanpur Rampur,Narala,Thuamul Rampur
+Baliguda,Chakpad,Daringbadi,G. Udayagiri,Kajamandi Nuagaon,Khajuripada,Kotagarh,Phiringia,Phulabani,Raikia,Tikabali,Tumudibandha
+Aali,Aul,Derabisi,Garadpur,Indupur,Kendrapara,Kendrapara Municipality,Mahakalapada,Marsaghai,Nac Pattamundai,Patkura,Pattamundai,Rajkanika,Rajnagar
+Anandapur,Banspal,Champua,Ghasipura,Ghatgaon,Harichandanpur,Hatadihi,Jhumpura,Joda,Kendujhar Sadar (Kendujhargarh),Patana,Saharapada,Telkoi
+Balianta,Balipatna,Banapur,Begunia,Bhubaneswar,Bolagad,Chilika,Jatani,Khordha,Tangi
+Bandhugaon,Boipariguda,Boriguma,Dasamantapur,Jeypur,Koraput,Kotpad,Kundura,Lakshmipur,Lamtaput,Nandapur,Narayanpatana,Pottangi,Semiliguda
+Khairaput,Korkunda,Kudumulguma,Malkangiri,Mathili,Murubanpali,Uskalbag
+Badasahi (Barsahi),Bahalda,Bangiriposi,Baripada,Betanati,Bijatola,Bisoi,Gopabandhunagar,Jamda,Jashipur,Kaptipada,Karanjia,Khunta,Kuliana (Koliana),Kusumi,Muruda,Rairangpur,Raruan,Rasagobindapur,Saraskana,Shamakhunta,Sukruli,Suliapada,Thakurmunda,Tiring,Udala
+Chandahandi,Dabugan,Jharigan,Kosagumuda,Nabarangapur,Nandahandi,Paparahandi,Raighar,Tentulikhunti,Umarkote
+Bhapur,Dasapalla,Gania,Khandapada,Nayagarh,Nuagaon,Odagaon,Ranapur
+Boden,Khariar,Komana,Nuapada,Sinapali
+Astaranga,Brahmagiri,Delanga,Gop,Kakatpur,Kanas,Krushnaprasad,Nimapada,Pipili,Sadar (Puri Sadar),Satyabadi
+Ward 1,Ward 10,Ward 11,Ward 12,Ward 13,Ward 14,Ward 15,Ward 16,Ward 17,Ward 18,Ward 19,Ward 2,Ward 20,Ward 21,Ward 22,Ward 23,Ward 24,Ward 25,Ward 26,Ward 27,Ward 28,Ward 29,Ward 3,Ward 30,Ward 31,Ward 32,Ward 4,Ward 5,Ward 6,Ward 7,Ward 8,Ward 9
+Bishamakatak,Chandrapur,Gudari,Gunupur,Kalyanasingpur,Kashipur,Kolnara,Muniguda,Padmapur,Ramanguda,Rayagada
+Ward 1,Ward 10,Ward 11,Ward 12,Ward 13,Ward 14,Ward 15,Ward 16,Ward 17,Ward 18,Ward 19,Ward 2,Ward 20,Ward 21,Ward 22,Ward 23,Ward 24,Ward 25,Ward 26,Ward 27,Ward 28,Ward 29,Ward 3,Ward 30,Ward 31,Ward 32,Ward 33,Ward 34,Ward 35,Ward 36,Ward 37,Ward 38,Ward 39,Ward 4,Ward 40,Ward 5,Ward 6,Ward 7,Ward 8,Ward 9
+Bamra,Dhankauda (Sambalpur),Jamankira,Jujomura,Kochinda,Maneswar,Naktideul,Rairakhol,Rengali
+Ward 1,Ward 10,Ward 11,Ward 12,Ward 13,Ward 14,Ward 15,Ward 16,Ward 17,Ward 18,Ward 19,Ward 2,Ward 20,Ward 21,Ward 22,Ward 23,Ward 24,Ward 25,Ward 26,Ward 27,Ward 28,Ward 29,Ward 3,Ward 30,Ward 31,Ward 32,Ward 33,Ward 34,Ward 35,Ward 36,Ward 37,Ward 38,Ward 39,Ward 4,Ward 40,Ward 41,Ward 5,Ward 6,Ward 7,Ward 8,Ward 9
+Binika,Biramaharajpur,Dunguripali,Sonapur,Tarbha,Ulunda
+Balisankara,Baneigarh,Baragaon,Bisra,Gurundia,Hemgir,Koida,Kutra,Lahunipara,Lathikata,Lephripara,Subdega,Sundargarh,Tangarapali
+
+Karaikal,Mahe,Puducherry- Rural,Puducherry- Urban,Yanam
+
+Amritsar-1 (P/S A,B,C,D,E, Islamabad, Gate Hakima),Amritsar-2 (Division Kotwali, Makboolpura, Mohkampur, Cantonment, Chehharta),Amritsar-3 (Sub Division Baba Bakala, P/S Jandiala Guru),Amritsar-4 (Sub Division Ajnala, P/S Gharinda, Rajasansi Airport),Amritsar-5 (P/S Verka, Kathu Nangal, Sadar, Civil Lines, Majitha)
+Barnala 1(Barnala),Barnala 2(Tapa)
+Bathinda-1 (P/S Kotwali, Canal Colony, Thermal, Sangat Mandi),Bathinda-2 (Goneana, P/S Civil Lines, Bathinda Cantt),Bathinda-3 (Tehsil-Rampura Phool, Bhagtna, Nathana),Bathinda-4 (Tehsil Maur, Tehsiil Talwandi Sabo)
+Faridkot 1(Faridkot),Faridkot 2(Jaitu)
+Fatehgarh Sahib 1(Pathana & Fatehgarh Sahib),Fatehgarh Sahib 2(Amloh and Khamanon)
+Fazilka 1(Abohar),Fazilka 2(Fazilka and Jalalabad)
+Firozpur 1(Firozpur),Firozpur 2(Jalalabad & Zira)
+Gurdaspur 1(Gurdaspur,Dera Baba Nanak),Gurdaspur 2(Batala)
+Hoshiarpur-1 (Hoshiarpur),Hoshiarpur-2 (Tehsil Dasuya & Mukerian),Hoshiarpur-3 (Tehsil Garhshankar)
+Jalandhar-1 (P/S 1,2,3,4,5, Sub Division Jalandhar-1),Jalandhar-2 (Tehsil Adampur, Tehsil Bhogpur,P/S-8, Jalandhar Cantt, Bhargo Camp),Jalandhar-3 (P/S 6,7,New Baradari, Rama Mandir, Tehsil Phillaur),Jalandhar-4 (Tehsil Nakodar, P/S Sadar, Kartarpur),Jalandhar-5 (Tehsil Shahkot)
+Kapurthala 1(Sultanpur Lodhi & Bhulath),Kapurthala 2(Phagwara & kapurthala)
+Ludhiana-1(P/S-5,8, Model Town,Dugri, PAU, Haibowal, Sarabha Nagar),Ludhiana-2(P/S Tibba, 6,7, Moti Nagar, Jamalpur, Meharban),Ludhiana-3(P/S 1,2,3,4, Daresi, Jodhewal, Salem Tarbri, Ladowal),Ludhiana-4(P/S Khanna, Payal, Samrala, Doraha, Dehlon, Machhiwara, Maloud),Ludhiana-5(P/S Shimlapuri, Focal Point, Sahnewal, KommKalan, Sadar, Daba),Ludhiana-6(Jagraon, Raikot, DaKha, Hathoor, Sidhwabet, Jodhan, Sudhar)
+Mansa 1(Budhlada),Mansa 2(Mansa & Saldurgarh)
+Moga 1(Moga),Moga 2(Bagha Purana & Nihal Singhwala)
+SAS Nagar Mohali-1 (Sub Tehsil Zirakpur, Banoor),SAS Nagar Mohali-2 (Teshil Mohali, P/S Sohana),SAS Nagar Mohali-3(Teshil Kharar, Nayagaon Municipal, Council, Except Sub Tehsil Majri),SAS Nagar Mohali-4 (Sub Teshil Majri, Except Nayagaon Municipal Council),SAS Nagar Mohali-5 (Teshil Derabassi, Except Sub Tehsil Zirakpur, Except Banoor)
+Muktsar 1(Muktsar),Muktsar 2(Bagha Purana & Nihal Singhwala)
+Pathankot 1(Pathankot),Pathankot 2(Dhar Kalan)
+Patiala-1 (Urban, Nabha),Patiala-2 (Patiala Rural, Sanor),Patiala-3 (Rajpura, Ghanor),Patiala-4 (Samana, Chatruna)
+Rupnagar 1(Anandpur Sahib & Nangal),Rupnagar 2(Chamkaur Sahib & Ropar)
+Sangrur 1(Sangrur, Lehragaga, Sunam and Monak),Sangrur 2(Dhoori and Malerkotla)
+Shaheed Bhagat Singh Nagar 1(Balachaur),Shaheed Bhagat Singh Nagar 2(Nawashahr)
+Tarn Taran 1(Patti),Tarn Taran 2(Tarn Taran & Khadur Sahib)
+
+Ajmer,Ajmer Ward 1,Ajmer Ward 10,Ajmer Ward 11,Ajmer Ward 12,Ajmer Ward 13,Ajmer Ward 14,Ajmer Ward 15,Ajmer Ward 16,Ajmer Ward 17,Ajmer Ward 18,Ajmer Ward 19,Ajmer Ward 2,Ajmer Ward 20,Ajmer Ward 21,Ajmer Ward 22,Ajmer Ward 23,Ajmer Ward 24,Ajmer Ward 25,Ajmer Ward 26,Ajmer Ward 27,Ajmer Ward 28,Ajmer Ward 29,Ajmer Ward 3,Ajmer Ward 30,Ajmer Ward 31,Ajmer Ward 32,Ajmer Ward 33,Ajmer Ward 34,Ajmer Ward 35,Ajmer Ward 36,Ajmer Ward 37,Ajmer Ward 38,Ajmer Ward 39,Ajmer Ward 4,Ajmer Ward 40,Ajmer Ward 41,Ajmer Ward 42,Ajmer Ward 43,Ajmer Ward 44,Ajmer Ward 45,Ajmer Ward 46,Ajmer Ward 47,Ajmer Ward 48,Ajmer Ward 49,Ajmer Ward 5,Ajmer Ward 50,Ajmer Ward 51,Ajmer Ward 52,Ajmer Ward 53,Ajmer Ward 54,Ajmer Ward 55,Ajmer Ward 6,Ajmer Ward 7,Ajmer Ward 8,Ajmer Ward 9,Beawar,Bhinay,Kekri,Kishangarh,Masuda,Naseerabad,Peesangan,Sarwar
+Alwar,Alwar Ward 1,Alwar Ward 10,Alwar Ward 11,Alwar Ward 12,Alwar Ward 13,Alwar Ward 14,Alwar Ward 15,Alwar Ward 16,Alwar Ward 17,Alwar Ward 18,Alwar Ward 19,Alwar Ward 2,Alwar Ward 20,Alwar Ward 21,Alwar Ward 22,Alwar Ward 23,Alwar Ward 24,Alwar Ward 25,Alwar Ward 26,Alwar Ward 27,Alwar Ward 28,Alwar Ward 29,Alwar Ward 3,Alwar Ward 30,Alwar Ward 31,Alwar Ward 32,Alwar Ward 33,Alwar Ward 34,Alwar Ward 35,Alwar Ward 36,Alwar Ward 37,Alwar Ward 38,Alwar Ward 39,Alwar Ward 4,Alwar Ward 40,Alwar Ward 41,Alwar Ward 42,Alwar Ward 43,Alwar Ward 44,Alwar Ward 45,Alwar Ward 46,Alwar Ward 47,Alwar Ward 48,Alwar Ward 49,Alwar Ward 5,Alwar Ward 50,Alwar Ward 6,Alwar Ward 7,Alwar Ward 8,Alwar Ward 9,Bansur,Behror,kathumar,Kishangarhbas,Kotkasim,Lachhmangarh,Mandawar,Rajgarh,Ramgarh,Tanagazi,Tijara
+Bagidora,Banswara,Banswara Ward 1,Banswara Ward 10,Banswara Ward 11,Banswara Ward 12,Banswara Ward 13,Banswara Ward 14,Banswara Ward 15,Banswara Ward 16,Banswara Ward 17,Banswara Ward 18,Banswara Ward 19,Banswara Ward 2,Banswara Ward 20,Banswara Ward 21,Banswara Ward 22,Banswara Ward 23,Banswara Ward 24,Banswara Ward 25,Banswara Ward 26,Banswara Ward 27,Banswara Ward 28,Banswara Ward 29,Banswara Ward 3,Banswara Ward 30,Banswara Ward 31,Banswara Ward 32,Banswara Ward 33,Banswara Ward 34,Banswara Ward 35,Banswara Ward 36,Banswara Ward 37,Banswara Ward 38,Banswara Ward 39,Banswara Ward 4,Banswara Ward 40,Banswara Ward 5,Banswara Ward 6,Banswara Ward 7,Banswara Ward 8,Banswara Ward 9,Garhi,Ghatol,Kushalgarh
+Anta,Atru,Baran,Baran Ward 1,Baran Ward 10,Baran Ward 11,Baran Ward 12,Baran Ward 13,Baran Ward 14,Baran Ward 15,Baran Ward 16,Baran Ward 17,Baran Ward 18,Baran Ward 19,Baran Ward 2,Baran Ward 20,Baran Ward 21,Baran Ward 22,Baran Ward 23,Baran Ward 24,Baran Ward 25,Baran Ward 26,Baran Ward 27,Baran Ward 28,Baran Ward 29,Baran Ward 3,Baran Ward 30,Baran Ward 31,Baran Ward 32,Baran Ward 33,Baran Ward 34,Baran Ward 35,Baran Ward 36,Baran Ward 37,Baran Ward 38,Baran Ward 39,Baran Ward 4,Baran Ward 40,Baran Ward 5,Baran Ward 6,Baran Ward 7,Baran Ward 8,Baran Ward 9,Chhabra,Chhipabarod,Kishanganj,Mangrol,Shahbad
+Barmer,Barmer Ward 1,Barmer Ward 10,Barmer Ward 11,Barmer Ward 12,Barmer Ward 13,Barmer Ward 14,Barmer Ward 15,Barmer Ward 16,Barmer Ward 17,Barmer Ward 18,Barmer Ward 19,Barmer Ward 2,Barmer Ward 20,Barmer Ward 21,Barmer Ward 22,Barmer Ward 23,Barmer Ward 24,Barmer Ward 25,Barmer Ward 26,Barmer Ward 27,Barmer Ward 28,Barmer Ward 29,Barmer Ward 3,Barmer Ward 30,Barmer Ward 31,Barmer Ward 32,Barmer Ward 33,Barmer Ward 34,Barmer Ward 35,Barmer Ward 36,Barmer Ward 37,Barmer Ward 38,Barmer Ward 39,Barmer Ward 4,Barmer Ward 40,Barmer Ward 5,Barmer Ward 6,Barmer Ward 7,Barmer Ward 8,Barmer Ward 9,Baytoo,Chohatan,Ghudamlani,Pachpasra,Ramsar,Sheo,Sivana
+Bayana,Bharatpur,Bharatpur Ward 1,Bharatpur Ward 10,Bharatpur Ward 11,Bharatpur Ward 12,Bharatpur Ward 13,Bharatpur Ward 14,Bharatpur Ward 15,Bharatpur Ward 16,Bharatpur Ward 17,Bharatpur Ward 18,Bharatpur Ward 19,Bharatpur Ward 2,Bharatpur Ward 20,Bharatpur Ward 21,Bharatpur Ward 22,Bharatpur Ward 23,Bharatpur Ward 24,Bharatpur Ward 25,Bharatpur Ward 26,Bharatpur Ward 27,Bharatpur Ward 28,Bharatpur Ward 29,Bharatpur Ward 3,Bharatpur Ward 30,Bharatpur Ward 31,Bharatpur Ward 32,Bharatpur Ward 33,Bharatpur Ward 34,Bharatpur Ward 35,Bharatpur Ward 36,Bharatpur Ward 37,Bharatpur Ward 38,Bharatpur Ward 39,Bharatpur Ward 4,Bharatpur Ward 40,Bharatpur Ward 41,Bharatpur Ward 42,Bharatpur Ward 43,Bharatpur Ward 44,Bharatpur Ward 45,Bharatpur Ward 46,Bharatpur Ward 47,Bharatpur Ward 48,Bharatpur Ward 49,Bharatpur Ward 5,Bharatpur Ward 50,Bharatpur Ward 6,Bharatpur Ward 7,Bharatpur Ward 8,Bharatpur Ward 9,Deeg,Kaman,Kumher,Nadbai,Nagar,Pahadi,Rupbas,Weir
+Asind,Banera,Beejoliya,Bhilwara,Bhilwara Ward 1,Bhilwara Ward 10,Bhilwara Ward 11,Bhilwara Ward 12,Bhilwara Ward 13,Bhilwara Ward 14,Bhilwara Ward 15,Bhilwara Ward 16,Bhilwara Ward 17,Bhilwara Ward 18,Bhilwara Ward 19,Bhilwara Ward 2,Bhilwara Ward 20,Bhilwara Ward 21,Bhilwara Ward 22,Bhilwara Ward 23,Bhilwara Ward 24,Bhilwara Ward 25,Bhilwara Ward 26,Bhilwara Ward 27,Bhilwara Ward 28,Bhilwara Ward 29,Bhilwara Ward 3,Bhilwara Ward 30,Bhilwara Ward 31,Bhilwara Ward 32,Bhilwara Ward 33,Bhilwara Ward 34,Bhilwara Ward 35,Bhilwara Ward 36,Bhilwara Ward 37,Bhilwara Ward 38,Bhilwara Ward 39,Bhilwara Ward 4,Bhilwara Ward 40,Bhilwara Ward 41,Bhilwara Ward 42,Bhilwara Ward 43,Bhilwara Ward 44,Bhilwara Ward 45,Bhilwara Ward 46,Bhilwara Ward 47,Bhilwara Ward 48,Bhilwara Ward 49,Bhilwara Ward 5,Bhilwara Ward 50,Bhilwara Ward 6,Bhilwara Ward 7,Bhilwara Ward 8,Bhilwara Ward 9,Hurada,Jhazupur,Koti,Mandal,Mandalgarh,Raipur,Sahada,Shahpura
+Bikaner,Bikaner Ward 1,Bikaner Ward 10,Bikaner Ward 11,Bikaner Ward 12,Bikaner Ward 13,Bikaner Ward 14,Bikaner Ward 15,Bikaner Ward 16,Bikaner Ward 17,Bikaner Ward 18,Bikaner Ward 19,Bikaner Ward 2,Bikaner Ward 20,Bikaner Ward 21,Bikaner Ward 22,Bikaner Ward 23,Bikaner Ward 24,Bikaner Ward 25,Bikaner Ward 26,Bikaner Ward 27,Bikaner Ward 28,Bikaner Ward 29,Bikaner Ward 3,Bikaner Ward 30,Bikaner Ward 31,Bikaner Ward 32,Bikaner Ward 33,Bikaner Ward 34,Bikaner Ward 35,Bikaner Ward 36,Bikaner Ward 37,Bikaner Ward 38,Bikaner Ward 39,Bikaner Ward 4,Bikaner Ward 40,Bikaner Ward 41,Bikaner Ward 42,Bikaner Ward 43,Bikaner Ward 44,Bikaner Ward 45,Bikaner Ward 46,Bikaner Ward 47,Bikaner Ward 48,Bikaner Ward 49,Bikaner Ward 5,Bikaner Ward 50,Bikaner Ward 51,Bikaner Ward 52,Bikaner Ward 53,Bikaner Ward 54,Bikaner Ward 55,Bikaner Ward 56,Bikaner Ward 57,Bikaner Ward 58,Bikaner Ward 59,Bikaner Ward 6,Bikaner Ward 60,Bikaner Ward 7,Bikaner Ward 8,Bikaner Ward 9,Chhatargarh,Dungergarh,Khajuwala,Kolayat,Lunkaransar,Nokha,Poogal
+Bundi,Bundi Ward 1,Bundi Ward 10,Bundi Ward 11,Bundi Ward 12,Bundi Ward 13,Bundi Ward 14,Bundi Ward 15,Bundi Ward 16,Bundi Ward 17,Bundi Ward 18,Bundi Ward 19,Bundi Ward 2,Bundi Ward 20,Bundi Ward 21,Bundi Ward 22,Bundi Ward 23,Bundi Ward 24,Bundi Ward 25,Bundi Ward 26,Bundi Ward 27,Bundi Ward 28,Bundi Ward 29,Bundi Ward 3,Bundi Ward 30,Bundi Ward 31,Bundi Ward 32,Bundi Ward 33,Bundi Ward 34,Bundi Ward 35,Bundi Ward 36,Bundi Ward 37,Bundi Ward 38,Bundi Ward 39,Bundi Ward 4,Bundi Ward 40,Bundi Ward 41,Bundi Ward 42,Bundi Ward 5,Bundi Ward 6,Bundi Ward 7,Bundi Ward 8,Bundi Ward 9,Hindoli,Indragarh,Keshoraipatan,Nainwa
+Badi sadri,Begun,Bhadesar,Chittorgarh,Chittorgarh Ward 1,Chittorgarh Ward 10,Chittorgarh Ward 11,Chittorgarh Ward 12,Chittorgarh Ward 13,Chittorgarh Ward 14,Chittorgarh Ward 15,Chittorgarh Ward 16,Chittorgarh Ward 17,Chittorgarh Ward 18,Chittorgarh Ward 19,Chittorgarh Ward 2,Chittorgarh Ward 20,Chittorgarh Ward 21,Chittorgarh Ward 22,Chittorgarh Ward 23,Chittorgarh Ward 24,Chittorgarh Ward 25,Chittorgarh Ward 26,Chittorgarh Ward 27,Chittorgarh Ward 28,Chittorgarh Ward 29,Chittorgarh Ward 3,Chittorgarh Ward 30,Chittorgarh Ward 31,Chittorgarh Ward 32,Chittorgarh Ward 33,Chittorgarh Ward 34,Chittorgarh Ward 35,Chittorgarh Ward 36,Chittorgarh Ward 37,Chittorgarh Ward 38,Chittorgarh Ward 39,Chittorgarh Ward 4,Chittorgarh Ward 40,Chittorgarh Ward 5,Chittorgarh Ward 6,Chittorgarh Ward 7,Chittorgarh Ward 8,Chittorgarh Ward 9,Dungla,Gangrar,Kapasan,Nimbahera,Rashmi,Rawatbhata
+Churu,Churu Ward 1,Churu Ward 10,Churu Ward 11,Churu Ward 12,Churu Ward 13,Churu Ward 14,Churu Ward 15,Churu Ward 16,Churu Ward 17,Churu Ward 18,Churu Ward 19,Churu Ward 2,Churu Ward 20,Churu Ward 21,Churu Ward 22,Churu Ward 23,Churu Ward 24,Churu Ward 25,Churu Ward 26,Churu Ward 27,Churu Ward 28,Churu Ward 29,Churu Ward 3,Churu Ward 30,Churu Ward 31,Churu Ward 32,Churu Ward 33,Churu Ward 34,Churu Ward 35,Churu Ward 36,Churu Ward 37,Churu Ward 38,Churu Ward 39,Churu Ward 4,Churu Ward 40,Churu Ward 41,Churu Ward 42,Churu Ward 43,Churu Ward 44,Churu Ward 45,Churu Ward 5,Churu Ward 6,Churu Ward 7,Churu Ward 8,Churu Ward 9,Rajgarh,Ratangarh,Sardarshahr,Sujangarh,Taranagar
+Baswa,Dausa,Dausa Ward 1,Dausa Ward 10,Dausa Ward 11,Dausa Ward 12,Dausa Ward 13,Dausa Ward 14,Dausa Ward 15,Dausa Ward 16,Dausa Ward 17,Dausa Ward 18,Dausa Ward 19,Dausa Ward 2,Dausa Ward 20,Dausa Ward 21,Dausa Ward 22,Dausa Ward 23,Dausa Ward 24,Dausa Ward 25,Dausa Ward 26,Dausa Ward 27,Dausa Ward 28,Dausa Ward 29,Dausa Ward 3,Dausa Ward 30,Dausa Ward 31,Dausa Ward 32,Dausa Ward 33,Dausa Ward 34,Dausa Ward 35,Dausa Ward 4,Dausa Ward 5,Dausa Ward 6,Dausa Ward 7,Dausa Ward 8,Dausa Ward 9,Lalsoth,Mahuwa,Sikrai
+Bari,Baseri,Dholpur,Dholpur Ward 1,Dholpur Ward 10,Dholpur Ward 11,Dholpur Ward 12,Dholpur Ward 13,Dholpur Ward 14,Dholpur Ward 15,Dholpur Ward 16,Dholpur Ward 17,Dholpur Ward 18,Dholpur Ward 19,Dholpur Ward 2,Dholpur Ward 20,Dholpur Ward 21,Dholpur Ward 22,Dholpur Ward 23,Dholpur Ward 24,Dholpur Ward 25,Dholpur Ward 26,Dholpur Ward 27,Dholpur Ward 28,Dholpur Ward 29,Dholpur Ward 3,Dholpur Ward 30,Dholpur Ward 31,Dholpur Ward 32,Dholpur Ward 33,Dholpur Ward 34,Dholpur Ward 35,Dholpur Ward 36,Dholpur Ward 37,Dholpur Ward 38,Dholpur Ward 39,Dholpur Ward 4,Dholpur Ward 40,Dholpur Ward 41,Dholpur Ward 42,Dholpur Ward 43,Dholpur Ward 44,Dholpur Ward 45,Dholpur Ward 5,Dholpur Ward 6,Dholpur Ward 7,Dholpur Ward 8,Dholpur Ward 9,Rajakhera,Sepau
+Aspur,Dungarpur,Sagwara,Simalwara
+Bhadra,Hanumangarh,Hanumangarh Ward 1,Hanumangarh Ward 10,Hanumangarh Ward 11,Hanumangarh Ward 12,Hanumangarh Ward 13,Hanumangarh Ward 14,Hanumangarh Ward 15,Hanumangarh Ward 16,Hanumangarh Ward 17,Hanumangarh Ward 18,Hanumangarh Ward 19,Hanumangarh Ward 2,Hanumangarh Ward 20,Hanumangarh Ward 21,Hanumangarh Ward 22,Hanumangarh Ward 23,Hanumangarh Ward 24,Hanumangarh Ward 25,Hanumangarh Ward 26,Hanumangarh Ward 27,Hanumangarh Ward 28,Hanumangarh Ward 29,Hanumangarh Ward 3,Hanumangarh Ward 30,Hanumangarh Ward 31,Hanumangarh Ward 32,Hanumangarh Ward 33,Hanumangarh Ward 34,Hanumangarh Ward 35,Hanumangarh Ward 36,Hanumangarh Ward 37,Hanumangarh Ward 38,Hanumangarh Ward 39,Hanumangarh Ward 4,Hanumangarh Ward 40,Hanumangarh Ward 41,Hanumangarh Ward 42,Hanumangarh Ward 43,Hanumangarh Ward 44,Hanumangarh Ward 45,Hanumangarh Ward 5,Hanumangarh Ward 6,Hanumangarh Ward 7,Hanumangarh Ward 8,Hanumangarh Ward 9,Nohar,Pilibanga,Rawatsar,Sangaria,Tibbi
+Amber,Bassi,Chaksu,Chomu,Dudu,Jaipur,Jaipur-II Ward 25,Jaipur-II Ward 26,Jaipur-II Ward 27,Jaipur-II Ward 28,Jaipur-II Ward 29,Jaipur-II Ward 30,Jaipur-II Ward 31,Jaipur-II Ward 32,Jaipur-II Ward 33,Jaipur-II Ward 34,Jaipur-II Ward 35,Jaipur-II Ward 36,Jaipur-II Ward 37,Jaipur-II Ward 38,Jaipur-II Ward 39,Jaipur-II Ward 40,Jaipur-I Ward 1,Jaipur-I Ward 10,Jaipur-I Ward 11,Jaipur-I Ward 12,Jaipur-I Ward 13,Jaipur-I Ward 14,Jaipur-I Ward 15,Jaipur-I Ward 16,Jaipur-I Ward 17,Jaipur-I Ward 18,Jaipur-I Ward 19,Jaipur-I Ward 2,Jaipur-I Ward 20,Jaipur-I Ward 21,Jaipur-I Ward 22,Jaipur-I Ward 23,Jaipur-I Ward 24,Jaipur-I Ward 3,Jaipur-I Ward 39,Jaipur-I Ward 4,Jaipur-I Ward 40,Jaipur-I Ward 41,Jaipur-I Ward 42,Jaipur-I Ward 43,Jaipur-I Ward 44,Jaipur-I Ward 45,Jaipur-I Ward 46,Jaipur-I Ward 47,Jaipur-I Ward 48,Jaipur-I Ward 49,Jaipur-I Ward 5,Jaipur-I Ward 50,Jaipur-I Ward 51,Jaipur-I Ward 52,Jaipur-I Ward 53,Jaipur-I Ward 54,Jaipur-I Ward 55,Jaipur-I Ward 56,Jaipur-I Ward 57,Jaipur-I Ward 58,Jaipur-I Ward 59,Jaipur-I Ward 6,Jaipur-I Ward 60,Jaipur-I Ward 61,Jaipur-I Ward 62,Jaipur-I Ward 63,Jaipur-I Ward 64,Jaipur-I Ward 65,Jaipur-I Ward 66,Jaipur-I Ward 67,Jaipur-I Ward 68,Jaipur-I Ward 69,Jaipur-I Ward 7,Jaipur-I Ward 70,Jaipur-I Ward 71,Jaipur-I Ward 72,Jaipur-I Ward 73,Jaipur-I Ward 74,Jaipur-I Ward 75,Jaipur-I Ward 76,Jaipur-I Ward 77,Jaipur-I Ward 8,Jaipur-I Ward 9,Jamwaramgarh,Kotputli,Phagi,Phulera,Sanganer,Shahpura,Viratnagar
+Fatehgarh,Jaisalmer,Jaisalmer Ward 1,Jaisalmer Ward 10,Jaisalmer Ward 11,Jaisalmer Ward 12,Jaisalmer Ward 13,Jaisalmer Ward 14,Jaisalmer Ward 15,Jaisalmer Ward 16,Jaisalmer Ward 17,Jaisalmer Ward 18,Jaisalmer Ward 19,Jaisalmer Ward 2,Jaisalmer Ward 20,Jaisalmer Ward 21,Jaisalmer Ward 22,Jaisalmer Ward 23,Jaisalmer Ward 24,Jaisalmer Ward 25,Jaisalmer Ward 26,Jaisalmer Ward 27,Jaisalmer Ward 28,Jaisalmer Ward 29,Jaisalmer Ward 3,Jaisalmer Ward 30,Jaisalmer Ward 4,Jaisalmer Ward 5,Jaisalmer Ward 6,Jaisalmer Ward 7,Jaisalmer Ward 8,Jaisalmer Ward 9,Pokaran
+Ahore,Bagora,Bhinmal,Jalore,Jalore Ward 1,Jalore Ward 10,Jalore Ward 11,Jalore Ward 12,Jalore Ward 13,Jalore Ward 14,Jalore Ward 15,Jalore Ward 16,Jalore Ward 17,Jalore Ward 18,Jalore Ward 19,Jalore Ward 2,Jalore Ward 20,Jalore Ward 21,Jalore Ward 22,Jalore Ward 23,Jalore Ward 24,Jalore Ward 25,Jalore Ward 26,Jalore Ward 27,Jalore Ward 28,Jalore Ward 29,Jalore Ward 3,Jalore Ward 30,Jalore Ward 4,Jalore Ward 5,Jalore Ward 6,Jalore Ward 7,Jalore Ward 8,Jalore Ward 9,Raniwara,Sayla,Sonchore
+Aklera,Gangdhar,Jhalawar Ward 1,Jhalawar Ward 10,Jhalawar Ward 11,Jhalawar Ward 12,Jhalawar Ward 13,Jhalawar Ward 14,Jhalawar Ward 15,Jhalawar Ward 16,Jhalawar Ward 17,Jhalawar Ward 18,Jhalawar Ward 19,Jhalawar Ward 2,Jhalawar Ward 20,Jhalawar Ward 21,Jhalawar Ward 22,Jhalawar Ward 23,Jhalawar Ward 24,Jhalawar Ward 25,Jhalawar Ward 26,Jhalawar Ward 27,Jhalawar Ward 28,Jhalawar Ward 29,Jhalawar Ward 3,Jhalawar Ward 30,Jhalawar Ward 4,Jhalawar Ward 5,Jhalawar Ward 6,Jhalawar Ward 7,Jhalawar Ward 8,Jhalawar Ward 9,Jhalrapatan,Khanpur,Manohar thana,Pachpahar,Pirawa
+Bhuhana,Chiwara,Jhunjhunu,Jhunjhunu Ward 1,Jhunjhunu Ward 10,Jhunjhunu Ward 11,Jhunjhunu Ward 12,Jhunjhunu Ward 13,Jhunjhunu Ward 14,Jhunjhunu Ward 15,Jhunjhunu Ward 16,Jhunjhunu Ward 17,Jhunjhunu Ward 18,Jhunjhunu Ward 19,Jhunjhunu Ward 2,Jhunjhunu Ward 20,Jhunjhunu Ward 21,Jhunjhunu Ward 22,Jhunjhunu Ward 23,Jhunjhunu Ward 24,Jhunjhunu Ward 25,Jhunjhunu Ward 26,Jhunjhunu Ward 27,Jhunjhunu Ward 28,Jhunjhunu Ward 29,Jhunjhunu Ward 3,Jhunjhunu Ward 30,Jhunjhunu Ward 31,Jhunjhunu Ward 32,Jhunjhunu Ward 33,Jhunjhunu Ward 34,Jhunjhunu Ward 35,Jhunjhunu Ward 36,Jhunjhunu Ward 37,Jhunjhunu Ward 38,Jhunjhunu Ward 39,Jhunjhunu Ward 4,Jhunjhunu Ward 40,Jhunjhunu Ward 41,Jhunjhunu Ward 42,Jhunjhunu Ward 43,Jhunjhunu Ward 44,Jhunjhunu Ward 45,Jhunjhunu Ward 5,Jhunjhunu Ward 6,Jhunjhunu Ward 7,Jhunjhunu Ward 8,Jhunjhunu Ward 9,Khetri,Nawalgarh,Udaipurwati
+Bhopalgarh,Bilara,Jodhour,Jodhpur Ward 1,Jodhpur Ward 10,Jodhpur Ward 11,Jodhpur Ward 12,Jodhpur Ward 13,Jodhpur Ward 14,Jodhpur Ward 15,Jodhpur Ward 16,Jodhpur Ward 17,Jodhpur Ward 18,Jodhpur Ward 19,Jodhpur Ward 2,Jodhpur Ward 20,Jodhpur Ward 21,Jodhpur Ward 22,Jodhpur Ward 23,Jodhpur Ward 24,Jodhpur Ward 25,Jodhpur Ward 26,Jodhpur Ward 27,Jodhpur Ward 28,Jodhpur Ward 29,Jodhpur Ward 3,Jodhpur Ward 30,Jodhpur Ward 31,Jodhpur Ward 32,Jodhpur Ward 33,Jodhpur Ward 34,Jodhpur Ward 35,Jodhpur Ward 36,Jodhpur Ward 37,Jodhpur Ward 38,Jodhpur Ward 39,Jodhpur Ward 4,Jodhpur Ward 40,Jodhpur Ward 41,Jodhpur Ward 42,Jodhpur Ward 43,Jodhpur Ward 44,Jodhpur Ward 45,Jodhpur Ward 46,Jodhpur Ward 47,Jodhpur Ward 48,Jodhpur Ward 49,Jodhpur Ward 5,Jodhpur Ward 50,Jodhpur Ward 51,Jodhpur Ward 52,Jodhpur Ward 53,Jodhpur Ward 54,Jodhpur Ward 55,Jodhpur Ward 56,Jodhpur Ward 57,Jodhpur Ward 58,Jodhpur Ward 59,Jodhpur Ward 6,Jodhpur Ward 60,Jodhpur Ward 61,Jodhpur Ward 62,Jodhpur Ward 63,Jodhpur Ward 64,Jodhpur Ward 65,Jodhpur Ward 7,Jodhpur Ward 8,Jodhpur Ward 9,Luni,osian,phalodi,shergarh
+Hindaun,Karauli Ward 1,Karauli Ward 10,Karauli Ward 11,Karauli Ward 12,Karauli Ward 13,Karauli Ward 14,Karauli Ward 15,Karauli Ward 16,Karauli Ward 17,Karauli Ward 18,Karauli Ward 19,Karauli Ward 2,Karauli Ward 20,Karauli Ward 21,Karauli Ward 22,Karauli Ward 23,Karauli Ward 24,Karauli Ward 25,Karauli Ward 26,Karauli Ward 27,Karauli Ward 28,Karauli Ward 29,Karauli Ward 3,Karauli Ward 30,Karauli Ward 31,Karauli Ward 32,Karauli Ward 33,Karauli Ward 34,Karauli Ward 35,Karauli Ward 4,Karauli Ward 5,Karauli Ward 6,Karauli Ward 7,Karauli Ward 8,Karauli Ward 9,Karoli,Mandrail,Nadoti,Sapotra,Todabhim
+Digod,Kota,Kota Ward 1,Kota Ward 10,Kota Ward 11,Kota Ward 12,Kota Ward 13,Kota Ward 14,Kota Ward 15,Kota Ward 16,Kota Ward 17,Kota Ward 18,Kota Ward 19,Kota Ward 2,Kota Ward 20,Kota Ward 21,Kota Ward 22,Kota Ward 23,Kota Ward 24,Kota Ward 25,Kota Ward 26,Kota Ward 27,Kota Ward 28,Kota Ward 29,Kota Ward 3,Kota Ward 30,Kota Ward 31,Kota Ward 32,Kota Ward 33,Kota Ward 34,Kota Ward 35,Kota Ward 36,Kota Ward 37,Kota Ward 38,Kota Ward 39,Kota Ward 4,Kota Ward 40,Kota Ward 41,Kota Ward 42,Kota Ward 43,Kota Ward 44,Kota Ward 45,Kota Ward 46,Kota Ward 47,Kota Ward 48,Kota Ward 49,Kota Ward 5,Kota Ward 50,Kota Ward 51,Kota Ward 52,Kota Ward 53,Kota Ward 54,Kota Ward 55,Kota Ward 56,Kota Ward 57,Kota Ward 58,Kota Ward 59,Kota Ward 6,Kota Ward 60,Kota Ward 7,Kota Ward 8,Kota Ward 9,Ladpura,Pipalada,Ramganj mandi,Sangod
+Deedwana,Degna,Jayal,Kheenvsar,Ladnu,Makarana,Merta,Nagaour Ward 1,Nagaour Ward 10,Nagaour Ward 11,Nagaour Ward 12,Nagaour Ward 13,Nagaour Ward 14,Nagaour Ward 15,Nagaour Ward 16,Nagaour Ward 17,Nagaour Ward 18,Nagaour Ward 19,Nagaour Ward 2,Nagaour Ward 20,Nagaour Ward 21,Nagaour Ward 22,Nagaour Ward 23,Nagaour Ward 24,Nagaour Ward 25,Nagaour Ward 26,Nagaour Ward 27,Nagaour Ward 28,Nagaour Ward 29,Nagaour Ward 3,Nagaour Ward 30,Nagaour Ward 31,Nagaour Ward 32,Nagaour Ward 33,Nagaour Ward 34,Nagaour Ward 35,Nagaour Ward 36,Nagaour Ward 37,Nagaour Ward 38,Nagaour Ward 39,Nagaour Ward 4,Nagaour Ward 40,Nagaour Ward 5,Nagaour Ward 6,Nagaour Ward 7,Nagaour Ward 8,Nagaour Ward 9,Nagaur,Nava,parvatsar
+Bali,Desuri,Jaitaran,Marwar jn,Pali,Pali Ward 1,Pali Ward 10,Pali Ward 11,Pali Ward 12,Pali Ward 13,Pali Ward 14,Pali Ward 15,Pali Ward 16,Pali Ward 17,Pali Ward 18,Pali Ward 19,Pali Ward 2,Pali Ward 20,Pali Ward 21,Pali Ward 22,Pali Ward 23,Pali Ward 24,Pali Ward 25,Pali Ward 26,Pali Ward 27,Pali Ward 28,Pali Ward 29,Pali Ward 3,Pali Ward 30,Pali Ward 31,Pali Ward 32,Pali Ward 33,Pali Ward 34,Pali Ward 35,Pali Ward 36,Pali Ward 37,Pali Ward 38,Pali Ward 39,Pali Ward 4,Pali Ward 40,Pali Ward 41,Pali Ward 42,Pali Ward 43,Pali Ward 44,Pali Ward 45,Pali Ward 5,Pali Ward 6,Pali Ward 7,Pali Ward 8,Pali Ward 9,Raipur,Rohat,Sojat,Sumerpur
+Arnod,Chhoti sadari,Dhariawat,Peelpalkhoont,Pratapgarh,Pratapgarh Ward 1,Pratapgarh Ward 10,Pratapgarh Ward 11,Pratapgarh Ward 12,Pratapgarh Ward 13,Pratapgarh Ward 14,Pratapgarh Ward 15,Pratapgarh Ward 16,Pratapgarh Ward 17,Pratapgarh Ward 18,Pratapgarh Ward 19,Pratapgarh Ward 2,Pratapgarh Ward 20,Pratapgarh Ward 21,Pratapgarh Ward 22,Pratapgarh Ward 23,Pratapgarh Ward 24,Pratapgarh Ward 25,Pratapgarh Ward 3,Pratapgarh Ward 4,Pratapgarh Ward 5,Pratapgarh Ward 6,Pratapgarh Ward 7,Pratapgarh Ward 8,Pratapgarh Ward 9
+Amet,Bheem,Deogarh,Kumbhalgarh,Nathdwara,Railmagra,Rajsamand,Rajsamand Ward 1,Rajsamand Ward 10,Rajsamand Ward 11,Rajsamand Ward 12,Rajsamand Ward 13,Rajsamand Ward 14,Rajsamand Ward 15,Rajsamand Ward 16,Rajsamand Ward 17,Rajsamand Ward 18,Rajsamand Ward 19,Rajsamand Ward 2,Rajsamand Ward 20,Rajsamand Ward 21,Rajsamand Ward 22,Rajsamand Ward 23,Rajsamand Ward 24,Rajsamand Ward 25,Rajsamand Ward 26,Rajsamand Ward 27,Rajsamand Ward 28,Rajsamand Ward 29,Rajsamand Ward 3,Rajsamand Ward 30,Rajsamand Ward 4,Rajsamand Ward 5,Rajsamand Ward 6,Rajsamand Ward 7,Rajsamand Ward 8,Rajsamand Ward 9
+Bamanwas,Bonli,Chauthka barwara,Gangapur,Khandar,MALARANA DOONGAR,Sawai Madhopur Ward 1,Sawai Madhopur Ward 10,Sawai Madhopur Ward 11,Sawai Madhopur Ward 12,Sawai Madhopur Ward 13,Sawai Madhopur Ward 14,Sawai Madhopur Ward 15,Sawai Madhopur Ward 16,Sawai Madhopur Ward 17,Sawai Madhopur Ward 18,Sawai Madhopur Ward 19,Sawai Madhopur Ward 2,Sawai Madhopur Ward 20,Sawai Madhopur Ward 21,Sawai Madhopur Ward 22,Sawai Madhopur Ward 23,Sawai Madhopur Ward 24,Sawai Madhopur Ward 25,Sawai Madhopur Ward 26,Sawai Madhopur Ward 27,Sawai Madhopur Ward 28,Sawai Madhopur Ward 29,Sawai Madhopur Ward 3,Sawai Madhopur Ward 30,Sawai Madhopur Ward 31,Sawai Madhopur Ward 32,Sawai Madhopur Ward 33,Sawai Madhopur Ward 34,Sawai Madhopur Ward 35,Sawai Madhopur Ward 36,Sawai Madhopur Ward 37,Sawai Madhopur Ward 38,Sawai Madhopur Ward 39,Sawai Madhopur Ward 4,Sawai Madhopur Ward 40,Sawai Madhopur Ward 41,Sawai Madhopur Ward 42,Sawai Madhopur Ward 5,Sawai Madhopur Ward 6,Sawai Madhopur Ward 7,Sawai Madhopur Ward 8,Sawai Madhopur Ward 9,Swai Madhopur
+Anoopgarh,Ganganagar,Ganganagar Ward 1,Ganganagar Ward 10,Ganganagar Ward 11,Ganganagar Ward 12,Ganganagar Ward 13,Ganganagar Ward 14,Ganganagar Ward 15,Ganganagar Ward 16,Ganganagar Ward 17,Ganganagar Ward 18,Ganganagar Ward 19,Ganganagar Ward 2,Ganganagar Ward 20,Ganganagar Ward 21,Ganganagar Ward 22,Ganganagar Ward 23,Ganganagar Ward 24,Ganganagar Ward 25,Ganganagar Ward 26,Ganganagar Ward 27,Ganganagar Ward 28,Ganganagar Ward 29,Ganganagar Ward 3,Ganganagar Ward 30,Ganganagar Ward 31,Ganganagar Ward 32,Ganganagar Ward 33,Ganganagar Ward 34,Ganganagar Ward 35,Ganganagar Ward 36,Ganganagar Ward 37,Ganganagar Ward 38,Ganganagar Ward 39,Ganganagar Ward 4,Ganganagar Ward 40,Ganganagar Ward 41,Ganganagar Ward 42,Ganganagar Ward 43,Ganganagar Ward 44,Ganganagar Ward 45,Ganganagar Ward 46,Ganganagar Ward 47,Ganganagar Ward 48,Ganganagar Ward 49,Ganganagar Ward 5,Ganganagar Ward 50,Ganganagar Ward 6,Ganganagar Ward 7,Ganganagar Ward 8,Ganganagar Ward 9,Ghadsana,Karanpur,Padampur,Raisingnagar,sadulshar,Suratgarh,Vijaynagar
+Dantaramgarh,Fatehpur,Lachhmangarh,Neem ka thana,Shri madhopur,Sikar,Sikar Ward 1,Sikar Ward 10,Sikar Ward 11,Sikar Ward 12,Sikar Ward 13,Sikar Ward 14,Sikar Ward 15,Sikar Ward 16,Sikar Ward 17,Sikar Ward 18,Sikar Ward 19,Sikar Ward 2,Sikar Ward 20,Sikar Ward 21,Sikar Ward 22,Sikar Ward 23,Sikar Ward 24,Sikar Ward 25,Sikar Ward 26,Sikar Ward 27,Sikar Ward 28,Sikar Ward 29,Sikar Ward 3,Sikar Ward 30,Sikar Ward 31,Sikar Ward 32,Sikar Ward 33,Sikar Ward 34,Sikar Ward 35,Sikar Ward 36,Sikar Ward 37,Sikar Ward 38,Sikar Ward 39,Sikar Ward 4,Sikar Ward 40,Sikar Ward 41,Sikar Ward 42,Sikar Ward 43,Sikar Ward 44,Sikar Ward 45,Sikar Ward 46,Sikar Ward 47,Sikar Ward 48,Sikar Ward 49,Sikar Ward 5,Sikar Ward 50,Sikar Ward 6,Sikar Ward 7,Sikar Ward 8,Sikar Ward 9
+Abu road,Pindwara,Reodar,Sheoganj,Sirohi,Sirohi Ward 1,Sirohi Ward 10,Sirohi Ward 11,Sirohi Ward 12,Sirohi Ward 13,Sirohi Ward 14,Sirohi Ward 15,Sirohi Ward 16,Sirohi Ward 17,Sirohi Ward 18,Sirohi Ward 19,Sirohi Ward 2,Sirohi Ward 20,Sirohi Ward 21,Sirohi Ward 22,Sirohi Ward 23,Sirohi Ward 24,Sirohi Ward 25,Sirohi Ward 3,Sirohi Ward 4,Sirohi Ward 5,Sirohi Ward 6,Sirohi Ward 7,Sirohi Ward 8,Sirohi Ward 9
+Deoli,Malpura,Newai,Peeplu,Todaraisingh,Tonk,Tonk Ward 1,Tonk Ward 10,Tonk Ward 11,Tonk Ward 12,Tonk Ward 13,Tonk Ward 14,Tonk Ward 15,Tonk Ward 16,Tonk Ward 17,Tonk Ward 18,Tonk Ward 19,Tonk Ward 2,Tonk Ward 20,Tonk Ward 21,Tonk Ward 22,Tonk Ward 23,Tonk Ward 24,Tonk Ward 25,Tonk Ward 26,Tonk Ward 27,Tonk Ward 28,Tonk Ward 29,Tonk Ward 3,Tonk Ward 30,Tonk Ward 31,Tonk Ward 32,Tonk Ward 33,Tonk Ward 34,Tonk Ward 35,Tonk Ward 36,Tonk Ward 37,Tonk Ward 38,Tonk Ward 39,Tonk Ward 4,Tonk Ward 40,Tonk Ward 41,Tonk Ward 42,Tonk Ward 43,Tonk Ward 44,Tonk Ward 45,Tonk Ward 5,Tonk Ward 6,Tonk Ward 7,Tonk Ward 8,Tonk Ward 9,Unira
+Girwa,Gogunda,Jhadol,Kherwara,Kotada,,Lasadiya,Mavali,Rashabhdeo,Salumbar,Sarada,Udaipur,Udaipur Ward 1,Udaipur Ward 10,Udaipur Ward 11,Udaipur Ward 12,Udaipur Ward 13,Udaipur Ward 14,Udaipur Ward 15,Udaipur Ward 16,Udaipur Ward 17,Udaipur Ward 18,Udaipur Ward 19,Udaipur Ward 2,Udaipur Ward 20,Udaipur Ward 21,Udaipur Ward 22,Udaipur Ward 23,Udaipur Ward 24,Udaipur Ward 25,Udaipur Ward 26,Udaipur Ward 27,Udaipur Ward 28,Udaipur Ward 29,Udaipur Ward 3,Udaipur Ward 30,Udaipur Ward 31,Udaipur Ward 32,Udaipur Ward 33,Udaipur Ward 34,Udaipur Ward 35,Udaipur Ward 36,Udaipur Ward 37,Udaipur Ward 38,Udaipur Ward 39,Udaipur Ward 4,Udaipur Ward 40,Udaipur Ward 41,Udaipur Ward 42,Udaipur Ward 43,Udaipur Ward 44,Udaipur Ward 45,Udaipur Ward 46,Udaipur Ward 47,Udaipur Ward 48,Udaipur Ward 49,Udaipur Ward 5,Udaipur Ward 50,Udaipur Ward 6,Udaipur Ward 7,Udaipur Ward 8,Udaipur Ward 9,Vallabhnagar
+
+Gangtok,Pakyong,Rangpo,Rongli

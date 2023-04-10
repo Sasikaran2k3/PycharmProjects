@@ -1,0 +1,16 @@
+Chlorpyrifos 0.05
+Cyfluthrin/beta-cyfluthrin 2
+Dimethoate 0.2
+Fluopyram 0.09
+Flupyradifurone 6
+Imidacloprid 0.5
+Indoxacarb 0.2
+Metalaxyl 0.5
+Methiocarb 0.1
+Oxathiapiprolin 0.3
+Oxydemeton-Methyl 0.01
+Permethrin 0.5
+Propamocarb 2
+Sulfoxaflor 0.04
+Tebuconazole 0.05
+Teflubenzuron 0.01

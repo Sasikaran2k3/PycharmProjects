@@ -1,0 +1,26 @@
+Abamectin 0.01
+Azoxystrobin 0.7
+Buprofezin 0.1
+Carbendazim 5
+Clothianidin 0.04
+Cyantraniliprole 0.7
+Cyhalothrin (includes lambda-cyhalothrin) 0.2
+Cypermethrins (including alpha- and zeta- cypermethrin) 0.7
+Cyromazine 0.5
+Difenoconazole 0.07
+Dimethoate 1
+Dithiocarbamates 2
+Endosulfan 0.5
+Fenvalerate 1.5
+Fludioxonil 2
+Fluopyram 1
+Fluxapyroxad 0.6
+Imidacloprid 0.2
+Kresoxim-Methyl 0.1
+Profenofos 0.2
+Pyraclostrobin 0.6
+Spinetoram 0.01
+Spirotetramat 0.3
+Tebuconazole 0.05
+Thiabendazole 5
+Thiamethoxam 0.2

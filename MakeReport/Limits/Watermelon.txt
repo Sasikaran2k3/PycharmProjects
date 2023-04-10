@@ -1,0 +1,8 @@
+Benalaxyl 0.1
+Difenoconazole 0.02
+Dithiocarbamates 1
+Fluensulfone 0.3
+Imidacloprid 0.2
+Metalaxyl 0.2
+Oxamyl 0.01
+Thiacloprid 0.2

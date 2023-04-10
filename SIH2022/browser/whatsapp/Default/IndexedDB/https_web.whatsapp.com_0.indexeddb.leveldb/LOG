@@ -1,0 +1,13 @@
+2022/08/30-08:59:14.848 2874 Reusing MANIFEST C:\Users\HP\PycharmProjects\SIH2022\browser\whatsapp\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/30-08:59:14.848 2874 Recovering log #3
+2022/08/30-08:59:14.859 2874 Reusing old log C:\Users\HP\PycharmProjects\SIH2022\browser\whatsapp\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2022/08/30-08:59:53.648 2874 Level-0 table #5: started
+2022/08/30-08:59:53.805 2874 Level-0 table #5: 1116163 bytes OK
+2022/08/30-08:59:53.884 2874 Delete type=0 #3
+2022/08/30-09:00:26.239 2874 Level-0 table #7: started
+2022/08/30-09:00:26.379 2874 Level-0 table #7: 1066221 bytes OK
+2022/08/30-09:00:26.490 2874 Delete type=0 #4
+2022/08/30-09:00:26.772 28ec Compacting 1@1 + 1@2 files
+2022/08/30-09:00:27.005 28ec Generated table #8@1: 21780 keys, 1117827 bytes
+2022/08/30-09:00:27.005 28ec Compacted 1@1 + 1@2 files => 1117827 bytes
+2022/08/30-09:00:27.108 28ec compacted to: files[ 0 0 1 0 0 0 0 ]

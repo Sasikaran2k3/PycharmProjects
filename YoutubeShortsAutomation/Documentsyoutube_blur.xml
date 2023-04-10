@@ -1,0 +1,11 @@
+<effect type="customVideo" tag="pillar_echo" id="youtube_blur">
+ <name>youtube_blur</name>
+ <description>Create an echo effect (blur) outside of an area of interest.</description>
+ <author>Meltytech, LLC</author>
+ <parameter type="animatedrect" name="rect" value="0=0 625 1080 687" fixed="1" opacity="false" default="adjustcenter">
+  <name>Rectangle</name>
+ </parameter>
+ <parameter type="constant" suffix="%" name="blur" max="50" min="0" value="2" default="4">
+  <name>Blur</name>
+ </parameter>
+</effect>

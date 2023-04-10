@@ -1,0 +1,10 @@
+[6904:8668:0830/085916.454:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[6904:8668:0830/085920.957:ERROR:device_event_log_impl.cc(214)] [08:59:20.944] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6904:8668:0830/085920.957:ERROR:device_event_log_impl.cc(214)] [08:59:20.945] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6904:8668:0830/085932.195:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265060
+[6904:8668:0830/085932.858:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:9419
+[6904:8668:0830/085936.961:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:35035971
+[6904:8668:0830/085937.035:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[6904:8668:0830/085937.051:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[6904:11484:0830/090013.623:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+[6904:8668:0830/090033.721:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)

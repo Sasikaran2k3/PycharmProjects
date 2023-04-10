@@ -1,0 +1,1 @@
+[["Aizawl East Rural","Aizawl East Urban"],["Aizawl West Rural","Aizawl West Urban"],["Champhai Rural","Champhai Urban"],["Kolasib Rural","Kolasib Urban"],["Lawngtlai Rural","Lawngtlai Urban"],["Lunglei Rural","Lunglei Urban"],["Mamit Rural","Mamit Urban"],["Saiha Rural","Saiha Urban"],["Serchhip Rural","Serchhip Urban"]]

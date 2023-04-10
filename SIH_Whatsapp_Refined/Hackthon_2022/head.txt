@@ -1,0 +1,5 @@
+In this article, we will examine how to read the contents of any text file that exists on your computer into a variable using JavaScript. The following are a few basic pointers that everybody should brush through before looking at the code:
+
+Event listeners: These are predefined functions that exist in JavaScript. They take two arguments, the first one is, the event that an element should look for/ listen to and the second one is, the action that the element should perform if the event mentioned in the first argument occurs.
+Regular Expressions: A regular expression is a sequence of characters. Every regular expression defines a certain pattern that can be used for multiple purposes. The most common one being, pattern matching. As mentioned above Regular Expressions are most commonly used for pattern matching and after the expected pattern of characters is spotted, many functions can be applied on them, like split(), join(), replace() etc.
+Example: In this example we will just create a text area where the text will appear from the text
