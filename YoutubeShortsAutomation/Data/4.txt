@@ -1,3 +1,3 @@
-Government Issues Another Advisory Against Online Betting, Gambling Ads 
-The Ministry of Information and Broadcasting on Thursday advised media entities, media platforms and online advertisement intermediaries to refrain from carrying advertisements/ promotional content of betting platforms.
+Reddit's New API Policy Forces Third Party Apps Like Apollo, Sync, RIF, More to Shut Down 
+Reddit will implement a new API policy on July 1 that would charge excessive fees to developers of third-party apps for the website, thereby resulting in the shutdown of many popular applications such as Reddit is Fun (RIF), Sync for Reddit, Apollo, and ReddPlanet. Apps like BoostForReddit and BaconReader have not outrightly confirmed their shutdown yet. The new API pricing plans will end up costing third-party apps millions of dollars each year to keep their businesses running which is financially untenable for any indie developer.
  Check the Description for more Details
