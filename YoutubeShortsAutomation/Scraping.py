@@ -22,41 +22,46 @@ def Initialize():
 
 
 def StartScarpingNews():
-    f = open(os.path.dirname(__file__) + "\\Data\\newsLinks.txt", "w")
-    browser.get("https://www.gadgets360.com/news")
-
-    print("Waiting to load... ")
-
-    list_of_link = browser.find_elements(By.CSS_SELECTOR, 'div[class="thumb"]>a')
-
-    for i in range(len(list_of_link)):
-        f.write(list_of_link[i].get_attribute("href") + "\n")
-
-    f.close()
+    # Grabs news web pages url and stored as pages
+    with open(os.path.dirname(__file__) + "\\NewsPageLink.txt", "r") as pages:
+        f = open(os.path.dirname(__file__) + "\\Data\\newsLinks.txt", "w")
+        # Link to first news is taken from a tag and stored in newsLinks.txt
+        # It happens for all news urls
+        # Each URL is for different Topics like tech, mobile, etc.
+        for page in pages.readlines():
+            browser.get(page)
+            print("Waiting to load... ")
+            list_of_link = browser.find_element(By.CSS_SELECTOR, 'div[class="thumb"]>a')
+            f.write(list_of_link.get_attribute("href") + "\n")
+        f.close()
 
 
 def StartScrapData():
+    # Each particular news page link is taken from newsLinks.txt
     f = open(os.path.dirname(__file__) + "\\Data\\newsLinks.txt", "r")
     data = f.readlines()
+    # c is count variable for naming the audio file
     c = 0
     title_selector = "div[class='lead_heading header_wrap']>h1"
     image_selector = "div[class='fullstoryImage']>div[class = 'heroimg']>img"
     description_selector = "div[class='content_text row description']>p"
+    # All the links are opened one by one and title, img, descriptions are scrapped
     for link in data:
         browser.get(link)
         try:
+            browser.execute_script("window.stop();")
             check = browser.find_element(By.CSS_SELECTOR, image_selector)
             title = browser.find_element(By.CSS_SELECTOR, title_selector).text
             news_description = browser.find_element(By.CSS_SELECTOR, description_selector).text
             url = check.get_attribute("src")
             time.sleep(2)
-            browser.execute_script("window.stop();")
         except:
             print("img Not found")
             continue
         file = open(os.path.dirname(__file__) + "\\Data\\" + "%s.txt" % c, "w")
         file.write(title + " \n" + news_description + "\n Check the Description for more Details")
         pic_name = os.path.dirname(__file__) + "\\Data\\" + str(c) + ".png"
+        # wget is used to download image from its url and saves with given name
         wget.download(url, out=pic_name)
         file.close()
         c += 1

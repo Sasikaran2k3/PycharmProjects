@@ -1,3 +1,0 @@
-Google Photos Can Now Tag People Even if They Aren’t Facing the Camera: Report 
-Google seems to have added more capability to its already impressive photo recognition capabilities. The feature comes of use when tagging people in captured photos and Google's Photos app is usually spot on when it comes to doing the same. A new trick that Google Photos has introduced (on the server end) is to recognise people even though they aren't facing the camera when the image was captured. It seems to work quite impressively, but it comes with a catch. At the same time, Google has also started adding a new Cinematic photo effect to Photos that was previously an automated feature.
- Check the Description for more Details
