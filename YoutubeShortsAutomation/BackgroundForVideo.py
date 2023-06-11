@@ -6,12 +6,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.keys import Keys
 
 
 def Initialize():
     opt = Options()
     # This option is used to verify the action part without starting from beginning
-    # opt.add_experimental_option('debuggerAddress',"localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+    opt.add_experimental_option('debuggerAddress',"localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
     opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
     services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
     global browser
@@ -65,8 +66,14 @@ def putOnEditor():
                     if i.find_element(By.TAG_NAME, 'input').get_attribute("value") == "My":
                         i.click()
                         break
+
                 browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
                 browser.find_element(By.CSS_SELECTOR, 'div[data-cy="export-panel-create-button"]').click()
+                browser.find_element(By.CSS_SELECTOR, 'div[class="KapwingInput-module_inputText_ECzwK"]>span').click()
+                browser.find_element(By.CSS_SELECTOR, 'div[class ="ExportRow-module_inputWrapper_AV0p4"]>input').send_keys(Keys.CONTROL, "a", Keys.CONTROL, "%d\n" % j)
+                #browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
+                #browser.find_element(By.CSS_SELECTOR, 'div[data-cy="export-panel-create-button"]').click()
+                #browser.find_element(By.CSS_SELECTOR, 'span[class="KapwingInput-module_text_ly3QW"]').click()
                 browser.find_element(By.CSS_SELECTOR,
                                      'div[class = "common-module_smallControlButton_66vuT ExportRow-module_buttonStyle_L6WYa ExportRow-module_studioColor_ltubC "]').click()
                 time.sleep(7)
@@ -95,9 +102,16 @@ def putOnEditor():
 
 
 def demo():
-    browser.implicitly_wait(10)
+    """
     browser.find_element(By.CSS_SELECTOR, 'textarea[data-cy="magic-textarea"]').click()
     act = ActionChains(browser)
     transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
     act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 100, 120)
     act.release().perform()
+"""
+    browser.implicitly_wait(10)
+    browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
+    browser.find_element(By.CSS_SELECTOR, 'div[data-cy="export-panel-create-button"]').click()
+    browser.find_element(By.CSS_SELECTOR, 'div[class="KapwingInput-module_inputText_ECzwK"]>span').click()
+    browser.find_element(By.CSS_SELECTOR, 'div[class ="ExportRow-module_inputWrapper_AV0p4"]>input').send_keys(Keys.CONTROL, "a",Keys.CONTROL,"%d\n" % 0)
+
