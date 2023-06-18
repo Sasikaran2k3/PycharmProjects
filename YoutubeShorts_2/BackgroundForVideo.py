@@ -1,5 +1,10 @@
 import time
 import os
+import datetime
+
+from moviepy.audio.AudioClip import CompositeAudioClip
+from moviepy.audio.io.AudioFileClip import AudioFileClip
+from moviepy.video.VideoClip import ImageClip
 from selenium.webdriver import Chrome, ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -9,30 +14,33 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
 
-def Initialize():
-    opt = Options()
-    # This option is used to verify the action part without starting from beginning
-    #opt.add_experimental_option('debuggerAddress',"localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
-    opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
-    services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
-    global browser
-    browser = Chrome(service=services, options=opt)
-    browser.maximize_window()
+def MakeVideo():
+    for i in Queue:
+        print(os.path.dirname(__file__) + "\\Data\\%s.mp3" % (date+str(i)))
+        audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % (date+str(i)))
+        back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
+        image = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % (date+str(i)))
+        video = image.set_audio(CompositeAudioClip([audio,back]))
+        audio_duration = audio.duration + 1
+        video.duration = audio_duration
+        video = video.subclip(0, audio_duration)
+        video.fps = 1
+        video.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % (str(i)))
 
 
 def putOnEditor():
     browser.implicitly_wait(10)
     # Count finds no of times error happens and if count is more than 10, Program stops
     count = 0
-    j = 0
+    j = 1
     # Queue is list of tasks of 5 videos
-    Queue = list(range(0, 5))
+    Queue = list(range(1, 6))
     while True:
         try:
             while Queue != []:
                 browser.get("https://www.kapwing.com/studio/editor/subtitles")
                 browser.find_element(By.XPATH, '//input[@data-cy="upload-input"]').send_keys(
-                    os.getcwd() + "\\Data\\" + "%d.mp4" % j)
+                    os.path.dirname(__file__) + "\\Data\\" + "%d.mp4" % j)
                 wait = WebDriverWait(browser, 1000)
                 # Wait till the upload symbol gets invisible
                 wait.until(expected_conditions.invisibility_of_element(
@@ -45,6 +53,7 @@ def putOnEditor():
                 time.sleep(2)
                 browser.find_element(By.XPATH,
                                      '//button[@class="MagicSubtitleStart-module_primaryButton_uyrZz"]').click()
+                time.sleep(5)
                 browser.find_element(By.XPATH,
                                      '//button[@class="MagicSubtitleTranscribe-module_startButton_BgFeR"]').click()
                 wait.until(expected_conditions.presence_of_element_located(
@@ -58,7 +67,7 @@ def putOnEditor():
                 act = ActionChains(browser)
                 transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
                 # moves the subtitle from the video bottom left position
-                act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 100, 120)
+                act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 90, 120)
                 act.release().perform()
                 parent = browser.find_elements(By.XPATH, '//div[@class="PresetPreview-module_container_034hO"]')
                 # selects the subtitle style
@@ -70,7 +79,7 @@ def putOnEditor():
                 browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
                 browser.find_element(By.CSS_SELECTOR, 'div[data-cy="export-panel-create-button"]').click()
                 browser.find_element(By.CSS_SELECTOR, 'div[class="KapwingInput-module_inputText_ECzwK"]>span').click()
-                browser.find_element(By.CSS_SELECTOR, 'div[class ="ExportRow-module_inputWrapper_AV0p4"]>input').send_keys(Keys.CONTROL, "a", Keys.CONTROL, "%d\n" % j)
+                browser.find_element(By.CSS_SELECTOR, 'div[class ="ExportRow-module_inputWrapper_AV0p4"]>input').send_keys(Keys.CONTROL, "a", Keys.CONTROL, "%s\n" % (date+str(j)))
                 #browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
                 #browser.find_element(By.CSS_SELECTOR, 'div[data-cy="export-panel-create-button"]').click()
                 #browser.find_element(By.CSS_SELECTOR, 'span[class="KapwingInput-module_text_ly3QW"]').click()
@@ -115,3 +124,17 @@ def demo():
     browser.find_element(By.CSS_SELECTOR, 'div[class="KapwingInput-module_inputText_ECzwK"]>span').click()
     browser.find_element(By.CSS_SELECTOR, 'div[class ="ExportRow-module_inputWrapper_AV0p4"]>input').send_keys(Keys.CONTROL, "a",Keys.CONTROL,"%d\n" % 0)
 
+
+# date is used for naming the files
+date = "".join(str(datetime.date.today()).split("-")) + "_"
+
+opt = Options()
+# This option is used to verify the action part without starting from beginning
+#opt.add_experimental_option('debuggerAddress', "localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
+services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
+browser = Chrome(service=services, options=opt)
+browser.maximize_window()
+Queue = list(range(1,6))
+MakeVideo()
+putOnEditor()

@@ -25,7 +25,6 @@ def TurnOnTheSound(break_news, i):
 
 
 def EditProcess(i):
-    global start_time
     audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%d.mp3" % i)
     image = ImageClip(os.path.dirname(__file__) + "\\Data\\%d.png" % i)
     video = image.set_audio(audio)
@@ -38,7 +37,3 @@ def EditProcess(i):
     video.fps = 1
     video.write_videofile(os.path.dirname(__file__) + "\\Data\\%d.mp4" % i)
     final.append(video)
-
-
-final = []
-start_time = 00.00
