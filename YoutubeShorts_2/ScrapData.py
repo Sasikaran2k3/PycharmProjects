@@ -84,12 +84,17 @@ for i in l:
 f = open(os.path.dirname(__file__)  + "//NewsPageLink.txt", "r")
 Links = f.readlines()
 f.close()
+while True:
+    try:
+        # Scrap news link from each page using no of works in Queue
+        for i in Queue:
+            StartScarpingNews(i, Links[i-1])
 
-# Scrap news link from each page using no of works in Queue
-for i in Queue:
-    StartScarpingNews(i, Links[i-1])
-
-# Scrap Data like img and content from news page
-StartScrapData()
+        # Scrap Data like img and content from news page
+        StartScrapData()
+    except Exception as e:
+        print(e)
+    else:
+        break
 browser.close()
 
