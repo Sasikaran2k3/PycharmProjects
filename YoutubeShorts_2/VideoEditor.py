@@ -1,3 +1,4 @@
+import glob
 import time
 import os
 import datetime
@@ -14,6 +15,25 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
 
+# date is used for naming the files
+date = "".join(str(datetime.date.today()).split("-")) + "_"
+
+opt = Options()
+# This option is used to verify the action part without starting from beginning
+#opt.add_experimental_option('debuggerAddress', "localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
+services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
+browser = Chrome(service=services, options=opt)
+browser.maximize_window()
+Queue = list(range(1,6))
+browser.implicitly_wait(10)
+# Count finds no of times error happens and if count is more than 10, Program stops
+count = 0
+
+# Queue is list of tasks of 5 videos
+Queue = list(range(1, 6))
+
+
 def MakeVideo():
     for i in Queue:
         print(os.path.dirname(__file__) + "\\Data\\%s.mp3" % (date+str(i)))
@@ -28,13 +48,9 @@ def MakeVideo():
         video.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % (str(i)))
 
 
-def putOnEditor():
-    browser.implicitly_wait(10)
-    # Count finds no of times error happens and if count is more than 10, Program stops
-    count = 0
+def action():
     j = 1
-    # Queue is list of tasks of 5 videos
-    Queue = list(range(1, 6))
+    count = 0
     while True:
         try:
             while Queue != []:
@@ -43,35 +59,27 @@ def putOnEditor():
                 browser.find_element(By.XPATH, '//div[text() = "Create a New Project"]').click()
                 browser.find_element(By.XPATH, '//input[@data-cy="upload-input"]').send_keys(
                     os.path.dirname(__file__) + "\\Data\\" + "%d.mp4" % j)
+                print("Video Sent")
                 time.sleep(10)
-                wait = WebDriverWait(browser, 100)
-                # Wait till the upload symbol gets invisible
-                wait.until(expected_conditions.invisibility_of_element(
-                    (By.XPATH, '//img[@src="/assets/pending-media-upload-icon.e21cbd1d.gif"]')))
-
-                print("Video  Imported")
+                wait = WebDriverWait(browser, 1000)
                 ActionChains(browser).send_keys(Keys.ESCAPE).perform()
                 browser.find_element(By.XPATH, '//div[@data-cy="resize-canvas-button"]').click()
                 browser.find_element(By.XPATH, '//div[@data-cy="916-small-control-button"][1]').click()
                 browser.find_element(By.XPATH, '//button[@data-cy="resize-apply"]').click()
+                print("Resized")
                 browser.find_element(By.XPATH, '//div[text() = "Subtitles"]').click()
-                time.sleep(2)
-                browser.find_element(By.XPATH,
-                                     '//button[@class="MagicSubtitleStart-module_primaryButton_uyrZz"]').click()
-                time.sleep(8)
-                print("Start Transcribing")
-                wait.until(expected_conditions.presence_of_element_located(
-                    (By.XPATH, 'textarea[data-cy="magic-textarea"]')))
-                print("Selecting Style")
-                time.sleep(2)
-                browser.find_element(By.XPATH, '//div[@class="Track-module_container_mph21"][1]').click()
-                time.sleep(5)
-                browser.find_element(By.CSS_SELECTOR, 'textarea[data-cy="magic-textarea"]').click()
-                print("Changing Position")
+                browser.find_element(By.XPATH, '//span[text() = "Auto subtitles"]').click()
+                while browser.find_elements(By.XPATH, '//span[text() = "Auto Subtitle"]'):
+                    browser.find_element(By.XPATH, '//span[text() = "Auto Subtitle"]').click()
+                print("Waiting in Subtitle")
+                wait.until(expected_conditions.invisibility_of_element((By.XPATH,"//span[text()='Generating Subtitles...']")))
+                wait.until(expected_conditions.presence_of_element_located((By.XPATH, '//textarea[@data-cy="magic-textarea"]')))
+                print("Sub Ready")
+                browser.find_element(By.XPATH, '//textarea[@data-cy="magic-textarea"]').click()
                 act = ActionChains(browser)
                 transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
                 # moves the subtitle from the video bottom left position
-                act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 90, 120)
+                act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 90, 155)
                 act.release().perform()
                 parent = browser.find_elements(By.XPATH, '//div[@class="PresetPreview-module_container_034hO"]')
                 # selects the subtitle style
@@ -80,6 +88,7 @@ def putOnEditor():
                         i.click()
                         break
                 browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
+
                 browser.find_element(By.CSS_SELECTOR, 'div[data-cy="export-panel-create-button"]').click()
                 time.sleep(5)
                 browser.find_element(By.CSS_SELECTOR,
@@ -89,48 +98,27 @@ def putOnEditor():
                 # Waits till the size of the file appears and then dowload button is clicked
                 wait.until(expected_conditions.visibility_of_element_located(
                     (By.XPATH, '//div[@class="VideoContainer-module_commentsMetaDataFileSize_E7zW4"]')))
-                url = browser.find_element(By.XPATH, '//video[@id="final-video"]').get_attribute("src")
-                print("\n", url, "\n")
-                r = requests.get(url)
-                with open(os.path.dirname(__file__) + "\\Data\\" + "%s.mp4" % (date + str(j)), "wb") as f:
-                    f.write(r.content)
-
+                browser.find_element(By.XPATH, '//button[@data-cy="download-final-video-button"]').click()
+                time.sleep(10)
+                l = os.listdir(os.path.dirname(__file__) + "\\Data")
+                details = {}
+                for i in l:
+                    if ".mp4" in i:
+                        details[time.ctime(os.path.getmtime("Data/" + i))] = i
+                os.rename(os.path.dirname(__file__)+"/Data/"+details[max(details)],os.path.dirname(__file__)+"/%s.mp4" % (date+str(j)))
+                print(details[max(details)])
                 j += 1
                 Queue.pop(0)
                 print(Queue)
         except Exception as e:
-            count += 1
-            print("Error Encountered")
-            print("Error Count : %d" % count)
             print(e)
-            browser.refresh()
-            if count > 10:
+            count+=1
+            if count > 15:
                 break
         else:
+            browser.quit()
             break
-    time.sleep(50)
-    print("Completed Successfully")
-    browser.close()
 
 
-def demo():
-    browser.implicitly_wait(5)
-    browser.get("https://www.kapwing.com/folder/")
-    browser.find_element(By.XPATH, '//div[@data-cy="workspace-new-project-button"]').click()
-    browser.find_element(By.XPATH, '//div[text() = "Create a New Project"]').click()
-
-
-# date is used for naming the files
-date = "".join(str(datetime.date.today()).split("-")) + "_"
-
-opt = Options()
-# This option is used to verify the action part without starting from beginning
-opt.add_experimental_option('debuggerAddress', "localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
-opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
-services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
-browser = Chrome(service=services, options=opt)
-browser.maximize_window()
-Queue = list(range(1,6))
-#demo()
-#MakeVideo()
-putOnEditor()
+MakeVideo()
+action()

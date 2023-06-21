@@ -48,7 +48,7 @@ def StartScrapData():
             print("img Not found")
             continue
         file = open(os.path.dirname(__file__) + "\\Data\\" + "%s.txt" % (date + str(c)), "w")
-        file.write(title + " \n" + news_description + "\n Check the Description for more Details")
+        file.write(title + " \n" + news_description + "\n" +link + "\n Check the Description for more Details")
         pic_name = os.path.dirname(__file__) + "\\Data\\" + date + str(c) + ".png"
         # wget is used to download image from its url and saves with given name
         wget.download(url, out=pic_name)

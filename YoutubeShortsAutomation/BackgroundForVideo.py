@@ -12,7 +12,7 @@ from selenium.webdriver.common.keys import Keys
 def Initialize():
     opt = Options()
     # This option is used to verify the action part without starting from beginning
-    #opt.add_experimental_option('debuggerAddress',"localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+    opt.add_experimental_option('debuggerAddress',"localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
     opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
     services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
     global browser
@@ -115,3 +115,5 @@ def demo():
     browser.find_element(By.CSS_SELECTOR, 'div[class="KapwingInput-module_inputText_ECzwK"]>span').click()
     browser.find_element(By.CSS_SELECTOR, 'div[class ="ExportRow-module_inputWrapper_AV0p4"]>input').send_keys(Keys.CONTROL, "a",Keys.CONTROL,"%d\n" % 0)
 
+Initialize()
+putOnEditor()
