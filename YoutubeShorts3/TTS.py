@@ -1,5 +1,4 @@
 import os
-
 import requests
 import wget
 import time
@@ -13,12 +12,6 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
-
-
-def Login():
-    browser.get("https://ttsfree.com/login")
-    browser.find_element(By.CSS_SELECTOR, 'div[class="icheckbox_square-green"]').click()
-    browser.find_element(By.CSS_SELECTOR, 'input[value="Login"]').click()
 
 
 def ConvertText(content):
@@ -37,15 +30,14 @@ def ConvertText(content):
     url = str(audio.get_attribute("src"))
     print(url)
     r = requests.get(url)
-    with open(os.path.dirname(__file__) + "\\Data\\" + "%s.mp3" % (date+str(i)),"wb") as f:
+    with open(os.path.dirname(__file__) + "\\Data\\" + "%s.mp3" % (date),"wb") as f:
         f.write(r.content)
 
 
 # date is used for naming the files
-date = "".join(str(datetime.date.today()).split("-")) + "_"
+date = "".join(str(datetime.date.today()).split("-"))
 
-# number of jobs are listed in queue
-Queue = list(range(1, 6))
+count = 0
 
 # Initalization of web Driver
 opt = Options()
@@ -59,22 +51,27 @@ browser = Chrome(service=services, options=opt)
 browser.implicitly_wait(10)
 browser.maximize_window()
 
-Login()
-
-i = 1
-error_count = 0
-while Queue != [] and error_count < 5:
+while True:
     try:
-        f = open(os.path.dirname(__file__) + "//Data//" + date + str(i) + ".txt", "r")
-        content = f.readlines()
-        content.pop(2)
-        ConvertText("".join(content))
-    except Exception as e:
-        error_count += 1
-        print(e,"\n",error_count)
-        browser.get("chrome://settings/")
-    else:
-        Queue.remove(i)
-        i += 1
+        # Login
+        browser.get("https://ttsfree.com/login")
+        browser.find_element(By.CSS_SELECTOR, 'div[class="icheckbox_square-green"]').click()
+        browser.find_element(By.CSS_SELECTOR, 'input[value="Login"]').click()
 
-browser.close()
+        f = open(os.path.dirname(__file__) + "//Data//" + date + ".txt", "r")
+        content = f.readlines()
+        for index, i in enumerate(content):
+            if "https:" in i:
+                content.pop(index)
+        content = "".join(content)
+        print(content)
+        ConvertText(content)
+    except Exception as e:
+        count += 1
+        if count > 10:
+            print("TTS error")
+            break
+        print(e)
+    else:
+        browser.quit()
+        break

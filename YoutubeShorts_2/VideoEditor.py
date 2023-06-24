@@ -1,8 +1,6 @@
-import glob
 import time
 import os
 import datetime
-import requests
 from moviepy.audio.AudioClip import CompositeAudioClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 from moviepy.video.VideoClip import ImageClip
@@ -51,6 +49,10 @@ def MakeVideo():
 def action():
     j = 1
     count = 0
+    l = os.listdir(os.path.dirname(__file__))
+    for i in l:
+        if ".mp4" in i:
+            os.remove(os.path.dirname(__file__)+"\\"+i)
     while True:
         try:
             while Queue != []:
@@ -116,6 +118,7 @@ def action():
             if count > 15:
                 break
         else:
+            print("completed successfully")
             browser.quit()
             break
 

@@ -72,7 +72,7 @@ opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
 services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
 browser = Chrome(service=services, options=opt)
 browser.maximize_window()
-
+error_count = 0
 # l is a list of all the files in the folder named Data
 l = os.listdir(os.path.dirname(__file__) + "\\Data")
 for i in l:
@@ -93,7 +93,10 @@ while True:
         # Scrap Data like img and content from news page
         StartScrapData()
     except Exception as e:
+        error_count += 1
         print(e)
+        if error_count > 10:
+            break
     else:
         break
 browser.close()
