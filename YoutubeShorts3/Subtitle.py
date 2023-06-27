@@ -94,8 +94,9 @@ while True:
         details = {}
         for i in l:
             if ".mp4" in i:
-                details[time.ctime(os.path.getmtime("Data/" + i))] = i
+                details[time.ctime(os.path.getmtime(os.path.dirname(__file__)+"/Data/" + i))] = i
         os.rename(os.path.dirname(__file__)+"/Data/"+details[max(details)],os.path.dirname(__file__)+"/%s.mp4" % date)
+        os.rename(os.path.dirname(__file__) + "/Data/" + details[max(details)],os.path.dirname(__file__) +"/Output/%s.mp4" % date)
         print(details[max(details)])
     except Exception as e:
         print(e)

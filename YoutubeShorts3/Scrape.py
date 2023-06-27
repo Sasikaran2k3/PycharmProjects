@@ -73,7 +73,7 @@ while True:
             break
     else:
         browser.quit()
-        print("Scrap Successful")
+        print("\nScrap Successful\n")
         break
 
 
