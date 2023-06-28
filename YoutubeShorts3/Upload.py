@@ -50,7 +50,8 @@ while True:
         browser.find_element(By.XPATH, '//span[text()="Suggest Hashtags"]').click()
         time.sleep(10)
         hash_result = browser.find_elements(By.XPATH, '//ul[@class="ti-tags"]//span')
-        yt_hashtags = " ".join(["#"+i.text for i in hash_result])
+        my_hash = " #upgradebuddy #technology #gadget #gadgetnews "
+        yt_hashtags = " ".join(["#"+i.text for i in hash_result]) + my_hash
         print(yt_hashtags)
 
         # Open Yt Studio

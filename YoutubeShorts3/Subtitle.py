@@ -17,7 +17,7 @@ date = "".join(str(datetime.date.today()).split("-"))
 
 opt = Options()
 # This option is used to verify the action part without starting from beginning
-# opt.add_experimental_option('debuggerAddress', "localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+#opt.add_experimental_option('debuggerAddress', "localhost:1135") #CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
 opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
 services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
 browser = Chrome(service=services, options=opt)
@@ -69,7 +69,7 @@ while True:
         act = ActionChains(browser)
         transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
         # moves the subtitle from the video bottom left position
-        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 90, 155)
+        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 90, 110)
         act.release().perform()
         parent = browser.find_elements(By.XPATH, '//div[@class="PresetPreview-module_container_034hO"]')
         # selects the subtitle style
@@ -93,10 +93,11 @@ while True:
         l = os.listdir(os.path.dirname(__file__) + "\\Data")
         details = {}
         for i in l:
+
             if ".mp4" in i:
                 details[time.ctime(os.path.getmtime(os.path.dirname(__file__)+"/Data/" + i))] = i
         os.rename(os.path.dirname(__file__)+"/Data/"+details[max(details)],os.path.dirname(__file__)+"/%s.mp4" % date)
-        os.rename(os.path.dirname(__file__) + "/Data/" + details[max(details)],os.path.dirname(__file__) +"/Output/%s.mp4" % date)
+        #os.rename(os.path.dirname(__file__) + "/Data/" + details[max(details)],os.path.dirname(__file__) +"/Output/%s.mp4" % date)
         print(details[max(details)])
     except Exception as e:
         print(e)
