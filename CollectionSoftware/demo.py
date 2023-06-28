@@ -1,17 +1,16 @@
-from tkinter import *
+import tkinter as tk
 
-def move(e):
-    print("s")
+def button_clicked(event):
+    if event.num == 1:  # Left mouse button
+        print("Left button clicked!")
+    elif event.num == 3:  # Right mouse button
+        print("Right button clicked!")
 
-root = Tk()
+root = tk.Tk()
 
-frame = Frame()
+button = tk.Button(root, text="Click Me")
+button.pack()
 
-l = Entry(frame)
-e = Entry(frame).pack()
-#l.bind("<KeyRelease>",move)
-l.pack()
-for i in frame.winfo_children():
-    i.bind("<KeyRelease>",move)
-frame.pack()
+button.bind("<Button-1> <Button-3>", button_clicked)  # Bind both left and right button click events
+
 root.mainloop()
