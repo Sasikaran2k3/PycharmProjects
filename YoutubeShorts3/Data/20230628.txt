@@ -1,4 +1,0 @@
-Apple Releases visionOS Developer Tools to Create Apple Vision Pro Applications: Details 
-Apple on Wednesday released the visionOS SDK, a set of tools that will enable developers to build apps for the Apple Vision Pro mixed reality headset. The Cupertino company's first spatial computer will go on sale in the US next year and Apple is providing app developers with the tools required to build apps for the device. Unlike other Apple products, the company's upcoming mixed reality headset will use a combination of three different modes of interaction using a person's eyes, hands, and voice. The visionOS SDK will allow developers to tailor their apps around this functionality while making use of the specialised hardware on the device.  
-https://www.gadgets360.com/wearables/news/apple-vision-pro-developer-tools-release-visionos-sdk-app-development-features-4142849
- Check the Description for more Details

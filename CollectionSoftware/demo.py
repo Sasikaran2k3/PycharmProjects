@@ -1,4 +1,4 @@
-import tkinter as tk
+from tkinter import *
 
 def button_clicked(event):
     if event.num == 1:  # Left mouse button
@@ -6,11 +6,21 @@ def button_clicked(event):
     elif event.num == 3:  # Right mouse button
         print("Right button clicked!")
 
-root = tk.Tk()
+root = Tk()
+root.geometry("500x500")
 
-button = tk.Button(root, text="Click Me")
-button.pack()
+scroll_frame = Frame(root)
+scroll_frame.pack(fill=BOTH,expand=1)
 
-button.bind("<Button-1> <Button-3>", button_clicked)  # Bind both left and right button click events
+canva = Canvas(scroll_frame)
+canva.pack(fill=BOTH, expand=1)
+
+scroll = Scrollbar(scroll_frame,orient=VERTICAL,command=canva.yview)
+scroll.pack(side=RIGHT, fill=Y)
+
+canva.config(yscrollcommand=scroll.set)
+canva.bind("<Configure>", lambda e: canva.config(scrollregion=canva.bbox("all")))
+
+out = Frame(Canvas)
 
 root.mainloop()

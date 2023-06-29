@@ -13,6 +13,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 def select_scrap():
+    count = 0
     while True:
         try:
             today_link = sugg[0]
@@ -46,6 +47,7 @@ def select_scrap():
             break
 
 def auto_scrape():
+    count = 0
     # f is a text file which contain all the news web page links
     f = open(os.path.dirname(__file__)  + "//NewsPageLink.txt", "r+")
     f.seek(0)
@@ -68,7 +70,13 @@ def auto_scrape():
             description_selector = "div[class='content_text row description']>p"
             check = browser.find_element(By.CSS_SELECTOR, image_selector)
             title = browser.find_element(By.CSS_SELECTOR, title_selector).text
-            news_description = browser.find_element(By.CSS_SELECTOR, description_selector).text
+            news_description = browser.find_element(By.CSS_SELECTOR, description_selector)
+            """news_description = ''
+            news_descriptions = browser.find_elements(By.CSS_SELECTOR, description_selector)
+            news_descriptions.pop()
+            for i in news_descriptions:
+                news_description += i.text+" "
+            print(news_description)"""
             url = check.get_attribute("src")
             browser.quit()
             time.sleep(2)
@@ -99,7 +107,7 @@ date = "".join(str(datetime.date.today()).split("-"))
 opt = Options()
 
 # This option is used to verify the action part without starting from beginning
-#opt.add_experimental_option('debuggerAddress',"localhost:1135")  # CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+opt.add_experimental_option('debuggerAddress',"localhost:1135")  # CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
 opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
 
 services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
