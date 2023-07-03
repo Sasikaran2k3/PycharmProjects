@@ -11,6 +11,9 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
+# date is used for naming the files
+date = "".join(str(datetime.date.today()).split("-"))
+
 
 def select_scrap():
     count = 0
@@ -70,13 +73,14 @@ def auto_scrape():
             description_selector = "div[class='content_text row description']>p"
             check = browser.find_element(By.CSS_SELECTOR, image_selector)
             title = browser.find_element(By.CSS_SELECTOR, title_selector).text
-            news_description = browser.find_element(By.CSS_SELECTOR, description_selector)
-            """news_description = ''
-            news_descriptions = browser.find_elements(By.CSS_SELECTOR, description_selector)
-            news_descriptions.pop()
-            for i in news_descriptions:
-                news_description += i.text+" "
-            print(news_description)"""
+            news_description = browser.find_element(By.CSS_SELECTOR, description_selector).text
+            with open(os.path.dirname(__file__)+"//"+date+"full.txt","w") as f:
+                news_descriptions = browser.find_elements(By.CSS_SELECTOR, description_selector)
+                news_descriptions.pop()
+                news_description_full = ""
+                for i in news_descriptions:
+                    news_description_full += i.text+" "
+                f.write(news_description_full)
             url = check.get_attribute("src")
             browser.quit()
             time.sleep(2)
@@ -107,7 +111,7 @@ date = "".join(str(datetime.date.today()).split("-"))
 opt = Options()
 
 # This option is used to verify the action part without starting from beginning
-opt.add_experimental_option('debuggerAddress',"localhost:1135")  # CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
+#opt.add_experimental_option('debuggerAddress',"localhost:1135")  # CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\AutomateEdit"
 opt.add_argument(r'--user-data-dir=E:\Hackathon\BrowserChromes\AutomateEdit')
 
 services = Service(executable_path=r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
@@ -117,17 +121,31 @@ browser.implicitly_wait(5)
 
 count = 0
 
-# l is a list of all the files in the folder named Data
-l = os.listdir(os.path.dirname(__file__) + "\\Data")
-for i in l:
-    # All files in Data Folder is deleted
-    os.remove(os.path.dirname(__file__) + "\\Data\\" + i)
-    browser.implicitly_wait(5)
+browser.implicitly_wait(5)
 my_preference = open(os.path.dirname(__file__)+"//my_preferance.txt","r+")
+my_news = open(os.path.dirname(__file__)+"//my_news.txt","r+")
+my_news_data = my_news.readlines()
 sugg = my_preference.readlines()
-if sugg != []:
+if len(my_news_data) == 4:
+    print("No Scraping")
+    time.sleep(2)
+    with open(os.path.dirname(__file__) + "\\Data\\"+date+'.txt','w') as f:
+        f.writelines(my_news_data)
+    my_news.truncate(0)
+    browser.quit()
+elif sugg != []:
+    l = os.listdir(os.path.dirname(__file__) + "\\Data")
+    for i in l:
+        # All files in Data Folder is deleted
+        os.remove(os.path.dirname(__file__) + "\\Data\\" + i)
+        browser.implicitly_wait(5)
     print("selected scrap")
     select_scrap()
 else:
+    l = os.listdir(os.path.dirname(__file__) + "\\Data")
+    for i in l:
+        # All files in Data Folder is deleted
+        os.remove(os.path.dirname(__file__) + "\\Data\\" + i)
+        browser.implicitly_wait(5)
     print("auto scrape")
     auto_scrape()

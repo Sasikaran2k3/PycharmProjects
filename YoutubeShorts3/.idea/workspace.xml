@@ -37,8 +37,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionSoftware" />
   </component>
-  <component name="RunManager" selected="Python.SelectOrAutoScrap">
+  <component name="RunManager" selected="Python.main">
     <configuration name="SelectOrAutoScrap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YoutubeShorts3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TTS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Summary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YoutubeShorts3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TTS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Summary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SelectOrAutoScrap" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Summary" />
+        <item itemvalue="Python.SelectOrAutoScrap" />
         <item itemvalue="Python.Subtitle" />
         <item itemvalue="Python.Upload" />
-        <item itemvalue="Python.TTS" />
       </list>
     </recent_temporary>
   </component>

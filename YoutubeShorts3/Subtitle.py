@@ -89,7 +89,7 @@ while True:
         wait.until(expected_conditions.visibility_of_element_located(
             (By.XPATH, '//div[@class="VideoContainer-module_commentsMetaDataFileSize_E7zW4"]')))
         browser.find_element(By.XPATH, '//button[@data-cy="download-final-video-button"]').click()
-        time.sleep(10)
+        time.sleep(20)
         l = os.listdir(os.path.dirname(__file__) + "\\Data")
         details = {}
         for i in l:

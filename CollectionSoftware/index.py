@@ -119,7 +119,7 @@ def save_to_main():
     new = []
     for i in range(1,total_row):
         value = output_frame.grid_slaves(i)[0].get()
-        pointer['C%d' % i].value = value
+        pointer['B%d' % i].value = int(value)
     wb.save((store_name) + ".xlsx")
     # l.remove(store_name)
     text.delete(0,END)
