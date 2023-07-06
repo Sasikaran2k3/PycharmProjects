@@ -8,4 +8,3 @@ l = pointer["A"]
 wb = Workbook()
 for i in l:
     wb.save("%s.xlsx" % i.value)
-

@@ -45,7 +45,7 @@ while True:
 
         wait = WebDriverWait(browser,100)
         wait.until(expected_conditions.presence_of_element_located((By.XPATH,'//div[text()="Rephrase"]')))
-        time.sleep(2)
+        time.sleep(10)
 
         new_title = browser.find_element(By.XPATH, '//div[@id="paraphraser-output-box"]').text
         print(new_title)
@@ -59,12 +59,12 @@ while True:
 
         wait = WebDriverWait(browser,100)
         wait.until(expected_conditions.presence_of_element_located((By.XPATH,'//div[text()="Rephrase"]')))
-        time.sleep(2)
+        time.sleep(10)
 
         new_desc = browser.find_element(By.XPATH, '//div[@id="paraphraser-output-box"]').text
         print(new_desc)
 
-        output = [new_title,new_desc,data[2],data[3]]
+        output = [new_title+"\n", new_desc+"\n", data[2],data[3]]
         print(output)
 
         f = open(os.path.dirname(__file__)+"/Data/"+date+".txt",'w')
