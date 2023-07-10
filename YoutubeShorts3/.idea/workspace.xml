@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Summary">
+  <component name="RunManager" selected="Python.Upload">
     <configuration name="SelectOrAutoScrap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YoutubeShorts3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Upload" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Summary" />
         <item itemvalue="Python.SelectOrAutoScrap" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.Subtitle" />
-        <item itemvalue="Python.Upload" />
       </list>
     </recent_temporary>
   </component>

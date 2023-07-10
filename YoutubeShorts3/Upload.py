@@ -2,7 +2,7 @@ import os
 import wget
 import time
 import datetime
-import threading
+import pyautogui
 from selenium.webdriver import Chrome, ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -34,7 +34,6 @@ prompt = f.read()
 count = 0
 while True:
     try:
-
         browser.get("https://app.ritetag.com/hashtag-suggestions")
         browser.find_element(By.XPATH, '//button[text()="Clear"]').click()
         browser.find_element(By.XPATH, '//input[@type="file"]').send_keys(os.path.dirname(__file__) + "/Data/" + date +".png")
@@ -76,6 +75,23 @@ while True:
         browser.find_element(By.XPATH, '//div[text() = "Next"]').click()
         browser.find_element(By.XPATH, '//div[text() = "Publish"]').click()
         time.sleep(10)
+        browser.implicitly_wait(25)
+        data = os.path.dirname(__file__) + "/" + date + ".mp4"
+        browser.get("https://www.instagram.com/")
+        browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="New post"]').click()
+        browser.find_element(By.XPATH, '//button[text()="Select from computer"]').click()
+        time.sleep(5)
+        pyautogui.typewrite(data.replace("/", '\\')+"\n")
+        browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="Select crop"]').click()
+        browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="Crop portrait icon"]').click()
+        browser.find_element(By.XPATH, '//div[text()="Next"]').click()
+        time.sleep(3)
+        browser.find_element(By.XPATH, '//div[text()="Next"]').click()
+        browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]').send_keys(desc+link+yt_hashtags)
+        browser.find_element(By.XPATH, '//div[text()="Share"]').click()
+        wait = WebDriverWait(browser,1000)
+        wait.until(expected_conditions.invisibility_of_element((By.XPATH, '//div[text()="Sharing"]')))
+        time.sleep(5)
     except Exception as e:
         print(e)
         print(count)

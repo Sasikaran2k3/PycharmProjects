@@ -60,10 +60,10 @@ def show_accounts(ev):
         pointer = wb.active
         for i in output_frame.winfo_children():
             i.destroy()
-        Label(output_frame, text="Store Name:",background='light grey',font=("Calibri", 15)).grid(row=0,column=0)
-        Label(output_frame, text=store_name,font=("Calibri", 15)).grid(row=1,column=0)
+        Label(output_frame, text="Store Name:", background='light grey',font=("Calibri", 15)).grid(row=0,column=0)
+        Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=1,column=0)
         Label(output_frame, text="Date:", background='light grey', font=("Calibri", 15)).grid(row=0, column=1, padx=100)
-        Label(output_frame, text="Amount:",background='light grey',font=("Calibri", 15)).grid(row=0,column=2)
+        Label(output_frame, text="Amount:", background='light grey',font=("Calibri", 15)).grid(row=0,column=2)
         Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
         Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
         date = pointer["A"]
@@ -188,7 +188,7 @@ def view_store():
             if type(j.value) == int:
                 #print(i+":", j.value, date[row].value,"\n")
                 p.append((i, date[row].value, j.value))
-    file_name = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    file_name = drop_down.get()+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     print(file_name)
     book.save(str(file_name)+".xlsx")
 

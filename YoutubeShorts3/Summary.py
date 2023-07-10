@@ -50,6 +50,8 @@ while True:
         new_title = browser.find_element(By.XPATH, '//div[@id="paraphraser-output-box"]').text
         print(new_title)
 
+        assert data[0] != new_title
+
         browser.get("https://quillbot.com/")
         time.sleep(2)
 
@@ -63,6 +65,8 @@ while True:
 
         new_desc = browser.find_element(By.XPATH, '//div[@id="paraphraser-output-box"]').text
         print(new_desc)
+
+        assert data[0] != new_desc
 
         output = [new_title+"\n", new_desc+"\n", data[2],data[3]]
         print(output)
