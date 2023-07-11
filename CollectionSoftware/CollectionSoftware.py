@@ -1,4 +1,5 @@
 import datetime
+import os.path
 from tkinter import *
 from tkinter.ttk import Combobox
 
@@ -188,9 +189,10 @@ def view_store():
             if type(j.value) == int:
                 #print(i+":", j.value, date[row].value,"\n")
                 p.append((i, date[row].value, j.value))
-    file_name = drop_down.get()+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    file_name = "_"+drop_down.get()+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     print(file_name)
     book.save(str(file_name)+".xlsx")
+    book.save(os.path.dirname(__file__)+"//Records//"+str(file_name) + ".xlsx")
 
 
 Label(root, text="WELCOME TO COLLECTION SOFTWARE").pack(side=TOP,pady=5)

@@ -4,9 +4,12 @@ from openpyxl import load_workbook, Workbook
 
 date = "".join(str(datetime.date.today()).split("-"))
 
-wb = load_workbook(date+".xlsx")
-pointer = wb.active
-
+try:
+    wb = load_workbook(date+".xlsx")
+    pointer = wb.active
+except:
+    print(date)
+    exit()
 pointer.delete_rows(1,2)
 wb.save(date+".xlsx")
 
