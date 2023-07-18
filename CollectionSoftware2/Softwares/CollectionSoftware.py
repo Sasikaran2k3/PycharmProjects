@@ -185,7 +185,7 @@ def view_store():
     total_sum = 0
     for i in l:
         print(i)
-        wb = load_workbook(os.path.dirname(__file__)+"/%s.xlsx" % i)
+        wb = load_workbook(i+".xlsx")
         pointer = wb.active
         date = pointer["A"]
         amt = pointer["B"]
@@ -198,7 +198,45 @@ def view_store():
     print(file_name)
     p.append(("Total",str(datetime.datetime.now()),total_sum))
     book.save(str(file_name)+".xlsx")
-    book.save(os.path.dirname(__file__)+"//Records//"+str(file_name) + ".xlsx")
+    book.save("/Records/"+str(file_name) + ".xlsx")
+
+def updateToday(ev):
+    date = "".join(str(datetime.date.today()).split("-"))
+    try:
+        wb = load_workbook(date + ".xlsx")
+        pointer = wb.active
+    except FileNotFoundError:
+        print(date)
+
+    list_of_shop = pointer["C"]
+    list_of_amt = pointer["D"]
+
+    for i in range(len(list_of_shop)):
+        if list_of_shop[i].value == "Cash":
+            continue
+        try:
+            add_wb = load_workbook(list_of_shop[i].value + ".xlsx")
+            add_pointer = add_wb.active
+            dates = add_pointer["A"]
+            amts = add_pointer["B"]
+            max_val = len(amts)
+            for j in range(1, len(dates) + 1):
+                cell = add_pointer.cell(row=j, column=1)
+                if cell.value == None:
+                    add_pointer.cell(row=j, column=1).value = str(datetime.date.today())
+                    add_pointer.cell(row=j, column=2).value = list_of_amt[i].value
+                    break
+                elif str(datetime.date.today()) in cell.value:
+                    add_pointer.cell(row=j, column=2).value = list_of_amt[i].value
+                    break
+
+            else:
+                add_pointer.cell(row=j + 1, column=1).value = str(datetime.date.today())
+                add_pointer.cell(row=j + 1, column=2).value = list_of_amt[i].value
+            add_wb.save(list_of_shop[i].value + ".xlsx")
+        except Exception as e:
+            print(list_of_shop[i].value)
+            print(e)
 
 
 Label(root, text="WELCOME TO COLLECTION SOFTWARE").pack(side=TOP,pady=5)
@@ -219,6 +257,11 @@ drop_down.current(0)
 drop_down.grid(row=0, column=2,padx=10)
 drop_down.bind('<<ComboboxSelected>>', get_list)
 drop_down.bind('<Escape>', escape_operation)
+
+addToday = Button(input_frame,text="Update Today")
+addToday.bind("<Button-1>", updateToday)
+addToday.grid(row = 0, column = 3, padx=10)
+
 input_frame.pack(pady=10)
 
 
@@ -227,7 +270,7 @@ list.pack(fill='x',pady=5)
 list.bind("<KeyRelease>",show_accounts)
 list.bind("<Double-Button-1>", show_accounts)
 list.bind("<Return>", change_value)
-list.bind("<Escape>", escape_operation )
+list.bind("<Escape>", escape_operation)
 store_name = ""
 
 scroll = Scrollbar(root)
@@ -238,11 +281,16 @@ output_frame = Frame(root,highlightbackground="black", highlightthickness=2 )
 buttons_of_operation = Frame(root)
 total = Label(buttons_of_operation,text = "Total collection of %s: %d" % (drop_down.get(),area_count[drop_down.get()]),font=("Calibri", 15))
 total.grid(row=0,column=0,padx=15)
+
 view = Button(buttons_of_operation, text="View", command=view_store).grid(row=0,column=1,padx=15)
+
 save_but = Button(buttons_of_operation, text="Save Changes")
 save_but.bind("<Return>", pop_ask)
 save_but.bind("<Button-1>", pop_ask)
 save_but.grid(row=0,column=2,padx=25)
+
+
+
 buttons_of_operation.pack(side=BOTTOM,pady=(0,50))
 
 
