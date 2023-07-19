@@ -12,7 +12,7 @@ img = PhotoImage(file='ros_logo.png')
 root.iconphoto(False, img)
 root.geometry("1080x720")
 area_list = ["Full","Choolaimedu", "Anna Nagar", "MMDA","Arumbakkam"]
-Choolaimedu = ["ARI ALAGAR STORES", "ARIHARAN STORES", "ARTHI FISH STORE", "ARTHI STORE(ARUM)"]
+Choolaimedu = ["ARUN STORES"]
 anna_nagar = ['AYYANAR STORE (Y-20)', 'CHANDRA STORE', 'SRI RAMAJAYAM STORE', 'PADMA STORE', 'DHANALAKSHMI STORE', 'SIVA STORE (THANGA COLONY)', 'CHANDRA SUPER MARKET', 'MURUGAN STORE (18TH)', 'INDIRA STORE (11 TH)']
 mmda = ["RENGA STORE", "THIRUPATHI STORE", "PATHUBANATHAN STORE", "ISHWARYA SWEETS", "SELVA GANESH STORE", "KAVITHA STORE", "AK SUPER MARKET", "MANGALAM SUPER MARKET", "KAMATCHI STORE (MMDA)"]
 arumbakkam = ['SELVAM STORE(ARUM)', 'SRI GANESH STORE (JAI)', 'JAYAMANI STORE', 'LAKSHMAN & LAKSHMI SWEETS', 'SANTHOSH STORE(ARUM)', 'ARTHI STORE(ARUM)']
@@ -151,6 +151,8 @@ def pop_ask(e):
 def save_to_main():
     print(store_name)
     wb = load_workbook(str(store_name) + ".xlsx")
+    history = load_workbook("HISTORY" + ".xlsx")
+    his = history.active
     pointer = wb.active
     total_row = output_frame.grid_size()[1]
     pointer.delete_cols(2)
@@ -158,7 +160,8 @@ def save_to_main():
     for i in range(1,total_row):
         value = output_frame.grid_slaves(row=i,column=4)[0].cget("text")
         balance = output_frame.grid_slaves(row=i,column=3)[0].get()
-        print(value, i)
+        print(str(datetime.date.today()),store_name, balance)
+        his.append((str(datetime.date.today()),store_name, int(balance)))
         if balance.isnumeric():
             if drop_down.get() != "Full":
                 area_count["Full"] += int(balance)
@@ -170,6 +173,7 @@ def save_to_main():
         else:
             pointer.delete_rows(i)
     wb.save((store_name) + ".xlsx")
+    history.save("HISTORY.xlsx")
     completed.append(store_name)
     text.delete(0,END)
     escape_operation()
