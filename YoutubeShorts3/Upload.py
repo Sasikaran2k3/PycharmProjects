@@ -53,7 +53,7 @@ while True:
         yt_hashtags = " ".join(["#"+i.text for i in hash_result]) + my_hash
         print(yt_hashtags)
 
-        # Open Yt Studio
+        """# Open Yt Studio
         browser.get("https://studio.youtube.com/")
 
         # Create Button
@@ -75,7 +75,7 @@ while True:
         browser.find_element(By.XPATH, '//div[text() = "Next"]').click()
         browser.find_element(By.XPATH, '//div[text() = "Publish"]').click()
         time.sleep(10)
-        browser.implicitly_wait(25)
+        browser.implicitly_wait(25)"""
         data = os.path.dirname(__file__) + "/" + date + ".mp4"
         browser.get("https://www.instagram.com/")
         browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="New post"]').click()
@@ -87,7 +87,16 @@ while True:
         browser.find_element(By.XPATH, '//div[text()="Next"]').click()
         time.sleep(3)
         browser.find_element(By.XPATH, '//div[text()="Next"]').click()
-        browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]').send_keys(desc+link+yt_hashtags)
+        print(desc+link+yt_hashtags)
+        act = ActionChains(browser)
+        act.move_to_element((browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]'))).perform()
+        act.double_click()
+        #act.click((browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]'))).perform()
+        act.send_keys(desc+link)
+        act.perform()
+        """for i in desc+link+yt_hashtags:
+            browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]').send_keys(i)"""
+        time.sleep(10)
         browser.find_element(By.XPATH, '//div[text()="Share"]').click()
         wait = WebDriverWait(browser,1000)
         wait.until(expected_conditions.invisibility_of_element((By.XPATH, '//div[text()="Sharing"]')))

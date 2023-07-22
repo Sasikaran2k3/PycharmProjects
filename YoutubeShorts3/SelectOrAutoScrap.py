@@ -67,19 +67,18 @@ def auto_scrape():
             page = browser.find_element(By.CSS_SELECTOR, 'div[class="thumb"]>a')
             link = page.get_attribute("href")
             page.click()
-
             title_selector = "div[class='lead_heading header_wrap']>h1"
             image_selector = "div[class='fullstoryImage']>div[class = 'heroimg']>img"
             description_selector = "div[class='content_text row description']>p"
             check = browser.find_element(By.CSS_SELECTOR, image_selector)
             title = browser.find_element(By.CSS_SELECTOR, title_selector).text
             news_description = browser.find_element(By.CSS_SELECTOR, description_selector).text
-            with open(os.path.dirname(__file__)+"//"+date+"full.txt","w") as f:
+            with open(os.path.dirname(__file__)+"//Data//"+date+" full desc.txt","w") as f:
                 news_descriptions = browser.find_elements(By.CSS_SELECTOR, description_selector)
                 news_descriptions.pop()
                 news_description_full = ""
                 for i in news_descriptions:
-                    news_description_full += i.text+" "
+                    news_description_full += i.text+"\n"
                 f.write(news_description_full)
             url = check.get_attribute("src")
             browser.quit()
