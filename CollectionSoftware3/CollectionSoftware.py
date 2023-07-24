@@ -1,6 +1,4 @@
 import datetime
-import time
-from tkinter.ttk import Scrollbar
 from tkinter import *
 from tkinter.ttk import Combobox
 
@@ -12,7 +10,7 @@ root.title("Ravi Oil Store")
 img = PhotoImage(file='ros_logo.png')
 root.iconphoto(False, img)
 root.geometry("1080x720")
-area_list = ["Full","Choolaimedu", "Anna Nagar", "MMDA", "Arumbakkam", "Kilpak", "Local", "Custom"]
+area_list = ["MMDA","Choolaimedu", "Anna Nagar", "Full", "Arumbakkam", "Kilpak", "Local", "Custom"]
 Choolaimedu = open("CHOOLAIMEDU.txt", "r").read().split("\n")
 anna_nagar = open("ANNA_NAGAR.txt","r").read().split("\n")
 mmda = open("MMDA.txt","r").read().split("\n")
@@ -27,51 +25,62 @@ completed = []
 entry_list = []
 # Need to replace datetime.date.today() to datetime.date.today().strftime("%d-%m-%Y")
 
+def start_combo(e):
+    select_shops.delete(0, END)
+    for i in area_dict[drop_down.get()]:
+        if len(i) > 1 :
+            select_shops.insert(END, i)
+
 def get_list(e):
     total.config(text="Total collection of %s: %d" % (drop_down.get(), area_count[drop_down.get()]))
-    l = area_dict[drop_down.get()]
-    list.config(height=10)
+    l = area_dict["Full"]
     out = []
     leng = len(str(data.get()))
     if data.get() != "":
         for i in l:
             if(data.get().upper().startswith(i[:leng])):
                 out.append(i)
-        list.delete(0,END)
+        list_box.delete(0,END)
     else:
         out = l[:]
-        list.delete(0, END)
+        list_box.delete(0, END)
     for i in out:
-        list.insert(END,i)
+        list_box.insert(END,i)
         if i in completed:
-            list.itemconfig(END,bg ="green",selectbackground="green")
+            list_box.itemconfig(END,bg ="green",selectbackground="green")
     global store_name
-    store_name=list.select_set(0)
+    store_name=list_box.select_set(0)
+
+def select_shop(ev):
+    select_shops.insert(END, list_box.get(list_box.curselection()[0]))
+    text.delete(0,END)
+    escape_operation(ev)
 
 def enter(e):
-    list.config(height=10)
-    list.focus_set()
+    list_box.focus_set()
 
 
 def change_value(ev):
     output_frame.grid_slaves(row=1,column=3)[0].focus_set()
 
-def wait_box(flag):
-    global wait
-    if flag == 0:
-        wait = Toplevel(root)
-        wait.geometry("500x200")
-        Label(wait, text="Please Wait to get Records ...").pack()
-        wait.grid()
-    else:
-        print("Destroy")
-        wait.destroy()
-
 
 def show_accounts(ev):
-    #wait_box(0)
-    out = []
-    list.config(height=7)
+    short = list(set(select_shops.get(0,END)))
+    print(short)
+    if short == []:
+        short = area_dict[drop_down.get()]
+    else:
+        f = open(drop_down.get() + ".txt", "w")
+        for i in short:
+            if i != "":
+                f.write(i + "\n")
+        f.close()
+    print(short)
+    select_shops.pack_forget()
+    list_box.pack_forget()
+    save_list.pack_forget()
+    outside.pack(fill=BOTH,expand=YES)
+    buttons_of_operation.pack(side=BOTTOM)
     global store_name
     global entry_list
     entry_list = []
@@ -79,19 +88,25 @@ def show_accounts(ev):
     counter = 0
     for i in output_frame.winfo_children():
         i.destroy()
-    for i in area_dict[drop_down.get()]:
+    Label(output_frame, text="Store Name:", background='light grey', font=("Calibri", 15)).grid(row=0, column=0)
+    Label(output_frame, text="Date:", background='light grey', font=("Calibri", 15)).grid(row=0, column=1, padx=100)
+    Label(output_frame, text="Amount:", background='light grey', font=("Calibri", 15)).grid(row=0, column=2)
+    Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
+    Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
+    for i in short:
         store_name = i
+        global wb
         print(i)
-        wb = load_workbook(store_name+".xlsx")
+        try:
+            global wb
+            wb = load_workbook(store_name+".xlsx")
+        except Exception as e:
+            print(e)
+            continue
         pointer = wb.active
         #for i in output_frame.winfo_children():
         #    i.destroy()
-        Label(output_frame, text="Store Name:", background='light grey',font=("Calibri", 15)).grid(row=0,column=0)
-        Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=counter+1,column=0)
-        Label(output_frame, text="Date:", background='light grey', font=("Calibri", 15)).grid(row=0, column=1, padx=100)
-        Label(output_frame, text="Amount:", background='light grey',font=("Calibri", 15)).grid(row=0,column=2)
-        Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
-        Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
+        Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=counter + 1, column=0)
         date = pointer["A"]
         amt = pointer["B"]
         for row,i in enumerate(amt):
@@ -116,10 +131,19 @@ def show_accounts(ev):
             else:
                 counter += 1
     output_frame.pack(fill = BOTH,expand=YES,padx=2,pady=2)
-    canva.create_window((0, 0), window=output_frame, anchor=NW)
+    canva.create_window((canva.winfo_width()//2, 0), window=output_frame, anchor=CENTER)
+    canva.update_idletasks()
+    canva.configure(scrollregion=canva.bbox(ALL))
+    canva.yview_moveto(0)
     #wait_box(1)
     e.bind("<Return>", jump_to_save)
 
+def recreate(e):
+    outside.pack_forget()
+    buttons_of_operation.pack_forget()
+    list_box.pack(fill=X)
+    select_shops.pack()
+    save_list.pack()
 def calculate_and_focus(ev):
     global counter
     canva.yview_moveto(float((output_frame.focus_get().grid_info().get('row') - 2) / counter))
@@ -207,16 +231,17 @@ def save_to_main():
                     print(enuma,small_data)
                     pointer["A%s"%(enuma+1)].value, pointer["B%s"%(enuma+1)].value = small_data
                     print(small_data)
+                    #pointer.append(small_data)
                 data_list.clear()
                 wb.save(store_name+ ".xlsx")
                 print("all saved")
                 completed.append(store_name)
         else:
             pointer.delete_cols(1, 2)
-            for enuma, small_data in enumerate(data_list):
-                print(enuma, small_data)
-                pointer["A%s" % (enuma + 1)].value, pointer["B%s" % (enuma + 1)].value = small_data
+            for small_data in data_list:
+                pointer.delete_rows(0)
                 print(small_data)
+                pointer.append(small_data)
             data_list.clear()
             wb.save(store_name + ".xlsx")
             print("all saved else")
@@ -258,7 +283,7 @@ def save_to_main():
 
 def escape_operation(ev=0):
     text.focus_set()
-def view_store():
+def report_store():
     l = area_dict[drop_down.get()]
     print(l)
     book = openpyxl.Workbook()
@@ -330,12 +355,13 @@ text.bind("<Return>", enter)
 text.bind("<Down>", enter)
 text.grid(row=0,column=1)
 text.focus_set()
+
 drop = StringVar(root)
 drop.set(area_list[0])
 drop_down = Combobox(input_frame,value=area_list,font=("Calibri", 15))
 drop_down.current(0)
 drop_down.grid(row=0, column=2,padx=10)
-drop_down.bind('<<ComboboxSelected>>', get_list)
+drop_down.bind('<<ComboboxSelected>>', start_combo)
 drop_down.bind('<Escape>', escape_operation)
 
 addToday = Button(input_frame,text="Update Today")
@@ -345,13 +371,21 @@ addToday.grid(row = 0, column = 3, padx=10)
 input_frame.pack(pady=10)
 
 
-list = Listbox(root, height=10,font=("Calibri", 15))
-list.pack(fill='x',pady=5)
-list.bind("<KeyRelease>",show_accounts)
-list.bind("<Double-Button-1>", show_accounts)
-list.bind("<Return>", change_value)
-list.bind("<Escape>", escape_operation)
+list_box = Listbox(root, height=10,font=("Calibri", 15))
+list_box.pack(fill='x',pady=5)
+#list_box.bind("<KeyRelease>",show_accounts)
+list_box.bind("<Double-Button-1>", select_shop)
+list_box.bind("<Return>", select_shop)
+list_box.bind("<Escape>", escape_operation)
 store_name = ""
+
+select_shops = Listbox(root,font=("Calibri", 15), width=75)
+select_shops.pack(pady=10)
+select_shops.bind("<Delete>",lambda e: select_shops.delete(select_shops.curselection()[0]))
+
+save_list = Button(text="Show Accounts")
+save_list.bind("<Button-1>",show_accounts)
+save_list.pack()
 
 outside = Frame(root)
 outside.pack(fill=BOTH,expand=YES)
@@ -372,14 +406,16 @@ buttons_of_operation = Frame(root)
 total = Label(buttons_of_operation,text = "Total collection of %s: %d" % (drop_down.get(),area_count[drop_down.get()]),font=("Calibri", 15))
 total.grid(row=0,column=0,padx=15)
 
-view = Button(buttons_of_operation, text="View", command=view_store).grid(row=0,column=1,padx=15)
+report = Button(buttons_of_operation, text="Report", command=report_store).grid(row=0,column=1,padx=15)
 
 save_but = Button(buttons_of_operation, text="Save Changes")
 save_but.bind("<Return>", pop_ask)
 save_but.bind("<Button-1>", pop_ask)
 save_but.grid(row=0,column=2,padx=25)
 
-
+back_but = Button(buttons_of_operation,text="Back")
+back_but.bind("<Button-1>",recreate)
+back_but.grid(row=0,column=3,padx=25)
 
 buttons_of_operation.pack(side=BOTTOM,pady=(0,50))
 

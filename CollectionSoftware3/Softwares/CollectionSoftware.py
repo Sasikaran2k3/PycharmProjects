@@ -1,5 +1,4 @@
 import datetime
-import os.path
 from tkinter import *
 from tkinter.ttk import Combobox
 
@@ -11,7 +10,7 @@ root.title("Ravi Oil Store")
 img = PhotoImage(file='ros_logo.png')
 root.iconphoto(False, img)
 root.geometry("1080x720")
-area_list = ["Full","Choolaimedu", "Anna Nagar", "MMDA", "Arumbakkam", "Kilpak", "Local", "Custom"]
+area_list = ["MMDA","Choolaimedu", "Anna Nagar", "Full", "Arumbakkam", "Kilpak", "Local", "Custom"]
 Choolaimedu = open("CHOOLAIMEDU.txt", "r").read().split("\n")
 anna_nagar = open("ANNA_NAGAR.txt","r").read().split("\n")
 mmda = open("MMDA.txt","r").read().split("\n")
@@ -23,33 +22,42 @@ l = ["ARI ALAGAR STORES", "ARIHARAN STORES", "ARTHI FISH STORE", "ARTHI STORE(AR
 area_dict = {"Choolaimedu":Choolaimedu,"Anna Nagar":anna_nagar,"Full":l,"MMDA":mmda, "Arumbakkam":arumbakkam, "Choolaimedu":Choolaimedu, "Local":local, "Kilpak":kilpak, "Custom":custom}
 area_count = {"Choolaimedu":0,"Anna Nagar":0,"Full":0,"MMDA":0,"Arumbakkam":0,"Local":0,"Kilpak":0,"Custom":0}
 completed = []
+entry_list = []
 # Need to replace datetime.date.today() to datetime.date.today().strftime("%d-%m-%Y")
+
+def start_combo(e):
+    select_shops.delete(0, END)
+    for i in area_dict[drop_down.get()]:
+        if len(i) > 1 :
+            select_shops.insert(END, i)
 
 def get_list(e):
     total.config(text="Total collection of %s: %d" % (drop_down.get(), area_count[drop_down.get()]))
-    l = area_dict[drop_down.get()]
-    list.config(height=10)
+    l = area_dict["Full"]
     out = []
     leng = len(str(data.get()))
     if data.get() != "":
         for i in l:
             if(data.get().upper().startswith(i[:leng])):
                 out.append(i)
-        list.delete(0,END)
+        list_box.delete(0,END)
     else:
         out = l[:]
-        list.delete(0, END)
+        list_box.delete(0, END)
     for i in out:
-        list.insert(END,i)
+        list_box.insert(END,i)
         if i in completed:
-            list.itemconfig(END,bg ="green",selectbackground="green")
+            list_box.itemconfig(END,bg ="green",selectbackground="green")
     global store_name
-    store_name=list.select_set(0)
+    store_name=list_box.select_set(0)
 
+def select_shop(ev):
+    select_shops.insert(END, list_box.get(list_box.curselection()[0]))
+    text.delete(0,END)
+    escape_operation(ev)
 
 def enter(e):
-    list.config(height=10)
-    list.focus_set()
+    list_box.focus_set()
 
 
 def change_value(ev):
@@ -57,45 +65,93 @@ def change_value(ev):
 
 
 def show_accounts(ev):
-    out = []
-    list.config(height=7)
+    short = list(set(select_shops.get(0,END)))
+    print(short)
+    if short == []:
+        short = area_dict[drop_down.get()]
+    else:
+        f = open(drop_down.get() + ".txt", "w")
+        for i in short:
+            if i != "":
+                f.write(i + "\n")
+        f.close()
+    print(short)
+    select_shops.pack_forget()
+    list_box.pack_forget()
+    save_list.pack_forget()
+    outside.pack(fill=BOTH,expand=YES)
+    buttons_of_operation.pack(side=BOTTOM)
     global store_name
-    for i in list.curselection():
-        store_name = list.get(i)
-        wb = load_workbook(store_name+".xlsx")
+    global entry_list
+    entry_list = []
+    global counter
+    counter = 0
+    for i in output_frame.winfo_children():
+        i.destroy()
+    Label(output_frame, text="Store Name:", background='light grey', font=("Calibri", 15)).grid(row=0, column=0)
+    Label(output_frame, text="Date:", background='light grey', font=("Calibri", 15)).grid(row=0, column=1, padx=100)
+    Label(output_frame, text="Amount:", background='light grey', font=("Calibri", 15)).grid(row=0, column=2)
+    Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
+    Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
+    for i in short:
+        store_name = i
+        global wb
+        print(i)
+        try:
+            global wb
+            wb = load_workbook(store_name+".xlsx")
+        except Exception as e:
+            print(e)
+            continue
         pointer = wb.active
-        for i in output_frame.winfo_children():
-            i.destroy()
-        Label(output_frame, text="Store Name:", background='light grey',font=("Calibri", 15)).grid(row=0,column=0)
-        Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=1,column=0)
-        Label(output_frame, text="Date:", background='light grey', font=("Calibri", 15)).grid(row=0, column=1, padx=100)
-        Label(output_frame, text="Amount:", background='light grey',font=("Calibri", 15)).grid(row=0,column=2)
-        Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
-        Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
+        #for i in output_frame.winfo_children():
+        #    i.destroy()
+        Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=counter + 1, column=0)
         date = pointer["A"]
         amt = pointer["B"]
         for row,i in enumerate(amt):
+            if date[row].value == None and row != 0:
+                print("empty")
+                break
+            if row!=0:
+                Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=counter + 1, column=0)
             if type(i.value) == int:
-                Label(output_frame, text = date[row].value,font=("Calibri", 15)).grid(row=row+1, column=1)
-                Label(output_frame, text = i.value, font=("Calibri", 15)).grid(row=row+1,column=2)
+                Label(output_frame, text = date[row].value,font=("Calibri", 15)).grid(row=counter+1, column=1)
+                Label(output_frame, text = i.value, font=("Calibri", 15)).grid(row=counter+1,column=2)
                 e = Entry(output_frame,relief=GROOVE,font=("Calibri", 15))
-                e.grid(row=row+1, column=3,padx=80,pady=2)
-                e.bind("<KeyRelease>", calculate)
+                e.grid(row=counter+1, column=3,padx=80,pady=2)
+                e.bind("<KeyRelease>", calculate_and_focus)
                 e.bind("<Down>", movement_down)
                 e.bind("<Up>", movement_up)
                 e.bind("<Return>", movement_down)
                 e.bind("<Escape>",enter)
-                #e.insert(END,i.value)
-                Label(output_frame,font=("Calibri", 15)).grid(row=row + 1, column=4)
-                output_frame.pack(padx=2,pady=2)
-        e.bind("<Return>", jump_to_save)
+                Label(output_frame,font=("Calibri", 15),text =i.value).grid(row=counter + 1, column=4)
+                counter += 1
+                entry_list.append(counter)
+            else:
+                counter += 1
+    output_frame.pack(fill = BOTH,expand=YES,padx=2,pady=2)
+    canva.create_window((canva.winfo_width()//2, 0), window=output_frame, anchor=CENTER)
+    canva.update_idletasks()
+    canva.configure(scrollregion=canva.bbox(ALL))
+    canva.yview_moveto(0)
+    #wait_box(1)
+    e.bind("<Return>", jump_to_save)
 
-def calculate(ev):
+def recreate(e):
+    outside.pack_forget()
+    buttons_of_operation.pack_forget()
+    list_box.pack(fill=X)
+    select_shops.pack()
+    save_list.pack()
+def calculate_and_focus(ev):
+    global counter
+    canva.yview_moveto(float((output_frame.focus_get().grid_info().get('row') - 2) / counter))
     new = output_frame.focus_get().grid_info()['row']
     val = output_frame.focus_get().get()
     if val.isnumeric():
         bal = output_frame.grid_slaves(row=new, column=2)[0].cget("text") - int(val)
-        output_frame.grid_slaves(row=new,column=4)[0].configure(text=bal)
+        output_frame.grid_slaves(row=new,column=4)[0].configure(text=bal,background="lightgreen")
     else:
         output_frame.grid_slaves(row=new, column=4)[0].configure(text=output_frame.grid_slaves(row=new, column=2)[0].cget("text"))
 
@@ -103,14 +159,14 @@ def calculate(ev):
 def movement_down(e):
     total_row =output_frame.grid_size()[1]
     info = output_frame.focus_get().grid_info()
-    current_row = info["row"]+1
+    current_row = entry_list[entry_list.index(info["row"])+1]
     if total_row-1 >= current_row:
         output_frame.grid_slaves(current_row,column=3)[0].focus_set()
 
 
 def movement_up(e):
     info = output_frame.focus_get().grid_info()
-    current_row = info["row"]-1
+    current_row = entry_list[entry_list.index(info["row"])-1]
     if 1 <= current_row:
         output_frame.grid_slaves(current_row, column=3)[0].focus_set()
 
@@ -138,7 +194,7 @@ def pop_ask(e):
 
     global pop
     pop = Toplevel(root)
-    pop.geometry("250x100")
+    pop.geometry("500x200")
     pop.title("Save?")
     Label(pop, text="Do you really want to save?").grid(row=0,column=1)
     yes = Button(pop,text="Yes")
@@ -153,6 +209,48 @@ def pop_ask(e):
     pop.grid()
 
 def save_to_main():
+    history = load_workbook("HISTORY" + ".xlsx")
+    his = history.active
+    data_list = []
+    for enum, i in enumerate(entry_list):
+        store_name = output_frame.grid_slaves(row=i, column=0)[0].cget("text")
+        wb = load_workbook(str(store_name) + ".xlsx")
+        pointer = wb.active
+        bal = int(output_frame.grid_slaves(row=i, column=4)[0].cget("text"))
+        if bal != 0:
+            date = str(output_frame.grid_slaves(row=i, column=1)[0].cget("text"))
+            data_list.append((date,bal))
+            #print((date, bal,output_frame.grid_slaves(row=i,column=3)[0].get()))
+        recive = output_frame.grid_slaves(row=i,column=3)[0].get()
+        if recive.isnumeric():
+            his.append((str(datetime.date.today()), store_name,int(recive)))
+        if enum<len(entry_list)-1:
+            if output_frame.grid_slaves(row=entry_list[enum+1], column=0)[0].cget("text") != store_name:
+                pointer.delete_cols(1, 2)
+                for enuma, small_data in enumerate(data_list):
+                    print(enuma,small_data)
+                    pointer["A%s"%(enuma+1)].value, pointer["B%s"%(enuma+1)].value = small_data
+                    print(small_data)
+                    #pointer.append(small_data)
+                data_list.clear()
+                wb.save(store_name+ ".xlsx")
+                print("all saved")
+                completed.append(store_name)
+        else:
+            pointer.delete_cols(1, 2)
+            for small_data in data_list:
+                pointer.delete_rows(0)
+                print(small_data)
+                pointer.append(small_data)
+            data_list.clear()
+            wb.save(store_name + ".xlsx")
+            print("all saved else")
+            completed.append(store_name)
+    text.delete(0, END)
+    escape_operation()
+    #history.save("HISTORY.xlsx")
+
+    """
     print(store_name)
     wb = load_workbook(str(store_name) + ".xlsx")
     history = load_workbook("HISTORY" + ".xlsx")
@@ -161,7 +259,7 @@ def save_to_main():
     total_row = output_frame.grid_size()[1]
     pointer.delete_cols(2)
     insert_pointer = 1
-    for i in range(1,total_row):
+    for i in range(1,len(entry_list)+1):
         value = output_frame.grid_slaves(row=i,column=4)[0].cget("text")
         balance = output_frame.grid_slaves(row=i,column=3)[0].get()
         if balance.isnumeric():
@@ -180,12 +278,12 @@ def save_to_main():
     history.save("HISTORY.xlsx")
     completed.append(store_name)
     text.delete(0,END)
-    escape_operation()
+    escape_operation()"""
 
 
 def escape_operation(ev=0):
     text.focus_set()
-def view_store():
+def report_store():
     l = area_dict[drop_down.get()]
     print(l)
     book = openpyxl.Workbook()
@@ -207,7 +305,6 @@ def view_store():
     p.append(("Total",str(datetime.datetime.now()),total_sum))
     book.save(str(file_name)+".xlsx")
     book.save("Records/"+str(file_name) + ".xlsx")
-
 def updateToday(ev):
     date = "".join(str(datetime.date.today()).split("-"))
     try:
@@ -246,7 +343,7 @@ def updateToday(ev):
             print(list_of_shop[i].value)
             print(e)
 
-
+counter = 0
 Label(root, text="WELCOME TO COLLECTION SOFTWARE").pack(side=TOP,pady=5)
 
 input_frame = Frame(root)
@@ -258,12 +355,13 @@ text.bind("<Return>", enter)
 text.bind("<Down>", enter)
 text.grid(row=0,column=1)
 text.focus_set()
+
 drop = StringVar(root)
 drop.set(area_list[0])
-drop_down = Combobox(input_frame,value = area_list,font=("Calibri", 15))
+drop_down = Combobox(input_frame,value=area_list,font=("Calibri", 15))
 drop_down.current(0)
 drop_down.grid(row=0, column=2,padx=10)
-drop_down.bind('<<ComboboxSelected>>', get_list)
+drop_down.bind('<<ComboboxSelected>>', start_combo)
 drop_down.bind('<Escape>', escape_operation)
 
 addToday = Button(input_frame,text="Update Today")
@@ -273,31 +371,51 @@ addToday.grid(row = 0, column = 3, padx=10)
 input_frame.pack(pady=10)
 
 
-list = Listbox(root, height=10,font=("Calibri", 15))
-list.pack(fill='x',pady=5)
-list.bind("<KeyRelease>",show_accounts)
-list.bind("<Double-Button-1>", show_accounts)
-list.bind("<Return>", change_value)
-list.bind("<Escape>", escape_operation)
+list_box = Listbox(root, height=10,font=("Calibri", 15))
+list_box.pack(fill='x',pady=5)
+#list_box.bind("<KeyRelease>",show_accounts)
+list_box.bind("<Double-Button-1>", select_shop)
+list_box.bind("<Return>", select_shop)
+list_box.bind("<Escape>", escape_operation)
 store_name = ""
 
-scroll = Scrollbar(root)
+select_shops = Listbox(root,font=("Calibri", 15), width=75)
+select_shops.pack(pady=10)
+select_shops.bind("<Delete>",lambda e: select_shops.delete(select_shops.curselection()[0]))
 
-output_frame = Frame(root,highlightbackground="black", highlightthickness=2 )
+save_list = Button(text="Show Accounts")
+save_list.bind("<Button-1>",show_accounts)
+save_list.pack()
+
+outside = Frame(root)
+outside.pack(fill=BOTH,expand=YES)
+
+canva = Canvas(outside)
+canva.pack(side=LEFT,fill=BOTH,expand=YES)
+
+scrollbar = Scrollbar(outside,orient=VERTICAL,command=canva.yview)
+scrollbar.pack(side=RIGHT,fill=Y)
+
+canva.config(yscrollcommand=scrollbar.set)
+canva.bind("<Configure>",lambda e: canva.configure(scrollregion=canva.bbox(ALL)))
+
+output_frame = Frame(canva,highlightbackground="black", highlightthickness=2)
 
 
 buttons_of_operation = Frame(root)
 total = Label(buttons_of_operation,text = "Total collection of %s: %d" % (drop_down.get(),area_count[drop_down.get()]),font=("Calibri", 15))
 total.grid(row=0,column=0,padx=15)
 
-view = Button(buttons_of_operation, text="View", command=view_store).grid(row=0,column=1,padx=15)
+report = Button(buttons_of_operation, text="Report", command=report_store).grid(row=0,column=1,padx=15)
 
 save_but = Button(buttons_of_operation, text="Save Changes")
 save_but.bind("<Return>", pop_ask)
 save_but.bind("<Button-1>", pop_ask)
 save_but.grid(row=0,column=2,padx=25)
 
-
+back_but = Button(buttons_of_operation,text="Back")
+back_but.bind("<Button-1>",recreate)
+back_but.grid(row=0,column=3,padx=25)
 
 buttons_of_operation.pack(side=BOTTOM,pady=(0,50))
 
