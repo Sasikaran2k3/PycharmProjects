@@ -1,4 +1,5 @@
 import datetime
+import time
 from tkinter.ttk import Scrollbar
 from tkinter import *
 from tkinter.ttk import Combobox
@@ -23,6 +24,7 @@ l = ["ARI ALAGAR STORES", "ARIHARAN STORES", "ARTHI FISH STORE", "ARTHI STORE(AR
 area_dict = {"Choolaimedu":Choolaimedu,"Anna Nagar":anna_nagar,"Full":l,"MMDA":mmda, "Arumbakkam":arumbakkam, "Choolaimedu":Choolaimedu, "Local":local, "Kilpak":kilpak, "Custom":custom}
 area_count = {"Choolaimedu":0,"Anna Nagar":0,"Full":0,"MMDA":0,"Arumbakkam":0,"Local":0,"Kilpak":0,"Custom":0}
 completed = []
+entry_list = []
 # Need to replace datetime.date.today() to datetime.date.today().strftime("%d-%m-%Y")
 
 def get_list(e):
@@ -46,10 +48,6 @@ def get_list(e):
     global store_name
     store_name=list.select_set(0)
 
-def boxfocus(ev):
-    global counter
-    #print(float((output_frame.focus_get().grid_info().get('row')-0.5)/counter),counter,output_frame.focus_get().grid_info().get('row')-0.5)
-    canva.yview_moveto(float((output_frame.focus_get().grid_info().get('row')-1)/counter))
 def enter(e):
     list.config(height=10)
     list.focus_set()
@@ -58,17 +56,32 @@ def enter(e):
 def change_value(ev):
     output_frame.grid_slaves(row=1,column=3)[0].focus_set()
 
+def wait_box(flag):
+    global wait
+    if flag == 0:
+        wait = Toplevel(root)
+        wait.geometry("500x200")
+        Label(wait, text="Please Wait to get Records ...").pack()
+        wait.grid()
+    else:
+        print("Destroy")
+        wait.destroy()
+
 
 def show_accounts(ev):
+    #wait_box(0)
     out = []
     list.config(height=7)
     global store_name
+    global entry_list
+    entry_list = []
     global counter
     counter = 0
     for i in output_frame.winfo_children():
         i.destroy()
     for i in area_dict[drop_down.get()]:
         store_name = i
+        print(i)
         wb = load_workbook(store_name+".xlsx")
         pointer = wb.active
         #for i in output_frame.winfo_children():
@@ -82,29 +95,39 @@ def show_accounts(ev):
         date = pointer["A"]
         amt = pointer["B"]
         for row,i in enumerate(amt):
+            if date[row].value == None and row != 0:
+                print("empty")
+                break
+            if row!=0:
+                Label(output_frame, text=store_name, font=("Calibri", 15)).grid(row=counter + 1, column=0)
             if type(i.value) == int:
                 Label(output_frame, text = date[row].value,font=("Calibri", 15)).grid(row=counter+1, column=1)
                 Label(output_frame, text = i.value, font=("Calibri", 15)).grid(row=counter+1,column=2)
                 e = Entry(output_frame,relief=GROOVE,font=("Calibri", 15))
                 e.grid(row=counter+1, column=3,padx=80,pady=2)
-                e.bind("<KeyRelease>", calculate)
+                e.bind("<KeyRelease>", calculate_and_focus)
                 e.bind("<Down>", movement_down)
                 e.bind("<Up>", movement_up)
                 e.bind("<Return>", movement_down)
                 e.bind("<Escape>",enter)
-                e.bind("<KeyRelease>", boxfocus)
-                Label(output_frame,font=("Calibri", 15)).grid(row=row + 1, column=4)
+                Label(output_frame,font=("Calibri", 15),text =i.value).grid(row=counter + 1, column=4)
+                counter += 1
+                entry_list.append(counter)
+            else:
                 counter += 1
     output_frame.pack(fill = BOTH,expand=YES,padx=2,pady=2)
     canva.create_window((0, 0), window=output_frame, anchor=NW)
-        #e.bind("<Return>", jump_to_save)
+    #wait_box(1)
+    e.bind("<Return>", jump_to_save)
 
-def calculate(ev):
+def calculate_and_focus(ev):
+    global counter
+    canva.yview_moveto(float((output_frame.focus_get().grid_info().get('row') - 2) / counter))
     new = output_frame.focus_get().grid_info()['row']
     val = output_frame.focus_get().get()
     if val.isnumeric():
         bal = output_frame.grid_slaves(row=new, column=2)[0].cget("text") - int(val)
-        output_frame.grid_slaves(row=new,column=4)[0].configure(text=bal)
+        output_frame.grid_slaves(row=new,column=4)[0].configure(text=bal,background="lightgreen")
     else:
         output_frame.grid_slaves(row=new, column=4)[0].configure(text=output_frame.grid_slaves(row=new, column=2)[0].cget("text"))
 
@@ -112,14 +135,14 @@ def calculate(ev):
 def movement_down(e):
     total_row =output_frame.grid_size()[1]
     info = output_frame.focus_get().grid_info()
-    current_row = info["row"]+1
+    current_row = entry_list[entry_list.index(info["row"])+1]
     if total_row-1 >= current_row:
         output_frame.grid_slaves(current_row,column=3)[0].focus_set()
 
 
 def movement_up(e):
     info = output_frame.focus_get().grid_info()
-    current_row = info["row"]-1
+    current_row = entry_list[entry_list.index(info["row"])-1]
     if 1 <= current_row:
         output_frame.grid_slaves(current_row, column=3)[0].focus_set()
 
@@ -147,7 +170,7 @@ def pop_ask(e):
 
     global pop
     pop = Toplevel(root)
-    pop.geometry("250x100")
+    pop.geometry("500x200")
     pop.title("Save?")
     Label(pop, text="Do you really want to save?").grid(row=0,column=1)
     yes = Button(pop,text="Yes")
@@ -162,6 +185,47 @@ def pop_ask(e):
     pop.grid()
 
 def save_to_main():
+    history = load_workbook("HISTORY" + ".xlsx")
+    his = history.active
+    data_list = []
+    for enum, i in enumerate(entry_list):
+        store_name = output_frame.grid_slaves(row=i, column=0)[0].cget("text")
+        wb = load_workbook(str(store_name) + ".xlsx")
+        pointer = wb.active
+        bal = int(output_frame.grid_slaves(row=i, column=4)[0].cget("text"))
+        if bal != 0:
+            date = str(output_frame.grid_slaves(row=i, column=1)[0].cget("text"))
+            data_list.append((date,bal))
+            #print((date, bal,output_frame.grid_slaves(row=i,column=3)[0].get()))
+        recive = output_frame.grid_slaves(row=i,column=3)[0].get()
+        if recive.isnumeric():
+            his.append((str(datetime.date.today()), store_name,int(recive)))
+        if enum<len(entry_list)-1:
+            if output_frame.grid_slaves(row=entry_list[enum+1], column=0)[0].cget("text") != store_name:
+                pointer.delete_cols(1, 2)
+                for enuma, small_data in enumerate(data_list):
+                    print(enuma,small_data)
+                    pointer["A%s"%(enuma+1)].value, pointer["B%s"%(enuma+1)].value = small_data
+                    print(small_data)
+                data_list.clear()
+                wb.save(store_name+ ".xlsx")
+                print("all saved")
+                completed.append(store_name)
+        else:
+            pointer.delete_cols(1, 2)
+            for enuma, small_data in enumerate(data_list):
+                print(enuma, small_data)
+                pointer["A%s" % (enuma + 1)].value, pointer["B%s" % (enuma + 1)].value = small_data
+                print(small_data)
+            data_list.clear()
+            wb.save(store_name + ".xlsx")
+            print("all saved else")
+            completed.append(store_name)
+    text.delete(0, END)
+    escape_operation()
+    #history.save("HISTORY.xlsx")
+
+    """
     print(store_name)
     wb = load_workbook(str(store_name) + ".xlsx")
     history = load_workbook("HISTORY" + ".xlsx")
@@ -170,7 +234,7 @@ def save_to_main():
     total_row = output_frame.grid_size()[1]
     pointer.delete_cols(2)
     insert_pointer = 1
-    for i in range(1,total_row):
+    for i in range(1,len(entry_list)+1):
         value = output_frame.grid_slaves(row=i,column=4)[0].cget("text")
         balance = output_frame.grid_slaves(row=i,column=3)[0].get()
         if balance.isnumeric():
@@ -189,7 +253,7 @@ def save_to_main():
     history.save("HISTORY.xlsx")
     completed.append(store_name)
     text.delete(0,END)
-    escape_operation()
+    escape_operation()"""
 
 
 def escape_operation(ev=0):
@@ -301,7 +365,7 @@ scrollbar.pack(side=RIGHT,fill=Y)
 canva.config(yscrollcommand=scrollbar.set)
 canva.bind("<Configure>",lambda e: canva.configure(scrollregion=canva.bbox(ALL)))
 
-output_frame = Frame(canva,highlightbackground="black", highlightthickness=2 )
+output_frame = Frame(canva,highlightbackground="black", highlightthickness=2)
 
 
 buttons_of_operation = Frame(root)

@@ -159,7 +159,7 @@ def save_to_main():
     his = history.active
     pointer = wb.active
     total_row = output_frame.grid_size()[1]
-    pointer.delete_cols(2)
+    pointer.delete_cols(1,  2)
     insert_pointer = 1
     for i in range(1,total_row):
         value = output_frame.grid_slaves(row=i,column=4)[0].cget("text")
@@ -175,7 +175,8 @@ def save_to_main():
             pointer['B%d' % insert_pointer].value = int(value)
             insert_pointer += 1
         else:
-            pointer.delete_rows(i)
+            pass
+            #pointer.delete_rows(i)
     wb.save((store_name) + ".xlsx")
     history.save("HISTORY.xlsx")
     completed.append(store_name)
