@@ -37,14 +37,12 @@ while True:
         browser.get("https://app.ritetag.com/hashtag-suggestions")
         browser.find_element(By.XPATH, '//button[text()="Clear"]').click()
         browser.find_element(By.XPATH, '//input[@type="file"]').send_keys(os.path.dirname(__file__) + "/Data/" + date +".png")
-
         f = open(os.path.dirname(__file__) + "/Data/" + date +".txt","r")
         content = f.readlines()
         print(content)
         title = content[0]
         desc = content[1]
         link = content[2]
-
         ActionChains(browser).click(browser.find_element(By.XPATH, "//textarea")).send_keys(title+desc).perform()
         browser.find_element(By.XPATH, '//span[text()="Suggest Hashtags"]').click()
         time.sleep(10)
@@ -53,7 +51,7 @@ while True:
         yt_hashtags = " ".join(["#"+i.text for i in hash_result]) + my_hash
         print(yt_hashtags)
 
-        # Open Yt Studio
+        """# Open Yt Studio
         browser.get("https://studio.youtube.com/")
 
         # Create Button
@@ -75,7 +73,7 @@ while True:
         browser.find_element(By.XPATH, '//div[text() = "Next"]').click()
         browser.find_element(By.XPATH, '//div[text() = "Publish"]').click()
         time.sleep(10)
-        browser.implicitly_wait(25)
+        browser.implicitly_wait(25)"""
         data = os.path.dirname(__file__) + "/" + date + ".mp4"
         browser.get("https://www.instagram.com/")
         browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="New post"]').click()

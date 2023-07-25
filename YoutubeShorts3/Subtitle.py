@@ -40,6 +40,7 @@ l = os.listdir(os.path.dirname(__file__))
 for i in l:
     if ".mp4" in i:
         os.remove(os.path.dirname(__file__) + "\\" + i)
+
 count = 0
 while True:
     try:
@@ -69,7 +70,7 @@ while True:
         act = ActionChains(browser)
         transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
         # moves the subtitle from the video bottom left position
-        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 90, 110)
+        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 85, 135)
         act.release().perform()
         parent = browser.find_elements(By.XPATH, '//div[@class="PresetPreview-module_container_034hO"]')
         # selects the subtitle style
@@ -86,6 +87,7 @@ while True:
         time.sleep(7)
         print("Download Page")
         # Waits till the size of the file appears and then dowload button is clicked
+        wait = WebDriverWait(browser, 1000)
         wait.until(expected_conditions.visibility_of_element_located(
             (By.XPATH, '//div[@class="VideoContainer-module_commentsMetaDataFileSize_E7zW4"]')))
         browser.find_element(By.XPATH, '//button[@data-cy="download-final-video-button"]').click()

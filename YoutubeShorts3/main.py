@@ -1,5 +1,5 @@
 import SelectOrAutoScrap
 import Summary
-import TTS
+import TTS_ElevenLabs
 import Subtitle
 import Upload

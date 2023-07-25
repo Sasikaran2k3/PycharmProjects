@@ -10,7 +10,7 @@ root.title("Ravi Oil Store")
 img = PhotoImage(file='ros_logo.png')
 root.iconphoto(False, img)
 root.geometry("1080x720")
-area_list = ["MMDA","Choolaimedu", "Anna Nagar", "Full", "Arumbakkam", "Kilpak", "Local", "Custom"]
+area_list = ["Custom","MMDA","Choolaimedu", "Anna Nagar", "Full", "Arumbakkam", "Kilpak", "Local"]
 Choolaimedu = open("CHOOLAIMEDU.txt", "r").read().split("\n")
 anna_nagar = open("ANNA_NAGAR.txt","r").read().split("\n")
 mmda = open("MMDA.txt","r").read().split("\n")
@@ -23,9 +23,29 @@ area_dict = {"Choolaimedu":Choolaimedu,"Anna Nagar":anna_nagar,"Full":l,"MMDA":m
 area_count = {"Choolaimedu":0,"Anna Nagar":0,"Full":0,"MMDA":0,"Arumbakkam":0,"Local":0,"Kilpak":0,"Custom":0}
 completed = []
 entry_list = []
-# Need to replace datetime.date.today() to datetime.date.today().strftime("%d-%m-%Y")
+# Need to replace datetime.date.today().strftime("%d-%m-%Y") to datetime.date.today().strftime("%d-%m-%Y").strftime("%d-%m-%Y")
 
+def update_area():
+    global Choolaimedu
+    global anna_nagar
+    global mmda
+    global custom
+    global arumbakkam
+    global kilpak
+    global local
+    global area_dict
+    Choolaimedu = open("CHOOLAIMEDU.txt", "r").read().split("\n")
+    anna_nagar = open("ANNA_NAGAR.txt", "r").read().split("\n")
+    mmda = open("MMDA.txt", "r").read().split("\n")
+    arumbakkam = open("ARUMBAKAM.txt", "r").read().split("\n")
+    custom = open("CUSTOM.txt", "r").read().split("\n")
+    kilpak = open("KILPAK.txt", "r").read().split("\n")
+    local = open("LOCAL.txt", "r").read().split("\n")
+    area_dict = {"Choolaimedu": Choolaimedu, "Anna Nagar": anna_nagar, "Full": l, "MMDA": mmda,
+                 "Arumbakkam": arumbakkam, "Choolaimedu": Choolaimedu, "Local": local, "Kilpak": kilpak,
+                 "Custom": custom}
 def start_combo(e):
+    update_area()
     select_shops.delete(0, END)
     for i in area_dict[drop_down.get()]:
         if len(i) > 1 :
@@ -73,8 +93,10 @@ def show_accounts(ev):
         f = open(drop_down.get() + ".txt", "w")
         for i in short:
             if i != "":
+                print(drop_down.get())
                 f.write(i + "\n")
         f.close()
+        print(open(drop_down.get() + ".txt", "r").read()+'written')
     print(short)
     select_shops.pack_forget()
     list_box.pack_forget()
@@ -223,7 +245,11 @@ def save_to_main():
             #print((date, bal,output_frame.grid_slaves(row=i,column=3)[0].get()))
         recive = output_frame.grid_slaves(row=i,column=3)[0].get()
         if recive.isnumeric():
-            his.append((str(datetime.date.today()), store_name,int(recive)))
+            if drop_down.get() != "Full":
+                area_count["Full"] += int(recive)
+            area_count[drop_down.get()] += int(recive)
+            total.config(text="Total collection of %s: %d" % (drop_down.get(), area_count[drop_down.get()]))
+            his.append((str(datetime.date.today().strftime("%d-%m-%Y")), store_name,int(recive)))
         if enum<len(entry_list)-1:
             if output_frame.grid_slaves(row=entry_list[enum+1], column=0)[0].cget("text") != store_name:
                 pointer.delete_cols(1, 2)
@@ -248,7 +274,7 @@ def save_to_main():
             completed.append(store_name)
     text.delete(0, END)
     escape_operation()
-    #history.save("HISTORY.xlsx")
+    history.save("HISTORY.xlsx")
 
     """
     print(store_name)
@@ -263,8 +289,8 @@ def save_to_main():
         value = output_frame.grid_slaves(row=i,column=4)[0].cget("text")
         balance = output_frame.grid_slaves(row=i,column=3)[0].get()
         if balance.isnumeric():
-            print(str(datetime.date.today()), store_name, balance)
-            his.append((str(datetime.date.today()), store_name, int(balance)))
+            print(str(datetime.date.today().strftime("%d-%m-%Y")), store_name, balance)
+            his.append((str(datetime.date.today().strftime("%d-%m-%Y")), store_name, int(balance)))
             if drop_down.get() != "Full":
                 area_count["Full"] += int(balance)
             area_count[drop_down.get()] += int(balance)
@@ -291,6 +317,8 @@ def report_store():
     total_sum = 0
     for i in l:
         print(i)
+        if i == '':
+            continue
         wb = load_workbook(i+".xlsx")
         pointer = wb.active
         date = pointer["A"]
@@ -306,7 +334,7 @@ def report_store():
     book.save(str(file_name)+".xlsx")
     book.save("Records/"+str(file_name) + ".xlsx")
 def updateToday(ev):
-    date = "".join(str(datetime.date.today()).split("-"))
+    date = "".join(str(datetime.date.today().strftime("%d-%m-%Y")).split("-"))
     try:
         wb = load_workbook(date + ".xlsx")
         pointer = wb.active
@@ -328,15 +356,15 @@ def updateToday(ev):
             for j in range(1, len(dates) + 1):
                 cell = add_pointer.cell(row=j, column=1)
                 if cell.value == None:
-                    add_pointer.cell(row=j, column=1).value = str(datetime.date.today())
+                    add_pointer.cell(row=j, column=1).value = str(datetime.date.today().strftime("%d-%m-%Y"))
                     add_pointer.cell(row=j, column=2).value = list_of_amt[i].value
                     break
-                elif str(datetime.date.today()) in str(cell.value):
+                elif str(datetime.date.today().strftime("%d-%m-%Y")) in str(cell.value):
                     add_pointer.cell(row=j, column=2).value = list_of_amt[i].value
                     break
 
             else:
-                add_pointer.cell(row=j + 1, column=1).value = str(datetime.date.today())
+                add_pointer.cell(row=j + 1, column=1).value = str(datetime.date.today().strftime("%d-%m-%Y"))
                 add_pointer.cell(row=j + 1, column=2).value = list_of_amt[i].value
             add_wb.save(list_of_shop[i].value + ".xlsx")
         except Exception as e:
