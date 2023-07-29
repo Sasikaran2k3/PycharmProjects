@@ -1,7 +1,7 @@
 import datetime
 from tkinter import *
 from tkinter.ttk import Combobox
-
+from tkinter import ttk
 import openpyxl
 from openpyxl import load_workbook
 
@@ -83,10 +83,22 @@ def enter(e):
 def change_value(ev):
     output_frame.grid_slaves(row=1,column=3)[0].focus_set()
 
-
+def total_calculator():
+    def find_selects():
+        sub_total = 0
+        for i in entry_list:
+            if 'selected' in output_frame.grid_slaves(row = i, column=5)[0].state():
+                amt = output_frame.grid_slaves(row = i,column= 3)[0].get()
+                if amt.strip().isnumeric():
+                    sub_total += int(amt)
+        area_count[drop_down.get()] = sub_total
+        total.config(text="Total collection of %s: %d" % (drop_down.get(), sub_total))
+    print("\n-----------------")
+    find_selects()
+    print("----------------------\n")
 def show_accounts(ev):
     short = list(set(select_shops.get(0,END)))
-    print(short)
+    short.sort()
     if short == []:
         short = area_dict[drop_down.get()]
     else:
@@ -147,11 +159,18 @@ def show_accounts(ev):
                 e.bind("<Up>", movement_up)
                 e.bind("<Return>", movement_down)
                 e.bind("<Escape>",enter)
+
+                c = ttk.Checkbutton(output_frame,state='selected')
+                #c.bind("<ButtonRelease-1>",total_calculator)
+                c.grid(row=counter + 1, column=5)
+                c.state(['!alternate','!disabled','selected'])
                 Label(output_frame,font=("Calibri", 15),text =i.value).grid(row=counter + 1, column=4)
                 counter += 1
                 entry_list.append(counter)
             else:
                 counter += 1
+        wb.close()
+    Button(output_frame,text = "Total", command=total_calculator,width=10).grid(row=counter+1,column=4,pady=5)
     output_frame.pack(fill = BOTH,expand=YES,padx=2,pady=2)
     canva.create_window((canva.winfo_width()//2, 0), window=output_frame, anchor=CENTER)
     canva.update_idletasks()
@@ -194,6 +213,7 @@ def movement_up(e):
 
 
 def jump_to_save(e):
+    output_frame.grid_slaves()
     buttons_of_operation.grid_slaves(row=0, column=2)[0].focus_set()
 
 
@@ -275,6 +295,7 @@ def save_to_main():
     text.delete(0, END)
     escape_operation()
     history.save("HISTORY.xlsx")
+    recreate(0)
 
     """
     print(store_name)
@@ -409,6 +430,7 @@ store_name = ""
 
 select_shops = Listbox(root,font=("Calibri", 15), width=75)
 select_shops.pack(pady=10)
+select_shops.bind("<Escape>", escape_operation)
 select_shops.bind("<Delete>",lambda e: select_shops.delete(select_shops.curselection()[0]))
 
 save_list = Button(text="Show Accounts")
