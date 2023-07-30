@@ -18,7 +18,7 @@ def ConvertText(content):
     browser.find_element(By.CSS_SELECTOR, 'textarea[name="text"]').send_keys(Keys.CONTROL+"a")
     browser.find_element(By.CSS_SELECTOR, 'textarea[name="text"]').send_keys(Keys.DELETE)
     time.sleep(5)
-    browser.find_element(By.CSS_SELECTOR, 'textarea[name="text"]').send_keys(content)
+    browser.find_element(By.CSS_SELECTOR, 'textarea[name="text"]').send_keys("Do You know ?" + content)
     time.sleep(2)
     browser.find_element(By.XPATH,'//button[text()="Generate"]').click()
     wait = WebDriverWait(browser, 100)

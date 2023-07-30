@@ -14,6 +14,25 @@ from selenium.webdriver.common.keys import Keys
 # date is used for naming the files
 date = "".join(str(datetime.date.today()).split("-"))
 
+def additional_images(img_desc):
+    #img_desc = "The ruling could require Apple to allow developers to provide external payment options"
+    browser.get("https://www.google.com/imghp")
+    browser.find_element(By.XPATH, "//textarea[@type='search']").click()
+    browser.find_element(By.XPATH, "//textarea[@type='search']").send_keys(img_desc + "\n")
+    all_img = browser.find_elements(By.XPATH, '//div[@class="bRMDJf islir"]//img')
+    c = 0
+    for i in all_img[:3]:
+        i.click()
+        time.sleep(4)
+        url = browser.find_elements(By.XPATH, '//div[@class="MAtCL PUxBg"]//img')
+        pic_name = os.path.dirname(__file__) + "\\Data\\" + date + "_%d" % c + ".png"
+        c += 1
+        for j in url :
+            if "http" in j.get_attribute("src"):
+                j.screenshot(pic_name)
+                print("downloaded")
+                break
+
 
 def select_scrap():
     count = 0
@@ -30,6 +49,8 @@ def select_scrap():
             title = browser.find_element(By.CSS_SELECTOR, title_selector).text
             news_description = browser.find_element(By.CSS_SELECTOR, description_selector).text
             url = check.get_attribute("src")
+            img_desc = browser.find_element(By.XPATH, '//p[@class="caption"]').text
+            additional_images(img_desc)
             browser.quit()
             time.sleep(2)
             file = open(os.path.dirname(__file__) + "\\Data\\" + "%s.txt" % (date), "w")
@@ -63,7 +84,6 @@ def auto_scrape():
     while True:
         try:
             browser.get(today_link)
-
             page = browser.find_element(By.CSS_SELECTOR, 'div[class="thumb"]>a')
             link = page.get_attribute("href")
             page.click()
@@ -73,6 +93,7 @@ def auto_scrape():
             check = browser.find_element(By.CSS_SELECTOR, image_selector)
             title = browser.find_element(By.CSS_SELECTOR, title_selector).text
             news_description = browser.find_element(By.CSS_SELECTOR, description_selector).text
+            img_desc = browser.find_element(By.XPATH, '//p[@class="caption"]').text
             with open(os.path.dirname(__file__)+"//Data//"+date+" full desc.txt","w") as f:
                 news_descriptions = browser.find_elements(By.CSS_SELECTOR, description_selector)
                 news_descriptions.pop()
@@ -81,6 +102,8 @@ def auto_scrape():
                     news_description_full += i.text+"\n"
                 f.write(news_description_full)
             url = check.get_attribute("src")
+            print(img_desc)
+            additional_images(img_desc)
             browser.quit()
             time.sleep(2)
             file = open(os.path.dirname(__file__) + "\\Data\\" + "%s.txt" % (date), "w")
@@ -125,6 +148,7 @@ my_preference = open(os.path.dirname(__file__)+"//my_preferance.txt","r+")
 my_news = open(os.path.dirname(__file__)+"//my_news.txt","r+")
 my_news_data = my_news.readlines()
 sugg = my_preference.readlines()
+
 if len(my_news_data) == 4:
     print("No Scraping")
     time.sleep(2)

@@ -99,11 +99,12 @@ def total_calculator(ev):
                     on += int(online_pay)
         area_count[drop_down.get()] = cash + on
         total.config(text="Cash : %d, Online : %d, Total : %d" % (cash, on, cash+on))
-    print("\n-----------------")
+    #print("\n-----------------")
     find_selects()
-    print("----------------------\n")
+    #print("----------------------\n")
 
 def show_accounts(ev):
+    global short
     short = list(set(select_shops.get(0,END)))
     short.sort()
     if short == []:
@@ -117,7 +118,8 @@ def show_accounts(ev):
         print(open(drop_down.get() + ".txt", "r").read()+'written')
     select_shops.pack_forget()
     list_box.pack_forget()
-    save_list.pack_forget()
+    select_frame.pack_forget()
+    #save_list.pack_forget()
     outside.pack(fill=BOTH,expand=YES)
     buttons_of_operation.pack(side=BOTTOM)
     global store_name
@@ -133,6 +135,7 @@ def show_accounts(ev):
     Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
     Label(output_frame, text="Online Pay:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
     Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=5)
+    short.append("COOLDRINKS")
     for i in short:
         store_name = i
         global wb
@@ -206,7 +209,7 @@ def recreate(e):
     buttons_of_operation.pack_forget()
     list_box.pack(fill=X)
     select_shops.pack()
-    save_list.pack()
+    select_frame.pack()
 def calculate_and_focus(ev):
     global counter
     canva.yview_moveto(float((output_frame.focus_get().grid_info().get('row') - 2) / counter))
@@ -258,9 +261,14 @@ def movement_left(e):
     if 1 <= current_row:
         output_frame.grid_slaves(current_row, column=3)[0].focus_set()
 
+
 def jump_to_save(e):
     buttons_of_operation.grid_slaves(row=0, column=2)[0].focus_set()
 
+
+def jump_to_show_account(e):
+    print("jump")
+    select_frame.grid_slaves(row=1,column=1)[0].focus_set()
 
 def pop_ask(e):
     def yes_even(ev):
@@ -393,48 +401,70 @@ def save_to_main():
 def escape_operation(ev=0):
     text.focus_set()
 def report_store():
-    l = area_dict[drop_down.get()]
-    print(l)
-    book = openpyxl.Workbook()
-    p = book.active
+    global short
+    l = short
+    file_name = "_" + drop_down.get() + datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    book = open(file_name+".csv","w",newline="")
+    p = csv.writer(book)
     total_sum = 0
     for i in l:
         print(i)
         if i == '':
             continue
-        wb = load_workbook(i+".csv")
-        pointer = wb.active
-        date = pointer["A"]
-        amt = pointer["B"]
-        for row, j in enumerate(amt):
-            if type(j.value) == int:
+        wb = open(i+".csv",'r')
+        pointer = csv.reader(wb)
+        """date = pointer["A"]
+        amt = pointer["B"]"""
+        for date,amt in pointer:
+            if amt.isnumeric():
                 #print(i+":", j.value, date[row].value,"\n")
-                total_sum += j.value
-                p.append((i, date[row].value, j.value))
+                total_sum += int(amt)
+                p.writerow([i,date,amt])
     file_name = "_"+drop_down.get()+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     print(file_name)
-    p.append(("Total",str(datetime.datetime.now()),total_sum))
-    book.save(str(file_name)+".csv")
-    book.save("Records/"+str(file_name) + ".csv")
+    p.writerow(["Total",str(datetime.datetime.now()),total_sum])
+    book.close()
+    #book.save("Records/"+str(file_name) + ".csv")
 def updateToday(ev):
-    date = "".join(str(datetime.date.today().strftime("%d-%m-%Y")).split("-"))
+    date = str(datetime.date.today().strftime("%d-%m-%Y"))
+    global pointer,wb
     try:
-        wb = load_workbook(date + ".csv")
-        pointer = wb.active
+        datee = "".join(str(datetime.date.today().strftime("%d-%m-%Y")).split("-"))
+        wb = open(datee + ".csv","r")
+        pointer = csv.reader(wb)
     except FileNotFoundError:
         print(date)
+    """list_of_shop = pointer["C"]
+    list_of_amt = pointer["D"]"""
 
-    list_of_shop = pointer["C"]
-    list_of_amt = pointer["D"]
-
-    for i in range(len(list_of_shop)):
-        if list_of_shop[i].value == "Cash":
+    for i in pointer:
+        store = i[2]
+        amt = i[3]
+        if store.lower() == "cash":
             continue
         try:
-            add_wb = load_workbook(list_of_shop[i].value + ".csv")
-            add_pointer = add_wb.active
+            add_wb = open(store+".csv", 'r')
+            add_pointer = csv.reader(add_wb)
+            old_records = [i for i in add_pointer]
+            for old in old_records:
+                if date in str(old[0]):
+                    print(store + " Updated")
+                    old[1] = amt
+                    break
+            else:
+                old_records.append([date,amt])
+            add_wb = open(store + ".csv", 'w',newline="")
+            write_pointer = csv.writer(add_wb)
+            print(store)
+            for old in old_records:
+                write_pointer.writerow(old)
+        except Exception as e:
+            print(store)
+            print(e)
+            """
             dates = add_pointer["A"]
             amts = add_pointer["B"]
+            
             max_val = len(amts)
             for j in range(1, len(dates) + 1):
                 cell = add_pointer.cell(row=j, column=1)
@@ -445,7 +475,6 @@ def updateToday(ev):
                 elif str(datetime.date.today().strftime("%d-%m-%Y")) in str(cell.value):
                     add_pointer.cell(row=j, column=2).value = list_of_amt[i].value
                     break
-
             else:
                 add_pointer.cell(row=j + 1, column=1).value = str(datetime.date.today().strftime("%d-%m-%Y"))
                 add_pointer.cell(row=j + 1, column=2).value = list_of_amt[i].value
@@ -453,7 +482,7 @@ def updateToday(ev):
         except Exception as e:
             print(list_of_shop[i].value)
             print(e)
-
+            """
 counter = 0
 Label(root, text="WELCOME TO COLLECTION SOFTWARE").pack(side=TOP,pady=5)
 
@@ -464,6 +493,7 @@ text = Entry(input_frame,width=90,bd=15,textvariable=data)
 text.bind("<KeyRelease>",get_list)
 text.bind("<Return>", enter)
 text.bind("<Down>", enter)
+text.bind("<End>", jump_to_show_account)
 text.grid(row=0,column=1)
 text.focus_set()
 
@@ -490,13 +520,23 @@ list_box.bind("<Return>", select_shop)
 list_box.bind("<Escape>", escape_operation)
 store_name = ""
 
+select_frame = Frame(root)
+
 select_shops = Listbox(root,font=("Calibri", 15), width=75)
-select_shops.pack(pady=10)
+select_shops.pack()
+select_shops.bind("<End>", jump_to_show_account)
 select_shops.bind("<Delete>",lambda e: select_shops.delete(select_shops.curselection()[0]))
 
-save_list = Button(text="Show Accounts")
+clear = Button(select_frame,text="Clear")
+clear.bind("<Button-1>",lambda e: select_shops.delete(0,END))
+clear.grid(row=1, column=2, padx=10)
+
+save_list = Button(select_frame,text="Show Accounts")
 save_list.bind("<Button-1>",show_accounts)
-save_list.pack()
+save_list.bind("<Return>",show_accounts)
+save_list.grid(row=1, column=1)
+
+select_frame.pack()
 
 outside = Frame(root)
 outside.pack(fill=BOTH,expand=YES)
