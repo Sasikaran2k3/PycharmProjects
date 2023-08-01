@@ -11,7 +11,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
-# date is used for naming the files
+# date is used for naming the fi    les
 date = "".join(str(datetime.date.today()).split("-"))
 
 def additional_images(img_desc):

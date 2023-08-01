@@ -1,9 +1,13 @@
 import time
 import os
 import datetime
+from moviepy.editor import *
 from moviepy.audio.AudioClip import CompositeAudioClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 from moviepy.video.VideoClip import ImageClip
+from moviepy.video import VideoClip
+from moviepy.video.compositing.concatenate import concatenate_videoclips
+from moviepy.video.fx.fadein import fadein
 from selenium.webdriver import Chrome, ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -25,6 +29,29 @@ browser.maximize_window()
 browser.implicitly_wait(10)
 
 # Merge Audio and Video
+
+
+date = "".join(str(datetime.date.today()).split("-"))
+audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
+back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
+divider = audio.duration / 4
+#img1 = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % date).set_duration(divider)
+final = []
+for i in range(4):
+    img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date, i))
+    img = img.resize(height=1080, width=1920)
+    img = img.set_duration(divider)
+    img = fadein(img,1.5)
+    final .append(img)
+
+out = concatenate(final, method="compose")#.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
+out = out.set_audio(CompositeAudioClip([audio, back]))
+out.duration = divider*4 + 1
+print(out.duration)
+out = out.subclip(0, divider*4 + 1)
+out.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
+
+"""
 audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
 back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
 image = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % date)
@@ -34,7 +61,7 @@ video.duration = audio_duration
 video = video.subclip(0, audio_duration)
 video.fps = 1
 video.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date)
-
+"""
 # Delete Old final video
 l = os.listdir(os.path.dirname(__file__))
 for i in l:

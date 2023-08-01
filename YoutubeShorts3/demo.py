@@ -12,19 +12,24 @@ from moviepy.video.fx.fadein import fadein
 date = "".join(str(datetime.date.today()).split("-"))
 audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
 back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
+back = back.cutout(0,str(audio.duration))
 divider = audio.duration / 4
 #img1 = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % date).set_duration(divider)
 final = []
 for i in range(4):
     img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date, i))
-    img = img.resize(height=1920, width=1080)
+    img = img.resize(height=1080, width=1920)
     img = img.set_duration(divider)
     img = fadein(img,1.5)
     final .append(img)
 
-out = concatenate(final, method="compose").write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
-out.set_audio(CompositeAudioClip([audio, back]))
-out.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % (date),fps=24)
+out = concatenate(final, method="compose")#.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
+out = out.set_audio(CompositeAudioClip([audio, back]))
+out.duration = divider*4 + 1
+print(out.duration)
+out = out.subclip(0, divider*4 + 1)
+out.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
+
 
 """img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date,0)).set_duration(divider)
 img1.resize(height=1080, width=1920)
