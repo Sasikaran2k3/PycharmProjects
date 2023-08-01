@@ -1,99 +1,53 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import time
+import os
+import datetime
+from moviepy.editor import *
+from moviepy.audio.AudioClip import CompositeAudioClip
+from moviepy.audio.io.AudioFileClip import AudioFileClip
+from moviepy.video.VideoClip import ImageClip
+from moviepy.video import VideoClip
+from moviepy.video.compositing.concatenate import concatenate_videoclips
+from moviepy.video.fx.fadein import fadein
 
-# What you enter here will be searched for in
-# Google Images
-query = "dogs"
+date = "".join(str(datetime.date.today()).split("-"))
+audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
+back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
+divider = audio.duration / 4
+#img1 = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % date).set_duration(divider)
+final = []
+for i in range(4):
+    img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date, i))
+    img = img.resize(height=1920, width=1080)
+    img = img.set_duration(divider)
+    img = fadein(img,1.5)
+    final .append(img)
 
-# Creating a webdriver instance
-driver = webdriver.Chrome(r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
+out = concatenate(final, method="compose").write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
+out.set_audio(CompositeAudioClip([audio, back]))
+out.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % (date),fps=24)
 
-# Maximize the screen
-driver.maximize_window()
-
-# Open Google Images in the browser
-driver.get('https://images.google.com/')
-
-# Finding the search box
-box = driver.find_element(By.XPATH, '//*[@id="sbtc"]/div/div[2]/input')
-
-# Type the search query in the search box
-box.send_keys(query)
-
-# Pressing enter
-box.send_keys(Keys.ENTER)
-
-
-# Function for scrolling to the bottom of Google
-# Images results
-def scroll_to_bottom():
-    last_height = driver.execute_script('\
-    return document.body.scrollHeight')
-
-    while True:
-        driver.execute_script('\
-        window.scrollTo(0,document.body.scrollHeight)')
-
-        # waiting for the results to load
-        # Increase the sleep time if your internet is slow
-        time.sleep(3)
-
-        new_height = driver.execute_script('\
-        return document.body.scrollHeight')
-
-        # click on "Show more results" (if exists)
-        try:
-            driver.find_element(By.CSS_SELECTOR, ".YstHxe input").click()
-
-            # waiting for the results to load
-            # Increase the sleep time if your internet is slow
-            time.sleep(3)
-
-        except:
-            pass
-
-        # checking if we have reached the bottom of the page
-        if new_height == last_height:
-            break
-
-        last_height = new_height
-
-
-# Calling the function
-
-# NOTE: If you only want to capture a few images,
-# there is no need to use the scroll_to_bottom() function.
-scroll_to_bottom()
-
-# Loop to capture and save each image
-for i in range(1, 50):
-
-    # range(1, 50) will capture images 1 to 49 of the search results
-    # You can change the range as per your need.
-    try:
-
-        # XPath of each image
-        img = driver.find_element(By.XPATH,
-            '//*[@id="islrg"]/div[1]/div[' +
-            str(i) + ']/a[1]/div[1]/img')
-
-        # Enter the location of folder in which
-        # the images will be saved
-        img.screenshot('Download-Location' +
-                       query + ' (' + str(i) + ').png')
-        # Each new screenshot will automatically
-        # have its name updated
-
-        # Just to avoid unwanted errors
-        time.sleep(0.2)
-
-    except:
-
-        # if we can't find the XPath of an image,
-        # we skip to the next image
-        continue
-
-# Finally, we close the driver
-driver.close()
+"""img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date,0)).set_duration(divider)
+img1.resize(height=1080, width=1920)
+img.resize(height=1080, width=1920)
+i1 = fadein(img,2.0)
+i2 = fadein(img1, 2.0)
+final = [i1, i2]
+#concatenate_videoclips(final,method="compose").write_videofile(os.path.dirname(__file__) + "\\Data\\%s_demo.mp4" % (date),fps=24)
+for i in range(3):
+    print(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date,i))
+    img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date,i)).set_duration(divider)
+    #vid = concatenate_videoclips([img])#.resize(height=1920, width=1080)
+    #vid.duration = divider
+    #vid = vid.crossfadein(3.0)
+    #vid.fps = 24
+    #vid.resize(height=1920, width=1080).crossfadein(5.0)
+    #vid.crossfadein(5.0)
+    #vid.write_videofile(os.path.dirname(__file__) + "\\Data\\%s_%d.mp4" % (date,i),fps=24)
+    final.append(fadein(ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date,i)).set_duration(divider).resize(height=1920, width=1080),2.0))
+print(final)
+for i in range(len(final)):
+    print(final[i])
+f = concatenate_videoclips(final)
+#f.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % (date),fps=24)
+concatenate(final, method="compose").write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % (date),fps = 24)
+"""

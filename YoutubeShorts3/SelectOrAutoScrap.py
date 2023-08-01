@@ -20,7 +20,7 @@ def additional_images(img_desc):
     browser.find_element(By.XPATH, "//textarea[@type='search']").click()
     browser.find_element(By.XPATH, "//textarea[@type='search']").send_keys(img_desc + "\n")
     all_img = browser.find_elements(By.XPATH, '//div[@class="bRMDJf islir"]//img')
-    c = 0
+    c = 1
     for i in all_img[:3]:
         i.click()
         time.sleep(4)
@@ -55,7 +55,7 @@ def select_scrap():
             time.sleep(2)
             file = open(os.path.dirname(__file__) + "\\Data\\" + "%s.txt" % (date), "w")
             file.write(title + " \n" + news_description + "\n" + link + "\n Check the Description for more Details")
-            pic_name = os.path.dirname(__file__) + "\\Data\\" + date + ".png"
+            pic_name = os.path.dirname(__file__) + "\\Data\\" + date + "_0.png"
             # wget is used to download image from its url and saves with given name
             wget.download(url, out=pic_name)
             file.close()
@@ -108,7 +108,7 @@ def auto_scrape():
             time.sleep(2)
             file = open(os.path.dirname(__file__) + "\\Data\\" + "%s.txt" % (date), "w")
             file.write(title + " \n" + news_description + "\n" +link + "\n Check the Description for more Details")
-            pic_name = os.path.dirname(__file__) + "\\Data\\" + date + ".png"
+            pic_name = os.path.dirname(__file__) + "\\Data\\" + date + "_0.png"
             # wget is used to download image from its url and saves with given name
             wget.download(url, out=pic_name)
             file.close()
