@@ -16,6 +16,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
+
 # date is used for naming the files
 date = "".join(str(datetime.date.today()).split("-"))
 
@@ -29,26 +30,27 @@ browser.maximize_window()
 browser.implicitly_wait(10)
 
 # Merge Audio and Video
-
-
 date = "".join(str(datetime.date.today()).split("-"))
 audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
 back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
-divider = audio.duration / 4
+divider = audio.duration / 8
 #img1 = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % date).set_duration(divider)
 final = []
-for i in range(4):
-    img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date, i))
+for i in range(8):
+    pic_num = i%4
+    print(pic_num)
+    img = ImageClip(os.path.dirname(__file__) + "\\Data\\%s_%d.png" % (date, pic_num))
     img = img.resize(height=1080, width=1920)
     img = img.set_duration(divider)
-    img = fadein(img,1.5)
+    if i != 0:
+        img = fadein(img,1.5)
     final .append(img)
-
 out = concatenate(final, method="compose")#.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
 out = out.set_audio(CompositeAudioClip([audio, back]))
-out.duration = divider*4 + 1
+out.duration = divider*8 + 1
 print(out.duration)
-out = out.subclip(0, divider*4 + 1)
+out_len = divider*8 + 1
+out = out.subclip(0, out_len)
 out.write_videofile(os.path.dirname(__file__) + "\\Data\\%s.mp4" % date, fps=24)
 
 """
@@ -97,7 +99,7 @@ while True:
         act = ActionChains(browser)
         transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
         # moves the subtitle from the video bottom left position
-        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 85, 135)
+        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 85, 128)
         act.release().perform()
         parent = browser.find_elements(By.XPATH, '//div[@class="PresetPreview-module_container_034hO"]')
         # selects the subtitle style

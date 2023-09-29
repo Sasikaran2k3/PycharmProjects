@@ -34,21 +34,14 @@ prompt = f.read()
 count = 0
 while True:
     try:
-        browser.get("https://app.ritetag.com/hashtag-suggestions")
-        browser.find_element(By.XPATH, '//button[text()="Clear"]').click()
-        browser.find_element(By.XPATH, '//input[@type="file"]').send_keys(os.path.dirname(__file__) + "/Data/" + date +".png")
-        f = open(os.path.dirname(__file__) + "/Data/" + date +".txt","r")
+        f = open(os.path.dirname(__file__) + "/Data/" + date + ".txt", "r")
         content = f.readlines()
         print(content)
         title = content[0]
         desc = content[1]
         link = content[2]
-        ActionChains(browser).click(browser.find_element(By.XPATH, "//textarea")).send_keys(title+desc).perform()
-        browser.find_element(By.XPATH, '//span[text()="Suggest Hashtags"]').click()
-        time.sleep(10)
-        hash_result = browser.find_elements(By.XPATH, '//ul[@class="ti-tags"]//span')
         my_hash = " #upgradebuddy #technology #gadget #gadgetnews "
-        yt_hashtags = " ".join(["#"+i.text for i in hash_result]) + my_hash
+        yt_hashtags = my_hash #" ".join(["#"+i.text for i in hash_result]) + my_hash
         print(yt_hashtags)
 
         # Open Yt Studio
@@ -90,7 +83,7 @@ while True:
         act.move_to_element((browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]'))).perform()
         act.double_click()
         #act.click((browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]'))).perform()
-        act.send_keys(desc+link+my_hash)
+        act.send_keys("Wait for it ! "+desc+link+my_hash)
         act.perform()
         """for i in desc+link+yt_hashtags:
             browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]').send_keys(i)"""
@@ -102,6 +95,7 @@ while True:
     except Exception as e:
         print(e)
         print(count)
+        browser.refresh()
         count += 1
         if count > 2:
             break
@@ -109,3 +103,31 @@ while True:
         print("Published Successfully")
         browser.quit()
         break
+"""
+f = open(os.path.dirname(__file__) + "/Data/" + date + ".txt", "r")
+content = f.readlines()
+print(content)
+title = content[0]
+desc = content[1]
+link = content[2]
+data = os.path.dirname(__file__) + "/" + date + ".mp4"
+my_hash = " #upgradebuddy #technology #gadget #gadgetnews "
+yt_hashtags = my_hash #" ".join(["#"+i.text for i in hash_result]) + my_hash
+browser.get("https://www.instagram.com/")
+browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="New post"]').click()
+browser.find_element(By.XPATH, '//button[text()="Select from computer"]').click()
+time.sleep(5)
+pyautogui.typewrite(data.replace("/", '\\')+"\n")
+browser.f
+quit()
+browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="Select crop"]').click()
+browser.find_element(By.CSS_SELECTOR, 'svg[aria-label="Crop portrait icon"]').click()
+browser.find_element(By.XPATH, '//div[text()="Next"]').click()
+time.sleep(3)
+browser.find_element(By.XPATH, '//div[text()="Next"]').click()
+print(desc+link+yt_hashtags)
+act = ActionChains(browser)
+act.move_to_element((browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]'))).perform()
+act.double_click()
+#act.click((browser.find_element(By.XPATH, '//div[@aria-label="Write a caption..."]'))).perform()
+"""

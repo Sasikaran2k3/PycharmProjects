@@ -272,7 +272,7 @@ def show_accounts(ev):
     Label(output_frame, text="Amt Received:", background='light grey', font=("Calibri", 15)).grid(row=0, column=3)
     Label(output_frame, text="Online Pay:", background='light grey', font=("Calibri", 15)).grid(row=0, column=4)
     Label(output_frame, text="Balance:", background='light grey', font=("Calibri", 15)).grid(row=0, column=5)
-    short.append("COOLDRINKS")
+    #short.append("COOLDRINKS")
     for i in short:
         store_name = i
         global wb

@@ -29,10 +29,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionSoftware5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionSoftware4 - Copy" />
   </component>
-  <component name="RunManager" selected="Python.CollectionSoftware4">
-    <configuration name="CollectionSoftware" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.CollectionSoftware4 - Copy">
+    <configuration name="CollectionSoftware4 - Copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CollectionSoftware4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -40,11 +40,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CollectionSoftware3" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CollectionSoftware3/CollectionSoftware.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CollectionSoftware4 - Copy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CollectionSoftware4 - Copy" />
         <item itemvalue="Python.CollectionSoftware4" />
         <item itemvalue="Python.CollectionSoftware4 (1)" />
         <item itemvalue="Python.Entry" />
         <item itemvalue="Python.Create (1)" />
-        <item itemvalue="Python.CollectionSoftware" />
       </list>
     </recent_temporary>
   </component>
