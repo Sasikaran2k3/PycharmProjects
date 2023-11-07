@@ -36,17 +36,31 @@ while True:
     try:
         # Rytr Ai
         browser.get("https://app.rytr.me/create")
+        input()
         time.sleep(2)
         browser.find_element(By.XPATH, '//button[@aria-controls="tabs--panel--2"]').click()
-        prompt = data[0].replace("\n", "") + "This is a news title, shorten this into 2 sentence for MEME with emotion triggering or personally relatable words and first sentence can strictly have less than 100 characters ONLY\n"
+        clear = browser.find_elements(By.XPATH, '//button[@class="_clear_1qglh_173"]')
+        if clear !=[]:
+            clear[0].click()
+            browser.switch_to.alert.accept()
+        wait = WebDriverWait(browser,1000)
+        wait.until(expected_conditions.visibility_of_element_located((By.XPATH,'//p[text()="Start chatting now!"]')))
+        prompt = data[0].replace("\n", "") + ".write a 30 seconds audio script for youtube shorts with this title. \n"
         print("prompt :",prompt)
         browser.find_element(By.XPATH, '//input[@placeholder="Enter your message..."]').send_keys(prompt)
         time.sleep(10)
+        chat = browser.find_elements(By.XPATH,'// div[ @class ="_item_nop3r_1 _bot_nop3r_35"]')
+        print(len(chat))
+        dialogs = chat[0].find_elements(By.XPATH,"//p")
+        for i in dialogs:
+            dialog = i.text
+            if "Rytr" not in dialog or "[" not in dialog:
+                print(dialog)
         new_title = browser.find_elements(By.XPATH, '//p[@dir="auto"]')[-1].text
         print(new_title)
-        output = [new_title[1:-1] + "\n", data[1]]
+        output = [new_title + "\n", data[1]]
         print(output)
-
+        input()
         f = open(os.path.dirname(__file__) + "/Data/" + date + ".txt", 'w')
         f.writelines(output)
         f.close()

@@ -1,12 +1,17 @@
 import time
 import datetime
+
+import pyautogui
 import pyautogui as py
 from pywinauto import *
 
 
 def BeginInk():
     ink = Application(backend="uia")
-    ink.start(r"C:\Program Files\Inkscape\bin\inkscape.exe")
+    ink.start(r"C:\Program Files (x86)\Inkscape\bin\inkscape.exe")
+    time.sleep(5)
+    #pyautogui.moveTo(950,665)
+    #pyautogui.click()
     ink.connect(title='New document 1 - Inkscape', timeout=20, title_re=".*Windows Software.*")
     """
     ink.NewDocumentInkscape.print_control_identifiers()
@@ -18,16 +23,19 @@ def BeginInk():
 """
 def StartWrite(text="R M D Engineering College", font="50"):
     py.press("5")  # Fitpage
-    py.moveTo(16, 485, duration=0.5)  # TextTool
-    py.click()
+    py.press("t")  # TextTool
     if (len(text) < 100):
-        py.moveTo(1240, 68, duration=0.5)  # Vertical Font
-        py.click()
-        py.moveTo(460, 120, duration=0.5)  # TextBox
-        py.dragTo(260, 660, 2, button="left")
+        py.moveTo(580, 190, duration=0.5)  # TextBox
+        py.dragTo(725, 555, 2, button="left")
         py.hotkey("ctrl", "a")
         py.write(text)
-        py.moveTo(647, 67, duration=0.5)  # Allign Centre
+        py.moveTo(930, 70, duration=0.5)  # Vertical Font
+        py.click()
+        py.moveTo(930, 95, duration=0.5)
+        py.click()
+        py.moveTo(724, 68, duration=0.5)  # Allign Centre
+        py.click()
+        py.moveTo(715, 95, duration=0.5)  # Allign Centre
         py.click()
         py.hotkey("ctrl", "a")
         py.moveTo(388, 64, duration=0.5)
@@ -35,6 +43,11 @@ def StartWrite(text="R M D Engineering College", font="50"):
         py.hotkey("ctrl", "a")
         py.write(font)
         py.press("enter")
+        py.hotkey('esc')
+        py.press("s")
+        py.hotkey('ctrl', "a")
+        py.press("v")
+        py.hotkey('esc')
         print("Done Written")
 
     else:
@@ -49,13 +62,26 @@ def StartWrite(text="R M D Engineering College", font="50"):
         py.write(text)
         py.press("f1")
         py.hotkey("ctrl", "a")
+        py.hotkey('esc')
         print("Done Written")
+
+def OpenExtention():
+    time.sleep(5)
+    print("Opening Extention...")
+    py.hotkey("alt", "n")
+    for i in range(3):
+        py.press("down")
+    py.press("enter")
+    py.press("tab",presses=5)
+    py.press("enter")
+
+
 
 
 def StartDraw(path):
     py.press("5")  # Fitpage
     py.hotkey("ctrl","o")
-    time.sleep(1)
+    time.sleep(5)
     py.write(path)
     py.press("enter")
 
@@ -63,24 +89,25 @@ def StartDraw(path):
 def Trace_BitImage():
     py.press("f1")  # Selection Tool
     py.hotkey("ctrl", "a")
-    py.hotkey("alt", "b")  # Bit map Copy
+    py.hotkey("alt", "b")  # Bit map Copy5t
     print("Bit Map Ready")
     py.hotkey("alt", "shift", "b")  # Trace Bit map
     time.sleep(2)
     py.press("tab",presses=3)
     py.write("0.650")
-    py.press(["tab"]*12)  # For enter button ... Since the tab position is random
+    py.press(["tab"]*16)  # For enter button ... Since the tab position is random
     py.press("enter")  # Trace Bit map Completed
-    py.hotkey("alt", "f4")  # Close Bit map
+    py.moveTo(1149,114)
+    py.click() # Close Bit map
     py.hotkey("f1")  # Select
-    py.hotkey("alt", "i")
-    py.moveTo(430, 360, duration=0.5)  # Select Bit Map
+    py.press("!")
+    py.moveTo(695, 335, duration=0.5)  # Select Bit Map
     py.dragTo(630, 360, 1)  # Drag it
     py.hotkey("shift", "1")
     py.hotkey("alt", "i")
     py.press("delete")
-    py.moveTo(610, 360, duration=0.5)
-    py.dragTo(410, 360, 1)
+    py.moveTo(630, 360, duration=0.5)
+    py.dragTo(695, 335, 1)
     py.hotkey("ctrl", "a")
     py.hotkey("shift", "alt", "i")
 
@@ -107,7 +134,7 @@ def UniGcode(path):
     gcode.connect(title='Universal Gcode Platform (Version 2.0.7-SNAPSHOT / Dec 02, 2020)', timeout=100)
     py.moveTo(20, 60, duration=0.5)
     py.click()
-    time.sleep(3    )
+    time.sleep(3)
     py.write(path+"\n")
     time.sleep(10)
     py.moveTo(60, 60, duration=0.5)

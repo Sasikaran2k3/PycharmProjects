@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 def BeginWap():
     global browser1
     options = Options()
-    options.add_experimental_option("debuggerAddress","localhost:1234")
+    options.add_argument(r'--user-data-dir=E:\UpgradeBuddy')
     service = Service(r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
     browser1 = webdriver.Chrome(service=service,options=options)
 
@@ -23,7 +23,7 @@ def WapTransfer(person):
     time.sleep(5)
     print("Typed the name")
 def LastMsg():
-    LastMsg=browser1.find_element(By.CSS_SELECTOR,'span[class="i0jNr selectable-text copyable-text"]')
+    LastMsg=browser1.find_element(By.CSS_SELECTOR,'span[class="_11JPr selectable-text copyable-text"]')
     return(LastMsg.text)
     browser1.minimize_window()
 

@@ -29,9 +29,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../YoutubeShorts3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.CollectionSoftware4 - Copy">
+  <component name="RunManager" selected="Python.CollectionSoftware6 (1)">
     <configuration name="CollectionSoftware4 - Copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CollectionSoftware4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CollectionSoftware6 (1)" />
         <item itemvalue="Python.CollectionSoftware4 - Copy" />
         <item itemvalue="Python.CollectionSoftware4 (1)" />
         <item itemvalue="Python.CollectionSoftware5" />
-        <item itemvalue="Python.CollectionSoftware6 (1)" />
         <item itemvalue="Python.CollectionSoftware5 (2)" />
       </list>
     </recent_temporary>

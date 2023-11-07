@@ -24,14 +24,16 @@ def additional_images(img_desc,flag = 0):
     for i in all_img:
         i.click()
         time.sleep(4)
-        url = browser.find_elements(By.XPATH, '//div[@class="MAtCL PUxBg"]//img')
+        url = browser.find_elements(By.XPATH, '//div[@class="p7sI2 PUxBg"]//img')
         pic_name = os.path.dirname(__file__) + "\\Data\\" + date + "_%d" % c + ".png"
         for j in url :
-            if "http" in j.get_attribute("src"):
+            try:
                 j.screenshot(pic_name)
                 print("downloaded")
                 c += 1
                 break
+            except:
+                continue
         if c == 4:
             break
 

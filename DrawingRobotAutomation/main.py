@@ -1,13 +1,16 @@
 import time
 import InkScape
-import ImageDownloadAutomation
-import ChatterBot
 import WapAutomation
 
 WapAutomation.BeginWap()
-WapAutomation.WapTransfer("Rmd Naveen Balaji")
+WapAutomation.WapTransfer("DRAWING_ROBOT")
 Command = WapAutomation.LastMsg()
 WapAutomation.SendWap(Command)
+InkScape.BeginInk()
+InkScape.StartWrite(Command)
+InkScape.Trace_BitImage()
+InkScape.OpenExtention()
+quit()
 time.sleep(2)
 ChatterBot.StartChatterBot()
 ChatterBot.BotTrain()

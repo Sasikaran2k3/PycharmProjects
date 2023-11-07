@@ -28,14 +28,16 @@ def BotResponse(In):
         Splitted = In.split("draw")
         Response = Pikachu.get_response("Draw")
         Content = Splitted[-1]
-        return Content , "draw"
+        return Content, "draw"
     elif "write" in In:
         Splitted = In.split("write")
         Response = Pikachu.get_response("Write")
         Content = Splitted[-1]
-        return Content , "write"
+        return Content, "write"
     else:
         Response = Pikachu.get_response(In)
-        return Response , "Chat"
+        return Response, "Chat"
 
 
+StartChatterBot()
+BotTrain()

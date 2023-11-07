@@ -1,28 +1,28 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import cv2
 
+import InkScape
 import WapAutomation
 
 
 def BeginSelinium():
     global browser
-    #options = Options()
+    options = Options()
     #options.add_experimental_option("debuggerAddress","localhost:1234")
     services = Service(r"C:\Users\HP\PycharmProjects\WebDriver\chromedriver.exe")
-    browser = webdriver.Chrome(service=services) #, options=options)
+    browser = webdriver.Chrome(service=services,options=options)
 
-def Search(text):
-    browser.get("https://www.google.co.in/")
-    browser.implicitly_wait(10)
-    Tbox=browser.find_element(By.CSS_SELECTOR,'input[class="gLFyf gsfi"]')
-    Tbox.send_keys(text+" Outline \n")
-    browser.find_element(By.CSS_SELECTOR,'a[data-hveid="CAEQAw"]').click()
+def Search(text="RMD Engieering College"):
+    browser.get("https://www.google.com/imghp")
+    browser.find_element(By.XPATH, "//textarea[@type='search']").click()
+    browser.find_element(By.XPATH, "//textarea[@type='search']").send_keys(text + " outline\n")
     time.sleep(5)
+    WapAutomation.BeginWap()
+    WapAutomation.WapTransfer("DRAWING_ROBOT")
     WapAutomation.SendWap("Begining to Download")
     time.sleep(5)
     browser.minimize_window()
@@ -40,3 +40,9 @@ def Search(text):
     browser.close()
     return "E:\\Collections of Gcode\\"+text+".png"
 
+BeginSelinium()
+path = Search("Benz Logo")
+InkScape.BeginInk()
+InkScape.StartDraw(path)
+InkScape.Trace_BitImage()
+InkScape.OpenExtention()

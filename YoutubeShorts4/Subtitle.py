@@ -35,7 +35,7 @@ browser.implicitly_wait(10)
 
 date = "".join(str(datetime.date.today()).split("-"))
 audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
-back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
+back = AudioFileClip(os.path.dirname(__file__) + "\\TimeTick.mp3")
 shift_count = 5
 divider = audio.duration / shift_count
 #img1 = ImageClip(os.path.dirname(__file__) + "\\Data\\%s.png" % date).set_duration(divider)
