@@ -1,0 +1,117 @@
+{
+   "checksum": "5999705e1a06be6865f198c1aa584a78",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13216814313822831",
+            "date_last_used": "0",
+            "guid": "74b966fd-a0b5-4733-a752-ab99d327070a",
+            "id": "5",
+            "name": "Google",
+            "type": "url",
+            "url": "https://www.google.com/"
+         }, {
+            "date_added": "13218725483352570",
+            "date_last_used": "0",
+            "guid": "e95fd6f1-2f42-47d5-a6a7-22c936f15de0",
+            "id": "6",
+            "name": "Free GoG PC Games - Full Download DRM-Free Game",
+            "type": "url",
+            "url": "https://freegogpcgames.com/"
+         }, {
+            "date_added": "13220026547674013",
+            "date_last_used": "0",
+            "guid": "b2f6b900-29bc-45db-9623-483caf55a713",
+            "id": "7",
+            "name": "Tiwari NCERT Sols",
+            "type": "url",
+            "url": "https://www.tiwariacademy.com/cbse-ncert-solutions/#class-11-solutions"
+         }, {
+            "date_added": "13231537462667265",
+            "date_last_used": "0",
+            "guid": "f0afbb98-2f74-4be6-be38-79e35d427646",
+            "id": "8",
+            "name": "Photopea | Online Photo Editor",
+            "type": "url",
+            "url": "https://www.photopea.com/"
+         }, {
+            "date_added": "13233946111407666",
+            "date_last_used": "0",
+            "guid": "df172ada-9d5f-4213-8f6b-4f8d988efae2",
+            "id": "9",
+            "name": "Chrome Remote Desktop",
+            "type": "url",
+            "url": "https://remotedesktop.google.com/u/1/access"
+         }, {
+            "date_added": "13236227427767029",
+            "date_last_used": "0",
+            "guid": "5c6f0292-a9b7-4d90-a6b8-35ae4deee24d",
+            "id": "10",
+            "name": "Career Guidance | PickMyCareer",
+            "type": "url",
+            "url": "https://pickmycareer.in/"
+         }, {
+            "date_added": "13237775834066902",
+            "date_last_used": "0",
+            "guid": "c3b307f8-80d7-49f4-aeeb-5fd4c8b51ae5",
+            "id": "11",
+            "name": "Prime Video",
+            "type": "url",
+            "url": "https://www.primevideo.com/storefront/home/ref=atv_nb_logo"
+         }, {
+            "date_added": "13238838125457306",
+            "date_last_used": "0",
+            "guid": "a58e14d0-ee6f-4c10-a8fc-4f225f226425",
+            "id": "12",
+            "name": "RG Mechanics Games | Download torrent games PC | R.G. Mechanics RePack",
+            "type": "url",
+            "url": "https://rgmechanics-games.com/"
+         }, {
+            "date_added": "13275106778314177",
+            "date_last_used": "0",
+            "guid": "281efd92-96c8-4b55-b879-f2810c5b6c5b",
+            "id": "13",
+            "name": "BEST OF USED BOOK : ONLINE BOOKSTORE FOR OLD, SECOND-HAND BOOKS – Best Of Used Books",
+            "type": "url",
+            "url": "https://bestofusedbooks.com/"
+         } ],
+         "date_added": "13344276717274142",
+         "date_last_used": "0",
+         "date_modified": "13275106778314177",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13344276717274147",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13277287966348701",
+            "date_last_used": "0",
+            "guid": "c3187ae6-ea13-43d8-a72c-5ca3c6989771",
+            "id": "14",
+            "name": "MovieRockers.Co Tamil Movies Download TamilRockers 2021 Movies",
+            "type": "url",
+            "url": "https://movierockers.xyz/"
+         } ],
+         "date_added": "13344276717274159",
+         "date_last_used": "0",
+         "date_modified": "13277287966348701",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CtoDCrkDCIiBAhKyAxJSCAISTgoGCgJibRABEDMaEgmAg6M09gkGACGAg6M09gkGACIUCRFwVET2CQYAEAsZfY7pIh3jtzkyGAoWCAIRMwd0RPYJBgAYACEAAAAAAAAAACAAkgHTAgqJAgoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJcBx0RPYJBgARcBx0RPYJBgAiMQkQcFRE9gkGABALGW5SVK0zYfumIAEqGTUxIWJtOjkzNjEyNDEyMzM1ODMwMDY5MzciNAk1ix9D9gkGABADGVHeOTm1FxKmIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAk1ix9D9gkGABADGVHeOTm1FxKmIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAk1ix9D9gkGABADGVHeOTm1FxKmIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEptYd2RPYJBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmAGF4/9gkGABGAGF4/9gkGACkAGXRE9gkGADCAsfj6476CA7oBAggBEgAqGGh2YS94N05MV3hueW1TeEV4aVJOekE9PUgDEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaekNzVWc3UEk5aG9tTHZva1VuY1JSQTZJRUE1NkVNRVRndHBLanByRnh2V3RNUmRMbzFIMTI5cVhEcXpSVC9wd2pXTE1VTk5LdUxtblIyLzdyRzVGTjZvdU5wM2c9PRgAIAAoADC1lv6Y5L6CAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAErUCCAwSsAIKHFZvRHZSZVdUZ2pxcHQ4WXQwMjV5WnRlM3Z5OD0SpgFaOkFEcXRBWnh1azVnTHhtR1NHNVh6ZDg1WHZBeFZVeXBkMzNQdHBHUVk1S1JJSi91d3NuQVJUWWl1RzFoekQrR2VodnRhcUoyMjhIL1M3WGk2YkF5U2lONlBNMlcwWjZ2SE5OSXFTc1pBa2J5bDUvT1JGQlNVbUQrcW96a3kzYXd4dGpoMy82Z2F1V0UwUjkxMWd2bjJlUXhrNUdRTnBUUFF5dz09GAAgAigCMJDg0aLkvoIDOIbrz661LkCKmqehvDFKHFZsQ0xnNHZoZWJNSHFMcFpaeE9iTXlveUxzUT1aJyIl/////wAAAATeR1Q2dnZzSkl4TXl5Z2RYNXVLZTZDTE9KUE1FPWVgs+25EusBCA4S5gEKHEpDc1BFQ0hDbGpCOWtyTWZiNEwxUlJVYzR1Zz0SZlo6QURxdEFad3R4T0hRMXVwUktYbW9EY3lnejVsYXY4Vk0rMUgwU2dHWmovTS9PQk0wcGlzTHFnZVdJSUwwbitCdk11SFBvVzQ2ZDdUeTFHVkR1dnE5S1I2RGtMT29OR3JNWlE9PRgAIAAoADCijOqOz+n0AjiN/cfawi9Ajf3H2sIvShxnanRmQ09JRHJTaEJmZlBGWXNVcU9tNU5RN1E9Wh4iHEFPd3NyYkFLcUIrL2gzcC9TbTYvaHdNZDBwcz1l7oykyxK0AggLEq8CChxVdWRaTnJzdjBQbi9mT0RLc2FEZ3VyaCtWVXc9EqYBWjpBRHF0QVp4dWs1Z0x4bUdTRzVYemQ4NVh2QXhWdkpZemZ6Z3FxK21FKzRYQXJFZ0RONXM5bEsyWDFFMWl4aUdZNXV3NkIvVkhBenFXcnZnVmFCOFJsVUFwbDd3OEc2WVJ3ell6V1llTlI2blVWY2dJYkh5SFV3aXNHNi9pbEphMUJUQnMwbm55ZXBYS2Faamd6d01RT3NGME1jOVF3UHU2eXc9PRgAIAIoAjCQ4NGi5L6CAzjT59rBry5AiZqnobwxShxKYzNJeXZDR2h4blFGWHJEbGZlZGRuVW1UOXM9WiYiJP////8AAAAEeTQwYjhEWEFiV2l0VW1UN01xaG5KVkxGUVg0PWVQWW41ErQCCAoSrwIKHEVLd2plN01PWVdtOVpibUlBYkMzUHNJVWxBaz0SpgFaOkFEcXRBWnh1azVnTHhtR1NHNVh6ZDg1WHZBeFZ2Sll6ZnpncXErbUUrNFhBckVnRE54c1FCNlptb1BqcklkL0phWjRJTTVSNWlyZ1ZtNVRhblNOWHBwWktXN3Fvd0pXNmVDTGwrZE9lcHlSVTdyUHZ2ZnV4QmlNcFFvN0dveFJRaG41REsyZFZISnZIS09sSThIVVMzeFd0eCtXaVMwL2FJdz09GAAgAigCMJDg0aLkvoIDOLfLr9+pLkCImqehvDFKHDVqRUFXekNRY3c3eUMrL0trS2NEdlFCVFcyMD1aJiIk/////wAAAAQ5WHJLZ1FzRUZva1ZtaUxnVHhmcWUvWFZPUVk9ZcjfQC8S9AEIDRLvAQocZ3VheXByZzAwR1MyTE5naVRnOGFJVFV6enRNPRJmWjpBRHF0QVp3dHhPSFExdXBSS1htb0RjeWd6NWxhMjdrc2hheVMrZXNuMzlvNHNTSXFkQlRLdXBsR2R5MW5ZNHBEUU5PUkFXZDgyOXRqaUpRZjhqREsrM2IxRGlMWGp6YmJSUT09GAAgAigCMJDg0aLkvoIDOMrpvsq6L0CMmqehvDFKHHkwZG4ycGFUaGJVaE9UMlJFNUxYT3JEa2xaYz1aJyIl/////wAAAATvWEViWFRuaWE5R3lmRXFEb3VOTjlaR29hNlkwPWXxwBV2Eq0CCAcSqAIKHFRSM3dKeDFyYlU2eHNXTFlNV0NjL3I2RmZIQT0SpgFaOkFEcXRBWnh1azVnTHhtR1NHNVh6ZDg1WHZBeFZ3d0VDL2w4clBPRkxpUlBXTW81R2srMnUxdEFjdU03STBRdFhDZU94UmpiOUd6VGJ6NGlGNm56TEhDQ2xXZ05obTAyQVVHK0RXU0MvZ2pBbmRpSU91Z0plYjhoTXllUDJiUVdEc0YzWHZ5c3d2NmI2dnhueHhrSXExN2Z3aHR3NzZwenlIQT09GAAgAigCMJDg0aLkvoIDONurmLLtLUCFmqehvDFKHEN0K2ZaZFh6WlBMWVZIc2NCNUs2bWpCc3dhcz1aHyId/2wwUmFsNHluRW52a0paaEJjcGNHbEl1Z3V2Zz1lZOMg/hLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnhUdThQZUgweXM3RGFDNlFSMjdibC9DUXdtVVQ1MjhscWk5ZkpRYm04bFcrVGJGalNOc1FGTkViU1Z1VHAzYURocnlFdEpoWDVUK2M0RTRyMVVkZWRQVU44aTV3PT0YACAAKAAwtZb+mOS+ggM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKtAggGEqgCChxWRlZaMUJJL2dLQzl4VmxRMzVYaUd0Nzk1a1U9EqYBWjpBRHF0QVp4dWs1Z0x4bUdTRzVYemQ4NVh2QXhWcEtTcnpoMlFZY1ZRbXpUQWV3a3lYU2d1dHQzd3hPSTc1WW5xcGYzZW53NkRSRjRrVURvb3hJN1hsZkNOUExVOXp6TWNod082bjZ5czNJV0NnbTRFakdBZVpqSTZQTlN1d2lxcFphcVJyU0o5Q0ZScXFoeTdYRXFka25wSXdraU1XUDFCTUE9PRgAIAIoAjCQ4NGi5L6CAzj21+XF6C1AhJqnobwxShw4U3lnV1VNL1Z6dElRc0Y3RUhUSlEzRUxNdDA9Wh8iHepXdmZlRHVHZ3IxMmRCNTNQVFR1OVJMV3dHZmc9Zd55CPoSrgIICBKpAgocUHkwZituRUdzamRjL0ZwWGR3ZlBISkF6dXJJPRKmAVo6QURxdEFaeHVrNWdMeG1HU0c1WHpkODVYdkF4VnZKWXpmemdxcSttRSs0WEFyRWdETnp5N3dsQmVHd29hRDAwSTEvTzNDaGVoeEc4Sms4S0x6b2FoVk9qMzRYL2JsNDFXb2F3ZjU2N0hyK2FQOTQreGRBUHlpSmdERE5IWmNIS1NrTy9xcndUWXJXaUVrUFBDUGN1VGVTS1NUaFg2Ym1QWXlRPT0YACACKAIwkODRouS+ggM4i+uCo5guQIaap6G8MUocZ0sxandTSzIyQkFZR1o4WHVwTFpvQTdscDJVPVogIh7//3FJTVNtQWhQaGp5Z01tUWo0SnRlMkhxbGwyST1ldipzshKtAggFEqgCChxZanIxZENOUUFMMkNZaUhqYTliRHBsMkVqRU09EqYBWjpBRHF0QVp4dWs1Z0x4bUdTRzVYemQ4NVh2QXhWcEtTcnpoMlFZY1ZRbXpUQWV3a3lYZkV5ZStjeTk4bys0aERlTFgwK1BqQ2VHNkZlR2ZiTVdLT1Fack8yYzRTY3I1NHAvcGc3WDJYTmdONHZheUJRbFV2UkxkRENHb2RBaVpHY29iQzIzOFl3NzhvWVd3cFpCTXY4OE1FaS9uU1VjQjYyalE9PRgAIAAoADCcn/+v8s2BAzjfkr224S1A35K9tuEtShxTUjlJZ1J4dy93WXppUENBenhIYk9CWGhEN1E9Wh8iHapDYmo5by9lT1YzR0RSNzMvb2dneS9KdUtOQkk9ZRAw/+QSsAIICRKrAgocc2xEejlpbGp2VWFrZGR0Yysza1dIQk5wb29zPRKmAVo6QURxdEFaeHVrNWdMeG1HU0c1WHpkODVYdkF4VnZKWXpmemdxcSttRSs0WEFyRWdETjR1bXhqS2hnTXpCd3ZnV29yT3dJVG9tRnZPcHNQTGNpVWoybkNCeE1jSnA0cTZKT0YvaGozTG83TjRsQkJaUlJxOCtZQWxtdmVHSmNNUUQ1Tm03eGVmaW9hUk5nMWIrZDJDRjVrSUJPYjEwSlQxaUtBPT0YACACKAIwkODRouS+ggM4r4vHn6EuQIeap6G8MUocQk1XT3FzeXpnNHZmbzk0Y0FLT0N1Y1pqcU9ZPVoiIiD////+Skc2VGE3MnZFaGh4cVpmM21IcUpvaXFQaE00PWXrtlzWEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeWFLd21GSXZMRno2N1Rid2NndS9HQlljWk5KMWQ0Vk9nVGtNUFZ4bnNQRUg2RGZIWFJUT3lOZWtwZEpwRmJCQUlwNmVqYxgAIAAoADC1lv6Y5L6CAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAMAE4AA==",
+   "version": 1
+}

@@ -1,10 +1,8 @@
 import datetime
 import time
 from moviepy.editor import *
-from selenium.webdriver import Chrome, ActionChains
-from selenium.webdriver.chrome.service import Service
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys

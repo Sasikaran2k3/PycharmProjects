@@ -40,8 +40,8 @@ def Search(text="RMD Engieering College"):
     browser.close()
     return "E:\\Collections of Gcode\\"+text+".png"
 
-BeginSelinium()
-path = Search("Benz Logo")
+#BeginSelinium()
+path = r"E:\Collections of Gcode\pencil_sketch.jpg"
 InkScape.BeginInk()
 InkScape.StartDraw(path)
 InkScape.Trace_BitImage()

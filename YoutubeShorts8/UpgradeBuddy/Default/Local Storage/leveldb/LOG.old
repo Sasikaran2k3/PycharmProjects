@@ -1,0 +1,11 @@
+2023/11/12-20:29:56.762 1dbc Reusing MANIFEST C:\Users\HP\PycharmProjects\YoutubeShorts8\UpgradeBuddy\Default\Local Storage\leveldb/MANIFEST-000001
+2023/11/12-20:29:56.770 1dbc Recovering log #28
+2023/11/12-20:29:56.774 1dbc Reusing old log C:\Users\HP\PycharmProjects\YoutubeShorts8\UpgradeBuddy\Default\Local Storage\leveldb/000028.log 
+2023/11/12-20:30:58.484 2ecc Level-0 table #32: started
+2023/11/12-20:30:59.270 2ecc Level-0 table #32: 22096 bytes OK
+2023/11/12-20:30:59.384 2ecc Delete type=0 #28
+2023/11/12-20:31:58.481 2ecc Level-0 table #34: started
+2023/11/12-20:31:58.655 2ecc Level-0 table #34: 18264 bytes OK
+2023/11/12-20:31:58.708 2ecc Delete type=0 #31
+2023/11/12-20:32:18.780 1ae0 Level-0 table #36: started
+2023/11/12-20:32:19.131 1ae0 Level-0 table #36: 27970 bytes OK

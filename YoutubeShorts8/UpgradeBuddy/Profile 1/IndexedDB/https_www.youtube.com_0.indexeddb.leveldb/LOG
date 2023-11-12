@@ -1,0 +1,9 @@
+2023/11/08-08:52:51.655 4950 Reusing MANIFEST E:\Hackathon\BrowserChromes\Youtube\UpgradeBuddy\Profile 1\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/08-08:52:51.673 4950 Recovering log #70
+2023/11/08-08:52:51.674 4950 Reusing old log E:\Hackathon\BrowserChromes\Youtube\UpgradeBuddy\Profile 1\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000070.log 
+2023/11/08-08:52:52.338 50fc Compacting 1@1 + 1@2 files
+2023/11/08-08:52:52.498 50fc Generated table #73@1: 534 keys, 63572 bytes
+2023/11/08-08:52:52.499 50fc Compacted 1@1 + 1@2 files => 63572 bytes
+2023/11/08-08:52:52.525 50fc compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/08-08:52:52.526 50fc Delete type=2 #68
+2023/11/08-08:52:52.571 50fc Delete type=2 #71

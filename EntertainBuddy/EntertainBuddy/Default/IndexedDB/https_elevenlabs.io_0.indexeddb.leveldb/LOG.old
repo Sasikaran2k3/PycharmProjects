@@ -1,0 +1,19 @@
+2023/11/10-11:41:19.656 21b4 Creating DB E:\Hackathon\BrowserChromes\Youtube\EntertainBuddy\Default\IndexedDB\https_elevenlabs.io_0.indexeddb.leveldb since it was missing.
+2023/11/10-11:41:21.974 21b4 Reusing MANIFEST E:\Hackathon\BrowserChromes\Youtube\EntertainBuddy\Default\IndexedDB\https_elevenlabs.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/10-11:41:26.595 d04 Level-0 table #5: started
+2023/11/10-11:41:26.823 d04 Level-0 table #5: 1774 bytes OK
+2023/11/10-11:41:27.115 d04 Delete type=0 #3
+2023/11/10-11:41:27.115 d04 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/10-11:56:42.136 21b4 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/10-12:42:30.423 12ec Level-0 table #7: started
+2023/11/10-12:42:30.466 12ec Level-0 table #7: 2346 bytes OK
+2023/11/10-12:42:30.528 12ec Delete type=0 #4
+2023/11/10-12:42:30.529 12ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/10-12:42:30.531 12ec Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x00\x00\x05' @ 172 : 1
+2023/11/10-12:42:30.532 12ec Compacting 1@1 + 1@2 files
+2023/11/10-12:42:30.561 12ec Generated table #8@1: 47 keys, 1191 bytes
+2023/11/10-12:42:30.561 12ec Compacted 1@1 + 1@2 files => 1191 bytes
+2023/11/10-12:42:30.594 12ec compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/10-12:42:30.595 12ec Delete type=2 #5
+2023/11/10-12:42:30.595 12ec Delete type=2 #7
+2023/11/10-12:42:30.597 d04 Manual compaction at level-1 from '\x00\x05\x00\x00\x05' @ 172 : 1 .. (end); will stop at (end)

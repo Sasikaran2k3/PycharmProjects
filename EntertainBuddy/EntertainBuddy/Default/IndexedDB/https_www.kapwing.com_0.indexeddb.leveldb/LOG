@@ -1,0 +1,15 @@
+2023/11/12-21:13:19.682 392c Reusing MANIFEST C:\Users\HP\PycharmProjects\EntertainBuddy\EntertainBuddy\Default\IndexedDB\https_www.kapwing.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/12-21:13:19.683 392c Recovering log #7
+2023/11/12-21:13:20.318 392c Reusing old log C:\Users\HP\PycharmProjects\EntertainBuddy\EntertainBuddy\Default\IndexedDB\https_www.kapwing.com_0.indexeddb.leveldb/000007.log 
+2023/11/12-21:13:52.610 3c50 Level-0 table #13: started
+2023/11/12-21:13:53.321 3c50 Level-0 table #13: 1601884 bytes OK
+2023/11/12-21:13:53.411 3c50 Delete type=0 #7
+2023/11/12-21:13:55.077 392c Compacting 1@1 + 2@2 files
+2023/11/12-21:13:55.654 392c Generated table #14@1: 488 keys, 2130443 bytes
+2023/11/12-21:13:56.070 392c Generated table #15@1: 40 keys, 2116662 bytes
+2023/11/12-21:13:56.205 392c Generated table #16@1: 778 keys, 164946 bytes
+2023/11/12-21:13:56.205 392c Compacted 1@1 + 2@2 files => 4412051 bytes
+2023/11/12-21:13:56.260 392c compacted to: files[ 0 0 3 0 0 0 0 ]
+2023/11/12-21:13:56.261 392c Delete type=2 #9
+2023/11/12-21:13:56.261 392c Delete type=2 #10
+2023/11/12-21:13:56.262 392c Delete type=2 #13

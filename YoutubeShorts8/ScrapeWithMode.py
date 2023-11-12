@@ -86,7 +86,6 @@ def ShuffleNewsPageLinks():
 
 
 browser = StartBrowser.Start_Lap("UpgradeBuddy")
-
 date = "".join(str(datetime.date.today()).split("-"))
 title_selector = "div[class='lead_heading header_wrap']>h1"
 image_selector = "div[class='fullstoryImage']>div[class = 'heroimg']>img"

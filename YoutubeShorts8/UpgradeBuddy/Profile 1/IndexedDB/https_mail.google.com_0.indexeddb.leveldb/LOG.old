@@ -1,0 +1,9 @@
+2023/08/16-18:38:02.747 27b0 Reusing MANIFEST E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/16-18:38:02.748 27b0 Recovering log #10
+2023/08/16-18:38:02.748 27b0 Reusing old log E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000010.log 
+2023/08/16-18:38:51.965 3184 Compacting 1@1 + 1@2 files
+2023/08/16-18:38:52.008 3184 Generated table #13@1: 73 keys, 86342 bytes
+2023/08/16-18:38:52.008 3184 Compacted 1@1 + 1@2 files => 86342 bytes
+2023/08/16-18:38:52.058 3184 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/16-18:38:52.058 3184 Delete type=2 #9
+2023/08/16-18:38:52.059 3184 Delete type=2 #11
