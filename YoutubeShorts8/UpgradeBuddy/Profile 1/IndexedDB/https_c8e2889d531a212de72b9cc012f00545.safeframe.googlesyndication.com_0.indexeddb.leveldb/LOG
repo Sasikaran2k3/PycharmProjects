@@ -1,6 +1,0 @@
-2023/06/11-21:53:26.737 a48 Creating DB E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_c8e2889d531a212de72b9cc012f00545.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
-2023/06/11-21:53:26.802 a48 Reusing MANIFEST E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_c8e2889d531a212de72b9cc012f00545.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/06/11-21:53:29.193 44fc Level-0 table #5: started
-2023/06/11-21:53:29.226 44fc Level-0 table #5: 480 bytes OK
-2023/06/11-21:53:29.292 44fc Delete type=0 #3
-2023/06/11-21:53:29.293 44fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

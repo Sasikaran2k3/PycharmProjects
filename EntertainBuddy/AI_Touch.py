@@ -31,7 +31,7 @@ while True:
         wait = WebDriverWait(browser,1000)
         wait.until(expected_conditions.visibility_of_element_located((By.XPATH,'//p[text()="Start chatting now!"]')))
 
-        prompt = data[0].replace("\n", "") + ". improve this into 50 words as dialogs and give a title. \n"
+        prompt = data[0].replace("\n", "") + ". improve this into 50 words as dialogue and give a eye catching title. \n"
         print("prompt :",prompt)
         browser.find_element(By.XPATH, '//input[@placeholder="Enter your message..."]').send_keys(prompt)
         time.sleep(10)

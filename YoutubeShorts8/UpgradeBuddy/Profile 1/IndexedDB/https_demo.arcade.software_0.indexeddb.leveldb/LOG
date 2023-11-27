@@ -1,6 +1,0 @@
-2023/09/03-23:05:20.070 24d4 Creating DB E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_demo.arcade.software_0.indexeddb.leveldb since it was missing.
-2023/09/03-23:05:20.727 24d4 Reusing MANIFEST E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_demo.arcade.software_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/03-23:05:34.075 207c Level-0 table #5: started
-2023/09/03-23:05:34.611 207c Level-0 table #5: 848 bytes OK
-2023/09/03-23:05:34.987 207c Delete type=0 #3
-2023/09/03-23:05:34.988 3b28 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

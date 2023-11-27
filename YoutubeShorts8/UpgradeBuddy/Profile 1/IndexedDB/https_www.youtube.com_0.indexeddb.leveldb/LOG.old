@@ -1,6 +1,0 @@
-2023/10/09-13:00:59.601 2768 Reusing MANIFEST E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/09-13:00:59.630 2768 Recovering log #66
-2023/10/09-13:00:59.858 2768 Reusing old log E:\Hackathon\BrowserChromes\AutomateEdit\Profile 1\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000066.log 
-2023/10/09-13:02:11.234 2768 Level-0 table #71: started
-2023/10/09-13:02:11.759 2768 Level-0 table #71: 1852871 bytes OK
-2023/10/09-13:02:11.879 2768 Delete type=0 #66

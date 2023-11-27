@@ -1,5 +1,4 @@
 import os
-
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -12,6 +11,7 @@ def Start_Lap(browser_name="UpgradeBuddy"):
     # opt.add_experimental_option('debuggerAddress',"localhost:1135")
     # CMD prompt is chrome.exe --remote-debugging-port=1135 --user-data-dir="E:\Hackathon\BrowserChromes\Youtube\UpgradeBuddy"
     path_of_browser = os.path.dirname(__file__) + '\%s' % browser_name
+    print(path_of_browser)
     opt.add_argument(r'--user-data-dir=%s'%path_of_browser)
     services = Service(executable_path=os.path.dirname(__file__) + "\chromedriver.exe")
     browser = Chrome(service=services, options=opt)
@@ -31,3 +31,4 @@ def Start_Pc(browser_name="UpgradeBuddy"):
     browser = Chrome(service=services, options=opt)
     browser.implicitly_wait(10)
     return browser
+

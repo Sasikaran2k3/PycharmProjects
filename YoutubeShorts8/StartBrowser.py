@@ -1,5 +1,4 @@
 import os
-
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -32,3 +31,4 @@ def Start_Pc(browser_name="UpgradeBuddy"):
     browser = Chrome(service=services, options=opt)
     browser.implicitly_wait(10)
     return browser
+

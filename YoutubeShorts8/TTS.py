@@ -44,6 +44,7 @@ while True:
         browser.get("https://ttsfree.com/login")
         browser.find_element(By.CSS_SELECTOR, 'div[class="icheckbox_square-green"]').click()
         browser.find_element(By.CSS_SELECTOR, 'input[value="Login"]').click()
+        browser.find_element(By.CSS_SELECTOR, 'input[value="Login"]').click()
         f = open(os.path.dirname(__file__) + "//Data//" + date + "_script.txt", "r")
         content = f.readlines()
         print(content)

@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
-
 import StartBrowser
 
 
@@ -46,27 +45,18 @@ def KapwingEdit():
     act = ActionChains(browser)
     transform = browser.find_elements(By.XPATH, '//div[@data-cy="drag-handler"]')
 
-    # Move the subtitle to Center by slowly changing y axis and stop when grid/Snap line is approched twice
-    y_axis = 200
-    grid_line = '//div[@class="SnapLines-module_line_Iuyzq"]'
-    count_of_snap = 0
-    while True:
-        act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 85, y_axis).perform()
-        if len(browser.find_elements(By.XPATH, grid_line)) == 2:
-            count_of_snap += 1
-        act.release().perform()
-        if count_of_snap == 2:
-            break
-        print("Y Axis: " + str(y_axis))
-        y_axis -= 5
-    print("Placed Center")
-
     # Selects the subtitle style
     parent = browser.find_elements(By.XPATH, '//div[@class="PresetPreview-module_container_034hO"]')
     for i in parent:
         if i.find_element(By.TAG_NAME, 'input').get_attribute("value") == "My":
             i.click()
             break
+
+    # Move the subtitle to Center by slowly changing y axis and stop when grid/Snap line is approched twice
+    act.click_and_hold(transform[1]).move_to_element_with_offset(transform[0], 0, 0).release().perform()
+    print("Placed Center")
+
+
     browser.find_element(By.CSS_SELECTOR, 'div[data-cy="create-button"]').click()
 
     # Export Panel
@@ -82,7 +72,9 @@ def KapwingEdit():
     wait = WebDriverWait(browser, 1000)
     wait.until(expected_conditions.visibility_of_element_located(
         (By.XPATH, '//div[@class="VideoContainer-module_commentsMetaDataFileSize_E7zW4"]')))
+    time.sleep(2)
     browser.find_element(By.XPATH, '//button[@data-cy="download-final-video-button"]').click()
+    time.sleep(60)
 
 
 def ImageAnimation(ImageClip, duration, flag):
@@ -136,7 +128,7 @@ def ImageAnimation(ImageClip, duration, flag):
 
 
 date = "".join(str(datetime.date.today()).split("-"))
-audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.mp3" % date)
+audio = AudioFileClip(os.path.dirname(__file__) + "\\Data\\%s.wav" % date)
 back = AudioFileClip(os.path.dirname(__file__) + "\\Background.mp3")
 final = []
 

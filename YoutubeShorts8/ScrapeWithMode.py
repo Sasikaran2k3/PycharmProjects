@@ -64,7 +64,10 @@ def additional_images(img_desc, flag=0, no_of_images=4):
         pic_name = os.path.dirname(__file__) + "\\Data\\" + date + "_%d" % c + ".png"
         for j in url:
             if "http" in j.get_attribute("src"):
-                j.screenshot(pic_name)
+                try:
+                    j.screenshot(pic_name)
+                except:
+                    continue
                 print("downloaded")
                 c += 1
                 break

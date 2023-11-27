@@ -1,6 +1,0 @@
-2023/11/11-01:49:34.612 3e04 Reusing MANIFEST E:\Hackathon\BrowserChromes\Youtube\UpgradeBuddy\Profile 1\Local Storage\leveldb/MANIFEST-000001
-2023/11/11-01:49:34.617 3e04 Recovering log #7696
-2023/11/11-01:49:34.619 3e04 Reusing old log E:\Hackathon\BrowserChromes\Youtube\UpgradeBuddy\Profile 1\Local Storage\leveldb/007696.log 
-2023/11/11-01:49:42.572 389c Level-0 table #7700: started
-2023/11/11-01:49:42.603 389c Level-0 table #7700: 14670 bytes OK
-2023/11/11-01:49:42.636 389c Delete type=0 #7696

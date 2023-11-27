@@ -1,4 +1,0 @@
-2023/11/10-12:43:52.037 2164 Reusing MANIFEST E:\Hackathon\BrowserChromes\Youtube\EntertainBuddy\Default\IndexedDB\https_elevenlabs.io_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/10-12:43:52.038 2164 Recovering log #6
-2023/11/10-12:43:52.038 2164 Reusing old log E:\Hackathon\BrowserChromes\Youtube\EntertainBuddy\Default\IndexedDB\https_elevenlabs.io_0.indexeddb.leveldb/000006.log 
-2023/11/10-12:43:52.290 23e4 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

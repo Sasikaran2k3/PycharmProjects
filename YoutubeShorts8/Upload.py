@@ -17,6 +17,7 @@ date = "".join(str(datetime.date.today()).split("-"))
 
 
 browser = StartBrowser.Start_Lap("UpgradeBuddy")
+
 count = 0
 while True:
     try:
@@ -32,7 +33,7 @@ while True:
 
         # Open Yt Studio
         browser.get("https://studio.youtube.com/")
-        input()
+
         # Create Button
         browser.find_element(By.ID, "create-icon").click()
         browser.find_element(By.ID, "text-item-0").click()
